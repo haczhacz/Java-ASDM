@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StationTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sttn="http://Alma/XASDM/StationTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551cb1/X1" entityIdEncrypted="na" entityTypeName="StationTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <stationId>Station_0</stationId>
+    <name>A001</name>
+    <position>1 3 2225067.457042 -5440060.791345 -2481674.213316</position>
+    <type>ANTENNA_PAD</type>
+  </row>
+  <row>
+    <stationId>Station_1</stationId>
+    <name>A077</name>
+    <position>1 3 2225252.817848 -5440003.017717 -2481620.628097</position>
+    <type>ANTENNA_PAD</type>
+  </row>
+  <row>
+    <stationId>Station_2</stationId>
+    <name>A137</name>
+    <position>1 3 2225133.189228 -5440097.514174 -2481533.037952</position>
+    <type>ANTENNA_PAD</type>
+  </row>
+  <row>
+    <stationId>Station_3</stationId>
+    <name>A004</name>
+    <position>1 3 2225092.18230023 -5440046.02468279 -2481684.35861972</position>
+    <type>ANTENNA_PAD</type>
+  </row>
+  <row>
+    <stationId>Station_4</stationId>
+    <name>A082</name>
+    <position>1 3 2225285.153105 -5439946.276408 -2481715.881422</position>
+    <type>ANTENNA_PAD</type>
+  </row>
+  <row>
+    <stationId>Station_5</stationId>
+    <name>WSTB1</name>
+    <position>1 3 2225262.12 -5440307.3 -2480962.57</position>
+    <type>WEATHER_STATION</type>
+  </row>
+  <row>
+    <stationId>Station_6</stationId>
+    <name>WSTB2</name>
+    <position>1 3 2225262.12 -5440307.5 -2480962.57</position>
+    <type>WEATHER_STATION</type>
+  </row>
+</StationTable>
+

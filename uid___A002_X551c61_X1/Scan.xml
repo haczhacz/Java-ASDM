@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScanTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scn="http://Alma/XASDM/ScanTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551cac/X1" entityIdEncrypted="na" entityTypeName="ScanTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <scanNumber>1</scanNumber>
+    <startTime>4859885836823000000</startTime>
+    <endTime>4859885983669000000</endTime>
+    <numIntent>2</numIntent>
+    <numSubscan>4</numSubscan>
+    <scanIntent>1 2 CALIBRATE_ATMOSPHERE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 2 FULL_RESOLUTION_AUTO WVR</calDataType>
+    <calibrationOnLine>1 2 true true</calibrationOnLine>
+    <calibrationFunction>1 2 UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 2 NONE NONE</calibrationSet>
+    <calPattern>1 2 NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>2</scanNumber>
+    <startTime>4859886036522000000</startTime>
+    <endTime>4859886049304000000</endTime>
+    <numIntent>3</numIntent>
+    <numSubscan>1</numSubscan>
+    <scanIntent>1 3 CALIBRATE_AMPLI CALIBRATE_PHASE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 3 CHANNEL_AVERAGE_CROSS CHANNEL_AVERAGE_CROSS WVR</calDataType>
+    <calibrationOnLine>1 3 true true true</calibrationOnLine>
+    <calibrationFunction>1 3 UNSPECIFIED UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 3 NONE NONE NONE</calibrationSet>
+    <calPattern>1 3 NONE NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>3</scanNumber>
+    <startTime>4859886133470000000</startTime>
+    <endTime>4859886276823000000</endTime>
+    <numIntent>2</numIntent>
+    <numSubscan>4</numSubscan>
+    <scanIntent>1 2 CALIBRATE_ATMOSPHERE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 2 FULL_RESOLUTION_AUTO WVR</calDataType>
+    <calibrationOnLine>1 2 true true</calibrationOnLine>
+    <calibrationFunction>1 2 UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 2 NONE NONE</calibrationSet>
+    <calPattern>1 2 NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>4</scanNumber>
+    <startTime>4859886293660000000</startTime>
+    <endTime>4859886307188000000</endTime>
+    <numIntent>3</numIntent>
+    <numSubscan>1</numSubscan>
+    <scanIntent>1 3 CALIBRATE_AMPLI CALIBRATE_PHASE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 3 CHANNEL_AVERAGE_CROSS CHANNEL_AVERAGE_CROSS WVR</calDataType>
+    <calibrationOnLine>1 3 true true true</calibrationOnLine>
+    <calibrationFunction>1 3 UNSPECIFIED UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 3 NONE NONE NONE</calibrationSet>
+    <calPattern>1 3 NONE NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>5</scanNumber>
+    <startTime>4859886327612000000</startTime>
+    <endTime>4859886471677000000</endTime>
+    <numIntent>2</numIntent>
+    <numSubscan>4</numSubscan>
+    <scanIntent>1 2 CALIBRATE_ATMOSPHERE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 2 FULL_RESOLUTION_AUTO WVR</calDataType>
+    <calibrationOnLine>1 2 true true</calibrationOnLine>
+    <calibrationFunction>1 2 UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 2 NONE NONE</calibrationSet>
+    <calPattern>1 2 NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>6</scanNumber>
+    <startTime>4859886488564000000</startTime>
+    <endTime>4859886501911000000</endTime>
+    <numIntent>3</numIntent>
+    <numSubscan>1</numSubscan>
+    <scanIntent>1 3 CALIBRATE_AMPLI CALIBRATE_PHASE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 3 CHANNEL_AVERAGE_CROSS CHANNEL_AVERAGE_CROSS WVR</calDataType>
+    <calibrationOnLine>1 3 true true true</calibrationOnLine>
+    <calibrationFunction>1 3 UNSPECIFIED UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 3 NONE NONE NONE</calibrationSet>
+    <calPattern>1 3 NONE NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>7</scanNumber>
+    <startTime>4859886524226000000</startTime>
+    <endTime>4859886667386000000</endTime>
+    <numIntent>2</numIntent>
+    <numSubscan>4</numSubscan>
+    <scanIntent>1 2 CALIBRATE_ATMOSPHERE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 2 FULL_RESOLUTION_AUTO WVR</calDataType>
+    <calibrationOnLine>1 2 true true</calibrationOnLine>
+    <calibrationFunction>1 2 UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 2 NONE NONE</calibrationSet>
+    <calPattern>1 2 NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+  <row>
+    <scanNumber>8</scanNumber>
+    <startTime>4859886684728000000</startTime>
+    <endTime>4859886698829000000</endTime>
+    <numIntent>3</numIntent>
+    <numSubscan>1</numSubscan>
+    <scanIntent>1 3 CALIBRATE_AMPLI CALIBRATE_PHASE CALIBRATE_WVR</scanIntent>
+    <calDataType>1 3 CHANNEL_AVERAGE_CROSS CHANNEL_AVERAGE_CROSS WVR</calDataType>
+    <calibrationOnLine>1 3 true true true</calibrationOnLine>
+    <calibrationFunction>1 3 UNSPECIFIED UNSPECIFIED UNSPECIFIED</calibrationFunction>
+    <calibrationSet>1 3 NONE NONE NONE</calibrationSet>
+    <calPattern>1 3 NONE NONE NONE</calPattern>
+    <numField>1</numField>
+    <fieldName>1 1 "3c279"</fieldName>
+    <sourceName>3c279</sourceName>
+    <execBlockId>ExecBlock_0</execBlockId>
+  </row>
+</ScanTable>
+
