@@ -16,11 +16,11 @@ public class Testito {
         public static void main (String[] args) throws ConversionException {
                 ASDM asdm = ASDM.getFromXML(ASDM_TEST_PATH);
 
-
+                /*
                 for (SourceRow row: asdm.getSource().get()) {
                         //System.out.println(row.getSourceName());
                 }
-
+				*/
 
 
 
