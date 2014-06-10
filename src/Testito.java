@@ -12,15 +12,51 @@ import alma.hla.runtime.asdm.ex.ConversionException;
 import alma.hla.runtime.asdm.ex.InvalidAccessException;
 import alma.hla.runtime.asdm.ex.NoSuchRow;
 import alma.hla.runtime.asdm.types.Length;
+import au.com.bytecode.opencsv.CSV;
+import au.com.bytecode.opencsv.CSVWriteProc;
+import au.com.bytecode.opencsv.CSVWriter;
 
 
 public class Testito {
 
+	
         public static final String ASDM_TEST_PATH = "uid___A002_X551c61_X1";
+        
+
+        private static final CSV csv = CSV
+                .separator(' ')
+                .noQuote()
+                .skipLines(1)
+                .charset("UTF-8")
+                .create();
+        
+        private static final String fileName = "test.csv";
+        
+
+        
+
+                
+        
 
         public static void main (String[] args) throws ConversionException, IllegalAccessException, InvalidAccessException, NoSuchRow {
                 ASDM asdm = ASDM.getFromXML(ASDM_TEST_PATH);
 
+                
+                csv.write(fileName, new CSVWriteProc() {
+                	public void process(CSVWriter output) {
+                		
+
+	                	output.writeNext("RA_min", "RA_max", "DEC_min", "DEC_max", "E(V-I)", "A_V", "A_I");  
+                
+		                for (int i=0; i<3; i++) {
+		           
+		
+		                	output.writeNext("78.910625", "78.982146", "-69.557417", "-69.480639", "-0.04", "0.092571", "0.123429");
+		
+		                }
+                	}
+                });
+                
 /*
 
                 // Obtencion de ExecBlockTable
@@ -176,22 +212,21 @@ public class Testito {
                         
                         
 
-
-                }
-	*/
-
-                CSV_Test test = new CSV_Test();
-                test.setRA_min("78.910625");
-                test.setRA_max("78.982146");
-                test.setDEC_min("-69.557417");
-                test.setDEC_max("-69.480639");
-                test.setE_V_I("-0.04");
-                test.setA_V("0.092571");
-                test.setA_I("0.123429");
+*/
                 
-                test.write();
+                
+             
+                
+                
+                        }       
+                
+                
+               
+
+              
+                
 	
-	}
+	
 }
 
 
