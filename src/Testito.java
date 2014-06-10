@@ -21,7 +21,7 @@ public class Testito {
         public static void main (String[] args) throws ConversionException, IllegalAccessException, InvalidAccessException, NoSuchRow {
                 ASDM asdm = ASDM.getFromXML(ASDM_TEST_PATH);
 
-
+/*
 
                 // Obtencion de ExecBlockTable
                         ExecBlockTable execBlockTable = asdm.getExecBlock();
@@ -66,17 +66,22 @@ public class Testito {
                         System.out.println("-----------");
 
 
-                /*MAIN TABLE */
+                //MAIN TABLE 
 
                                 //access_estsize
                                 System.out.println(mainRow.getDataSize());
 
 
+                                
+                                
+                                
+                                
+                                
                                 //t_exptime
                                 System.out.println(mainRow.getInterval());
 
 
-                                /*EXECBLOCK TABLE */
+                                //EXECBLOCK TABLE 
                                         execBlockRow = execBlockTable.getRowByKey(mainRow.getExecBlockId());
 
                                         // obs_id
@@ -109,7 +114,7 @@ public class Testito {
 
 
 
-                                /*FIELD TABLE */
+                                //FIELD TABLE 
 
                                 fieldRow = fieldTable.getRowByKey(mainRow.getFieldId());
 
@@ -119,7 +124,7 @@ public class Testito {
 
 // !!!! OJO QUE SOURCEID ES OPCIONAL EN LA TABLA FIELD !!!!!
 
-                                /*SOURCE TABLE */
+                                // SOURCE TABLE 
                                 sourceRow = fieldRow.getSources()[0];
 
 
@@ -168,9 +173,23 @@ public class Testito {
 
 
 
+                        
+                        
+
 
                 }
-	
+	*/
+
+                CSV_Test test = new CSV_Test();
+                test.setRA_min("78.910625");
+                test.setRA_max("78.982146");
+                test.setDEC_min("-69.557417");
+                test.setDEC_max("-69.480639");
+                test.setE_V_I("-0.04");
+                test.setA_V("0.092571");
+                test.setA_I("0.123429");
+                
+                test.write();
 	
 	}
 }
