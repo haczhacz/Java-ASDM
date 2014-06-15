@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,10 +16,6 @@ import alma.asdm.SourceTable;
 import alma.asdm.SubscanRow;
 import alma.asdm.SubscanTable;
 import alma.hla.runtime.asdm.ex.ConversionException;
-import alma.hla.runtime.asdm.ex.InvalidAccessException;
-import alma.hla.runtime.asdm.ex.NoSuchRow;
-import au.com.bytecode.opencsv.CSV;
-import au.com.bytecode.opencsv.CSVWriteProc;
 import au.com.bytecode.opencsv.CSVWriter;
 
 public class Testito {
@@ -28,11 +26,16 @@ public class Testito {
        
         
 
-        public static void main (String[] args) throws ConversionException, IllegalAccessException {
+        public static void main (String[] args) throws ConversionException, IllegalAccessException, IOException {
                 ASDM asdm = ASDM.getFromXML(ASDM_TEST_PATH);
+                
+
+                String csv = "test.csv";
+                CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
+                 
 
                 Long Sum_exptime;
-              
+                Double lambda = 300000.0/1.0;
      
                 // Campos estaticos
                 String dataproduct_type = "visibility";
@@ -42,7 +45,6 @@ public class Testito {
                 String o_ucd = "em.mm";
                 String facility_name = "ALMA";
                 String instrument_name = "ALMA";
-                Double lambda = 300000.0/1.0;
                 
                        
 
@@ -122,10 +124,36 @@ public class Testito {
                     System.out.println(execBlockRow.getBaseRangeMax());
 
                 
-                
+                    
+                    
+                    
+                    
+                    
+                    ArrayList<String> arraylist = new ArrayList<String>();
+                    
+                    
+                    arraylist.add(dataproduct_type);
+                    arraylist.add(calib_level);
+                    arraylist.add(obs_collection);
+                    arraylist.add(s_region);
+                    arraylist.add(o_ucd);
+                    arraylist.add(facility_name);
+                    arraylist.add(instrument_name);
 
+                    String [] country = arraylist.toArray(new String[arraylist.size()]);
+                   	
+                    
+                    
+                    writer.writeNext(country);
+                    
+                    
+
+                     
                     
                 }
+                
+
+                writer.close();
         }   
 }
 
