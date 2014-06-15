@@ -37,12 +37,26 @@ public class Testito {
                 Long Sum_exptime;
                 Double lambda = 300000.0/1.0;
      
-                // Campos estaticos
-                String dataproduct_type = "visibility";
+                //Datos obscore
+                String dataproduct_type = "visibility";                
                	String calib_level = "1";
                 String obs_collection = "ALMA";
+                String obs_id;
+                String target_name;
+                String s_ra;
+                String s_dec;
+                String s_fov;
                 String s_region = "circle";
+                String s_resolution;
+                String t_min;
+                String t_max;
+                String t_exptime;
+                String t_resolution;
+                String em_min;
+                String em_max;
+                String em_res_power;
                 String o_ucd = "em.mm";
+                String pol_states;
                 String facility_name = "ALMA";
                 String instrument_name = "ALMA";
                 
@@ -77,24 +91,24 @@ public class Testito {
                 	execBlockRow = execBlockTable.getRowByKey(scanRow.getExecBlockId());
 
                	 	// obs_id 
-                   System.out.println(execBlockRow.getExecBlockUID());
+                	obs_id = execBlockRow.getExecBlockUID().toString();
                 	
                 	                	
 // es opcional en   // target_name 
 // en scantable
-                    System.out.println(scanRow.getSourceName());
+                	target_name = scanRow.getSourceName().toString();
 
                     
                     // s_resolution 
-                    System.out.println( (1.2f * lambda) /execBlockRow.getBaseRangeMax().get());
+                	s_resolution = Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() );
                     
                     
                 	// t_min
-                    System.out.println(execBlockRow.getStartTime());
+                	t_min = execBlockRow.getStartTime().toString();
 
 
                     // t_max
-                    System.out.println(execBlockRow.getEndTime());
+                	t_max = execBlockRow.getEndTime().toString();
 
 
                     // t_exptime
@@ -113,15 +127,15 @@ public class Testito {
                     		}
                     	}
                     }                    
-                    System.out.println(Sum_exptime);
+                    t_exptime = Long.toString(Sum_exptime);
 
 
                     // em_min
-                    System.out.println(execBlockRow.getBaseRangeMin());
+                    em_min = execBlockRow.getBaseRangeMin().toString();
 
 
                     // em_max
-                    System.out.println(execBlockRow.getBaseRangeMax());
+                    em_max = execBlockRow.getBaseRangeMax().toString();
 
                 
                     
@@ -131,20 +145,49 @@ public class Testito {
                     
                     ArrayList<String> arraylist = new ArrayList<String>();
                     
+                    // -> Para pruebas.
+	                    s_ra = "s_ra";
+	                    s_dec = "s_dec";
+	                    s_fov = "s_fov";
+	                    t_resolution = "t_resolution";
+	                    em_res_power = "em_res_power";
+	                    pol_states = "pol_states";
+	                // <-
                     
                     arraylist.add(dataproduct_type);
                     arraylist.add(calib_level);
                     arraylist.add(obs_collection);
+                    arraylist.add(obs_id);
+                    arraylist.add(target_name);
+                    arraylist.add(s_ra);
+                    arraylist.add(s_dec);
+                    arraylist.add(s_fov);
                     arraylist.add(s_region);
+                    arraylist.add(s_resolution);
+                    arraylist.add(t_min);
+                    arraylist.add(t_max);
+                    arraylist.add(t_exptime);
+                    arraylist.add(t_resolution);
+                    arraylist.add(em_min);
+                    arraylist.add(em_max);
+                    arraylist.add(em_res_power);  
                     arraylist.add(o_ucd);
+                    arraylist.add(pol_states);
                     arraylist.add(facility_name);
                     arraylist.add(instrument_name);
 
-                    String [] country = arraylist.toArray(new String[arraylist.size()]);
+                    
+
+
+                    
+                    
+                    
+                    
+                    String [] rowObscore = arraylist.toArray(new String[arraylist.size()]);
                    	
                     
                     
-                    writer.writeNext(country);
+                    writer.writeNext(rowObscore);
                     
                     
 
@@ -154,6 +197,8 @@ public class Testito {
                 
 
                 writer.close();
+                
+                System.out.println("OK");
         }   
 }
 
