@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import alma.SubscanIntentMod.SubscanIntent;
 import alma.asdm.ASDM;
 import alma.asdm.ExecBlockTable;
 import alma.asdm.FieldRow;
@@ -7,35 +11,28 @@ import alma.asdm.ScanTable;
 import alma.asdm.SourceRow;
 import alma.asdm.ExecBlockRow;
 import alma.asdm.SourceTable;
+import alma.asdm.SubscanRow;
+import alma.asdm.SubscanTable;
 import alma.hla.runtime.asdm.ex.ConversionException;
 import alma.hla.runtime.asdm.ex.InvalidAccessException;
 import alma.hla.runtime.asdm.ex.NoSuchRow;
+import au.com.bytecode.opencsv.CSV;
+import au.com.bytecode.opencsv.CSVWriteProc;
+import au.com.bytecode.opencsv.CSVWriter;
 
 public class Testito {
 
 	
         public static final String ASDM_TEST_PATH = "uid___A002_X551c61_X1";
         
-/*
-        private static final CSV csv = CSV
-                .separator(' ')
-                .noQuote()
-                .skipLines(1)
-                .charset("UTF-8")
-                .create();
-        
-        private static final String fileName = "test.csv";
-*/       
-
-        
-
-                
+       
         
 
         public static void main (String[] args) throws ConversionException, IllegalAccessException {
                 ASDM asdm = ASDM.getFromXML(ASDM_TEST_PATH);
 
-                
+                Long Sum_exptime;
+              
      
                 // Campos estaticos
                 String dataproduct_type = "visibility";
@@ -45,9 +42,9 @@ public class Testito {
                 String o_ucd = "em.mm";
                 String facility_name = "ALMA";
                 String instrument_name = "ALMA";
-
-
-                        
+                Double lambda = 300000.0/1.0;
+                
+                       
 
                 // Obtencion de ExecBlockTable
                 ExecBlockTable execBlockTable = asdm.getExecBlock();
@@ -67,6 +64,10 @@ public class Testito {
 
                 // Obtencion de ScanTable
                  ScanTable scanTable = asdm.getScan();
+                 
+
+                // Obtencion de SubscanTable
+                  SubscanTable subScanTable = asdm.getSubscan();
 
                         
                         
@@ -77,16 +78,40 @@ public class Testito {
                    System.out.println(execBlockRow.getExecBlockUID());
                 	
                 	                	
-// es opcional en     // target_name 
+// es opcional en   // target_name 
 // en scantable
                     System.out.println(scanRow.getSourceName());
 
-                	 // t_min
+                    
+                    // s_resolution 
+                    System.out.println( (1.2f * lambda) /execBlockRow.getBaseRangeMax().get());
+                    
+                    
+                	// t_min
                     System.out.println(execBlockRow.getStartTime());
 
 
                     // t_max
                     System.out.println(execBlockRow.getEndTime());
+
+
+                    // t_exptime
+                	Sum_exptime = 0l;
+                	
+                    for (SubscanRow subScanRow: subScanTable.get()) {
+                    	
+                    	
+                    	// si fila subcan pertenece a scan y al execblock
+                    	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
+                    		
+                    		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {
+                    			
+                    			Sum_exptime = Sum_exptime + (subScanRow.getEndTime().get() - subScanRow.getStartTime().get() );
+                    			
+                    		}
+                    	}
+                    }                    
+                    System.out.println(Sum_exptime);
 
 
                     // em_min
@@ -97,6 +122,8 @@ public class Testito {
                     System.out.println(execBlockRow.getBaseRangeMax());
 
                 
+                
+
                     
                 }
         }   
