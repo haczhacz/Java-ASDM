@@ -37,28 +37,7 @@ public class Testito {
                 Long Sum_exptime;
                 Double lambda = 300000.0/1.0;
      
-                //Datos obscore
-                String dataproduct_type = "visibility";                
-               	String calib_level = "1";
-                String obs_collection = "ALMA";
-                String obs_id;
-                String target_name;
-                String s_ra;
-                String s_dec;
-                String s_fov;
-                String s_region = "circle";
-                String s_resolution;
-                String t_min;
-                String t_max;
-                String t_exptime;
-                String t_resolution;
-                String em_min;
-                String em_max;
-                String em_res_power;
-                String o_ucd = "em.mm";
-                String pol_states;
-                String facility_name = "ALMA";
-                String instrument_name = "ALMA";
+                
                 
                        
 
@@ -84,6 +63,8 @@ public class Testito {
 
                 // Obtencion de SubscanTable
                   SubscanTable subScanTable = asdm.getSubscan();
+                  
+                Obscore obscore = new Obscore ();
 
                         
                         
@@ -91,24 +72,24 @@ public class Testito {
                 	execBlockRow = execBlockTable.getRowByKey(scanRow.getExecBlockId());
 
                	 	// obs_id 
-                	obs_id = execBlockRow.getExecBlockUID().toString();
+                	obscore.setObs_id(execBlockRow.getExecBlockUID().toString());
                 	
                 	                	
 // es opcional en   // target_name 
 // en scantable
-                	target_name = scanRow.getSourceName().toString();
+                	obscore.setTarget_name(scanRow.getSourceName().toString());
 
                     
                     // s_resolution 
-                	s_resolution = Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() );
+                	obscore.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
                     
                 	// t_min
-                	t_min = execBlockRow.getStartTime().toString();
+                	obscore.setT_min(execBlockRow.getStartTime().toString());
 
 
                     // t_max
-                	t_max = execBlockRow.getEndTime().toString();
+                	obscore.setT_max(execBlockRow.getEndTime().toString() );
 
 
                     // t_exptime
@@ -127,15 +108,15 @@ public class Testito {
                     		}
                     	}
                     }                    
-                    t_exptime = Long.toString(Sum_exptime);
+                    obscore.setT_exptime(Long.toString(Sum_exptime) );
 
 
                     // em_min
-                    em_min = execBlockRow.getBaseRangeMin().toString();
+                    obscore.setEm_min( execBlockRow.getBaseRangeMin().toString());
 
 
                     // em_max
-                    em_max = execBlockRow.getBaseRangeMax().toString();
+                    obscore.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
 
                 
                     
@@ -146,35 +127,35 @@ public class Testito {
                     ArrayList<String> arraylist = new ArrayList<String>();
                     
                     // -> Para pruebas.
-	                    s_ra = "s_ra";
-	                    s_dec = "s_dec";
-	                    s_fov = "s_fov";
-	                    t_resolution = "t_resolution";
-	                    em_res_power = "em_res_power";
-	                    pol_states = "pol_states";
+                    	obscore.setS_ra("ra");
+                    	obscore.setS_dec("dec");
+                    	obscore.setS_fov("s_fov");
+                    	obscore.setT_resolution("t_resolution");
+                    	obscore.setEm_res_power("pol_states");
+                    	obscore.setPol_states("pol_states");
 	                // <-
                     
-                    arraylist.add(dataproduct_type);
-                    arraylist.add(calib_level);
-                    arraylist.add(obs_collection);
-                    arraylist.add(obs_id);
-                    arraylist.add(target_name);
-                    arraylist.add(s_ra);
-                    arraylist.add(s_dec);
-                    arraylist.add(s_fov);
-                    arraylist.add(s_region);
-                    arraylist.add(s_resolution);
-                    arraylist.add(t_min);
-                    arraylist.add(t_max);
-                    arraylist.add(t_exptime);
-                    arraylist.add(t_resolution);
-                    arraylist.add(em_min);
-                    arraylist.add(em_max);
-                    arraylist.add(em_res_power);  
-                    arraylist.add(o_ucd);
-                    arraylist.add(pol_states);
-                    arraylist.add(facility_name);
-                    arraylist.add(instrument_name);
+                    arraylist.add(obscore.getDataproduct_type());
+                    arraylist.add(obscore.getCalib_level());
+                    arraylist.add(obscore.getObs_collection());
+                    arraylist.add(obscore.getObs_id());
+                    arraylist.add(obscore.getTarget_name());
+                    arraylist.add(obscore.getS_ra());
+                    arraylist.add(obscore.getS_dec());
+                    arraylist.add(obscore.getS_fov());
+                    arraylist.add(obscore.getS_region());
+                    arraylist.add(obscore.getS_resolution());
+                    arraylist.add(obscore.getT_min());
+                    arraylist.add(obscore.getT_max());
+                    arraylist.add(obscore.getT_exptime());
+                    arraylist.add(obscore.getT_resolution());
+                    arraylist.add(obscore.getEm_min());
+                    arraylist.add(obscore.getEm_max());
+                    arraylist.add(obscore.getEm_res_power());  
+                    arraylist.add(obscore.getO_ucd());
+                    arraylist.add(obscore.getPol_states());
+                    arraylist.add(obscore.getFacility_name());
+                    arraylist.add(obscore.getInstrument_name());
 
                     
 
