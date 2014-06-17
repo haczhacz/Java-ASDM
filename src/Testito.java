@@ -124,51 +124,11 @@ public class Testito {
                     
                     
                     
-                    ArrayList<String> arraylist = new ArrayList<String>();
                     
-                    // -> Para pruebas.
-                    	obscore.setS_ra("ra");
-                    	obscore.setS_dec("dec");
-                    	obscore.setS_fov("s_fov");
-                    	obscore.setT_resolution("t_resolution");
-                    	obscore.setEm_res_power("pol_states");
-                    	obscore.setPol_states("pol_states");
-	                // <-
-                    
-                    arraylist.add(obscore.getDataproduct_type());
-                    arraylist.add(obscore.getCalib_level());
-                    arraylist.add(obscore.getObs_collection());
-                    arraylist.add(obscore.getObs_id());
-                    arraylist.add(obscore.getTarget_name());
-                    arraylist.add(obscore.getS_ra());
-                    arraylist.add(obscore.getS_dec());
-                    arraylist.add(obscore.getS_fov());
-                    arraylist.add(obscore.getS_region());
-                    arraylist.add(obscore.getS_resolution());
-                    arraylist.add(obscore.getT_min());
-                    arraylist.add(obscore.getT_max());
-                    arraylist.add(obscore.getT_exptime());
-                    arraylist.add(obscore.getT_resolution());
-                    arraylist.add(obscore.getEm_min());
-                    arraylist.add(obscore.getEm_max());
-                    arraylist.add(obscore.getEm_res_power());  
-                    arraylist.add(obscore.getO_ucd());
-                    arraylist.add(obscore.getPol_states());
-                    arraylist.add(obscore.getFacility_name());
-                    arraylist.add(obscore.getInstrument_name());
-
-                    
-
-
-                    
-                    
-                    
-                    
-                    String [] rowObscore = arraylist.toArray(new String[arraylist.size()]);
                    	
                     
                     
-                    writer.writeNext(rowObscore);
+                    writer.writeNext(obscore.getRowObscore());
                     
                     
 

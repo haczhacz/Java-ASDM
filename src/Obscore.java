@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 
 public class Obscore {
 	
@@ -40,6 +42,57 @@ public class Obscore {
     
     
     
+    
+    // retorna un array de String con los datos del obscore 
+    // ordenados segun formato a definir para el cvs
+    public String[] getRowObscore () {
+    	
+    	ArrayList<String> arraylist = new ArrayList<String>();
+        
+        // -> Para pruebas.
+            this.s_ra = "s_ra";
+            this.s_dec = "s_dec";
+            this.s_fov = "s_fov";
+            this.t_resolution = "t_resolution";
+            this.em_res_power = "em_res_power";
+            this.pol_states = "pol_states";
+        // <-
+        
+            
+            
+            
+// definir el orden segun el cvs
+        arraylist.add(this.dataproduct_type);
+        arraylist.add(this.calib_level);
+        arraylist.add(this.obs_collection);
+        arraylist.add(this.obs_id);
+        arraylist.add(this.target_name);
+        arraylist.add(this.s_ra);
+        arraylist.add(this.s_dec);
+        arraylist.add(this.s_fov);
+        arraylist.add(this.s_region);
+        arraylist.add(this.s_resolution);
+        arraylist.add(this.t_min);
+        arraylist.add(this.t_max);
+        arraylist.add(this.t_exptime);
+        arraylist.add(this.t_resolution);
+        arraylist.add(this.em_min);
+        arraylist.add(this.em_max);
+        arraylist.add(this.em_res_power);  
+        arraylist.add(this.o_ucd);
+        arraylist.add(this.pol_states);
+        arraylist.add(this.facility_name);
+        arraylist.add(this.instrument_name);
+
+        
+
+        
+        String [] rowObscore = arraylist.toArray(new String[arraylist.size()]);
+    	
+    	
+		return rowObscore;
+    	
+    }
     
     
     
