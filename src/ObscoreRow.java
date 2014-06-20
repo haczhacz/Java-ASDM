@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class Obscore {
+public class ObscoreRow {
 	
 	//Datos obscore
     private String dataproduct_type;                
@@ -29,7 +29,7 @@ public class Obscore {
     
     
     
-    public Obscore ( ) {
+    public ObscoreRow ( ) {
     	this.dataproduct_type = "visibility";
     	this.calib_level = "1";
     	this.obs_collection = "ALMA";
@@ -45,7 +45,7 @@ public class Obscore {
     
     // retorna un array de String con los datos del obscore 
     // ordenados segun formato a definir para el cvs
-    public String[] getRowObscore () {
+    public String[] getObscoreRow () {
     	
     	ArrayList<String> arraylist = new ArrayList<String>();
         
@@ -87,10 +87,10 @@ public class Obscore {
         
 
         
-        String [] rowObscore = arraylist.toArray(new String[arraylist.size()]);
+        String [] obscoreRow = arraylist.toArray(new String[arraylist.size()]);
     	
     	
-		return rowObscore;
+		return obscoreRow;
     	
     }
     

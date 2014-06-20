@@ -18,7 +18,7 @@ import alma.asdm.SubscanTable;
 import alma.hla.runtime.asdm.ex.ConversionException;
 import au.com.bytecode.opencsv.CSVWriter;
 
-public class Testito {
+public class ASDMCsvConverter {
 
 	
         public static final String ASDM_TEST_PATH = "uid___A002_X551c61_X1";
@@ -34,21 +34,14 @@ public class Testito {
                 CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
                  
 
-                Long Sum_exptime;
-                Double lambda = 300000.0/1.0;
+                Long sumExptime;
+                Double vSpeedLight = 300000.0;
+                Double lambda;
      
                 
                 
                        
-
-                // Obtencion de ExecBlockTable
-                ExecBlockTable execBlockTable = asdm.getExecBlock();
                 ExecBlockRow execBlockRow;
-
-
-                // Obtencion de FieldTable
-                FieldTable fieldTable = asdm.getField();
-                FieldRow fieldRow;
 
 
                 // Obtencion de SourceTable
@@ -64,36 +57,39 @@ public class Testito {
                 // Obtencion de SubscanTable
                   SubscanTable subScanTable = asdm.getSubscan();
                   
-                Obscore obscore = new Obscore ();
+                ObscoreRow obscoreRow = new ObscoreRow ();
 
                         
                         
                 for (ScanRow scanRow: scanTable.get()) {
-                	execBlockRow = execBlockTable.getRowByKey(scanRow.getExecBlockId());
+                	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
 
                	 	// obs_id 
-                	obscore.setObs_id(execBlockRow.getExecBlockUID().toString());
+                	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
+                	
+                	
+                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
                 	
                 	                	
 // es opcional en   // target_name 
 // en scantable
-                	obscore.setTarget_name(scanRow.getSourceName().toString());
+                	obscoreRow.setTarget_name(scanRow.getSourceName().toString());
 
                     
                     // s_resolution 
-                	obscore.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
+                	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
                     
                 	// t_min
-                	obscore.setT_min(execBlockRow.getStartTime().toString());
+                	obscoreRow.setT_min(execBlockRow.getStartTime().toString());
 
 
                     // t_max
-                	obscore.setT_max(execBlockRow.getEndTime().toString() );
+                	obscoreRow.setT_max(execBlockRow.getEndTime().toString() );
 
 
                     // t_exptime
-                	Sum_exptime = 0l;
+                	sumExptime = 0l;
                 	
                     for (SubscanRow subScanRow: subScanTable.get()) {
                     	
@@ -103,20 +99,20 @@ public class Testito {
                     		
                     		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {
                     			
-                    			Sum_exptime = Sum_exptime + (subScanRow.getEndTime().get() - subScanRow.getStartTime().get() );
+                    			sumExptime = sumExptime + (subScanRow.getEndTime().get() - subScanRow.getStartTime().get() );
                     			
                     		}
                     	}
                     }                    
-                    obscore.setT_exptime(Long.toString(Sum_exptime) );
+                    obscoreRow.setT_exptime(Long.toString(sumExptime) );
 
 
                     // em_min
-                    obscore.setEm_min( execBlockRow.getBaseRangeMin().toString());
+                    obscoreRow.setEm_min( execBlockRow.getBaseRangeMin().toString());
 
 
                     // em_max
-                    obscore.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
+                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
 
                 
                     
@@ -128,11 +124,9 @@ public class Testito {
                    	
                     
                     
-                    writer.writeNext(obscore.getRowObscore());
+                    writer.writeNext(obscoreRow.getObscoreRow());
                     
                     
-
-                     
                     
                 }
                 
