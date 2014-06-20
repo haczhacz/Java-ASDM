@@ -2,13 +2,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 import alma.SubscanIntentMod.SubscanIntent;
 import alma.asdm.ASDM;
-import alma.asdm.ExecBlockTable;
-import alma.asdm.FieldRow;
-import alma.asdm.FieldTable;
 import alma.asdm.ScanRow;
 import alma.asdm.ScanTable;
 import alma.asdm.SourceRow;
@@ -20,22 +16,19 @@ import alma.hla.runtime.asdm.ex.ConversionException;
 import au.com.bytecode.opencsv.CSVWriter;
 
 public class ASDMCsvConverter {
-
 	
+			
         public static void main (String[] args) throws ConversionException, IllegalAccessException, IOException {
 
         		String[] asdmFolderPath = listFolderASDMData();
         		
+        		
         		for (String asdmDataPath: asdmFolderPath) {
         			
         			
-                    
+                    String csv = asdmDataPath + ".csv";
 
-                    String csv = asdmDataPath.toUpperCase();
-
-                    System.out.println(csv);
                     
-                    /*
                     ASDM asdm = ASDM.getFromXML(asdmDataPath);
                     CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
                      
@@ -121,18 +114,12 @@ public class ASDMCsvConverter {
                         obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
 
                     
-                        
-                        
-                        
-                        
-                        
-                        
-                       	
+
                         
                         
                         writer.writeNext(obscoreRow.getObscoreRow());
                         
-                        
+                       
                         
                     }
                     
@@ -140,7 +127,8 @@ public class ASDMCsvConverter {
                     writer.close();
                     
                     System.out.println("OK");
-                    */
+                     
+                    
         			
         		}
                 
@@ -153,22 +141,23 @@ public class ASDMCsvConverter {
         
         
         
-        
+        /*
+         * Lee el directorio dado, para encontrar todas las carpetas que existan
+         * Carpeta debe contener los datos ASDM
+         */
         
         
         private static String [] listFolderASDMData () throws IOException{
         	
         	ArrayList<String> arrayListFolder = new ArrayList<String>();
         	
-            File Dir = new File("./ASDMData");					
+            File Dir = new File("./ASDMData/");					
             File[] listaArchivos = Dir.listFiles();
-            
-            System.out.println ("Directorio actual: " + Dir.getCanonicalPath());
             
             for (int i = 0; i < listaArchivos.length; i++) {
 
                 if (listaArchivos[i].isDirectory()) {
-                	arrayListFolder.add(listaArchivos[i].getName());
+                	arrayListFolder.add(listaArchivos[i].getCanonicalPath());
                 }
             }
             
