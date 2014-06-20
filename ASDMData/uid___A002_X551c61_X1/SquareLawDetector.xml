@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SquareLawDetectorTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sqrlwd="http://Alma/XASDM/SquareLawDetectorTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551caf/X1" entityIdEncrypted="na" entityTypeName="SquareLawDetectorTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <squareLawDetectorId>SquareLawDetector_0</squareLawDetectorId>
+    <numBand>1</numBand>
+    <bandType>BASEBAND</bandType>
+  </row>
+  <row>
+    <squareLawDetectorId>SquareLawDetector_1</squareLawDetectorId>
+    <numBand>2</numBand>
+    <bandType>BASEBAND</bandType>
+  </row>
+  <row>
+    <squareLawDetectorId>SquareLawDetector_2</squareLawDetectorId>
+    <numBand>3</numBand>
+    <bandType>BASEBAND</bandType>
+  </row>
+  <row>
+    <squareLawDetectorId>SquareLawDetector_3</squareLawDetectorId>
+    <numBand>4</numBand>
+    <bandType>BASEBAND</bandType>
+  </row>
+</SquareLawDetectorTable>
+

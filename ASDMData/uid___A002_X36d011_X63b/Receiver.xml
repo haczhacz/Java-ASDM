@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReceiverTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rcvr="http://Alma/XASDM/ReceiverTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36dd90/X1" entityIdEncrypted="na" entityTypeName="ReceiverTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X63b" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>WVR</name>
+    <numLO>1</numLO>
+    <frequencyBand>UNSPECIFIED</frequencyBand>
+    <freqLO>1 1 9.7953075E10</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 1 DSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_0</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 9.9585E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_19</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 9.9585E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_20</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.021000000000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_21</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.021000000000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_22</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.041499999999999E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_23</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.041499999999999E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_24</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 1.00415E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_25</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 1.00415E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_26</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>WVR</name>
+    <numLO>1</numLO>
+    <frequencyBand>UNSPECIFIED</frequencyBand>
+    <freqLO>1 1 2.4642614E11</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 1 DSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_0</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 1.03335000001E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_19</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 1.03335000001E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_20</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 1.03335000001E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_27</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 1.03335000001E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_28</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 9.0212000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_23</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 9.0212000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_24</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 9.0212000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_29</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 9.0212000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_30</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 1.03335000001E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_31</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 1.03335000001E10 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_32</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 9.0212000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_33</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>0</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_06</frequencyBand>
+    <freqLO>1 3 2.4642614E11 9.0212000001E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_34</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 9.9585E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_27</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 9.9585E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_28</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 9.9585E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_31</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 9.9585E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 LSB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_32</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.041499999999999E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_29</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.041499999999999E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_30</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.041499999999999E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_33</spectralWindowId>
+  </row>
+  <row>
+    <receiverId>1</receiverId>
+    <timeInterval>7028257223347387903 4390229627014775807</timeInterval>
+    <name>1234</name>
+    <numLO>3</numLO>
+    <frequencyBand>ALMA_RB_03</frequencyBand>
+    <freqLO>1 3 9.7953075E10 8.041499999999999E9 4.0E9</freqLO>
+    <receiverSideband>NOSB</receiverSideband>
+    <sidebandLO>1 3 USB LSB LSB</sidebandLO>
+    <spectralWindowId>SpectralWindow_34</spectralWindowId>
+  </row>
+</ReceiverTable>
+

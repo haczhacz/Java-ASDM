@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlagTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flag="http://Alma/XASDM/FlagTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551ca3/X1" entityIdEncrypted="na" entityTypeName="FlagTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <flagId>Flag_0</flagId>
+    <startTime>4859885743564322000</startTime>
+    <endTime>4859885743884645000</endTime>
+    <reason>FrontEnd LO Amps not optimized</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_1</flagId>
+    <startTime>4859885743597644000</startTime>
+    <endTime>4859885743922371000</endTime>
+    <reason>FrontEnd LO Amps not optimized</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_2</flagId>
+    <startTime>4859885743631197000</startTime>
+    <endTime>4859885743954477000</endTime>
+    <reason>FrontEnd LO Amps not optimized</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_3</flagId>
+    <startTime>4859885743113520000</startTime>
+    <endTime>4859885744130415000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_4</flagId>
+    <startTime>4859885743710309000</startTime>
+    <endTime>4859885744272758000</endTime>
+    <reason>FrontEnd LO Amps not optimized</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_5</flagId>
+    <startTime>4859885743390463000</startTime>
+    <endTime>4859885744406306000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_6</flagId>
+    <startTime>4859885744172587000</startTime>
+    <endTime>4859885744437551000</endTime>
+    <reason>FrontEnd LO Amps not optimized</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_7</flagId>
+    <startTime>4859885743430904000</startTime>
+    <endTime>4859885744445741000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_8</flagId>
+    <startTime>4859885743432083000</startTime>
+    <endTime>4859885744450273000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_9</flagId>
+    <startTime>4859885742686897000</startTime>
+    <endTime>4859885744714251000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_10</flagId>
+    <startTime>4859885817296906000</startTime>
+    <endTime>4859885819324985000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_11</flagId>
+    <startTime>4859885816785242000</startTime>
+    <endTime>4859885819332043000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_12</flagId>
+    <startTime>4859885817403756000</startTime>
+    <endTime>4859885819437183000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_13</flagId>
+    <startTime>4859885817406466000</startTime>
+    <endTime>4859885819440517000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_14</flagId>
+    <startTime>4859885816889970000</startTime>
+    <endTime>4859885819444182000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_15</flagId>
+    <startTime>4859885816892792000</startTime>
+    <endTime>4859885819447603000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_16</flagId>
+    <startTime>4859885817245045000</startTime>
+    <endTime>4859885819777832000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_17</flagId>
+    <startTime>4859885816730424000</startTime>
+    <endTime>4859885819783201000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_18</flagId>
+    <startTime>4859885817477676000</startTime>
+    <endTime>4859885820064891000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_19</flagId>
+    <startTime>4859885816965484000</startTime>
+    <endTime>4859885820088719000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_20</flagId>
+    <startTime>4859885822496000000</startTime>
+    <endTime>4859885825472000000</endTime>
+    <reason>Mount is off source</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_21</flagId>
+    <startTime>4859885827692765000</startTime>
+    <endTime>4859885829730447000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_22</flagId>
+    <startTime>4859885827698385000</startTime>
+    <endTime>4859885829736857000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_23</flagId>
+    <startTime>4859885827363801000</startTime>
+    <endTime>4859885829905493000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_24</flagId>
+    <startTime>4859885827372025000</startTime>
+    <endTime>4859885829910140000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_25</flagId>
+    <startTime>4859885827415782000</startTime>
+    <endTime>4859885829953721000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_26</flagId>
+    <startTime>4859885827422211000</startTime>
+    <endTime>4859885829959834000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_27</flagId>
+    <startTime>4859885827529560000</startTime>
+    <endTime>4859885830083467000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_28</flagId>
+    <startTime>4859885827534983000</startTime>
+    <endTime>4859885830091003000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_29</flagId>
+    <startTime>4859885827545556000</startTime>
+    <endTime>4859885830104975000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_30</flagId>
+    <startTime>4859885827551753000</startTime>
+    <endTime>4859885830114704000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_31</flagId>
+    <startTime>4859885843952000000</startTime>
+    <endTime>4859885846640000000</endTime>
+    <reason>Mount is off source</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_32</flagId>
+    <startTime>4859885843952000000</startTime>
+    <endTime>4859885846976000000</endTime>
+    <reason>Mount is off source</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_33</flagId>
+    <startTime>4859885936585970000</startTime>
+    <endTime>4859885937095689000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_34</flagId>
+    <startTime>4859885935296000000</startTime>
+    <endTime>4859885939568000000</endTime>
+    <reason>Mount is off source</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_35</flagId>
+    <startTime>4859885955133984000</startTime>
+    <endTime>4859885956662547000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_36</flagId>
+    <startTime>4859885955139524000</startTime>
+    <endTime>4859885956664862000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_37</flagId>
+    <startTime>4859885954610496000</startTime>
+    <endTime>4859885956671890000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_38</flagId>
+    <startTime>4859885954616645000</startTime>
+    <endTime>4859885956674751000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_39</flagId>
+    <startTime>4859885955306728000</startTime>
+    <endTime>4859885956827322000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_40</flagId>
+    <startTime>4859885954796552000</startTime>
+    <endTime>4859885956834648000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_41</flagId>
+    <startTime>4859885955385884000</startTime>
+    <endTime>4859885956906539000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_42</flagId>
+    <startTime>4859885954876516000</startTime>
+    <endTime>4859885956913070000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_43</flagId>
+    <startTime>4859885954916031000</startTime>
+    <endTime>4859885956952079000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_44</flagId>
+    <startTime>4859885954922771000</startTime>
+    <endTime>4859885956959259000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_45</flagId>
+    <startTime>4859885965767532000</startTime>
+    <endTime>4859885966792191000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_46</flagId>
+    <startTime>4859885965773774000</startTime>
+    <endTime>4859885966798818000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_47</flagId>
+    <startTime>4859885965936929000</startTime>
+    <endTime>4859885966954792000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_48</flagId>
+    <startTime>4859885965428331000</startTime>
+    <endTime>4859885966959793000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_49</flagId>
+    <startTime>4859885966190544000</startTime>
+    <endTime>4859885967206337000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_50</flagId>
+    <startTime>4859885966190174000</startTime>
+    <endTime>4859885967208934000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_51</flagId>
+    <startTime>4859885965501553000</startTime>
+    <endTime>4859885967211526000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_52</flagId>
+    <startTime>4859885965578374000</startTime>
+    <endTime>4859885967214424000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_53</flagId>
+    <startTime>4859885965775250000</startTime>
+    <endTime>4859885967303977000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_54</flagId>
+    <startTime>4859885965783558000</startTime>
+    <endTime>4859885967312065000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_55</flagId>
+    <startTime>4859885973781281000</startTime>
+    <endTime>4859885976320569000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_56</flagId>
+    <startTime>4859885973786462000</startTime>
+    <endTime>4859885976325662000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_57</flagId>
+    <startTime>4859885973787550000</startTime>
+    <endTime>4859885976333286000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_58</flagId>
+    <startTime>4859885973794945000</startTime>
+    <endTime>4859885976340504000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_59</flagId>
+    <startTime>4859885973884013000</startTime>
+    <endTime>4859885976574392000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_60</flagId>
+    <startTime>4859885974006266000</startTime>
+    <endTime>4859885976580283000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_61</flagId>
+    <startTime>4859885974034114000</startTime>
+    <endTime>4859885976591612000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_62</flagId>
+    <startTime>4859885973873425000</startTime>
+    <endTime>4859885976592790000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_63</flagId>
+    <startTime>4859885974040382000</startTime>
+    <endTime>4859885976598458000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_64</flagId>
+    <startTime>4859885974014653000</startTime>
+    <endTime>4859885976602841000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_65</flagId>
+    <startTime>4859886025617584000</startTime>
+    <endTime>4859886026127581000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_66</flagId>
+    <startTime>4859886025620669000</startTime>
+    <endTime>4859886026130891000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_67</flagId>
+    <startTime>4859886025644389000</startTime>
+    <endTime>4859886026154098000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_68</flagId>
+    <startTime>4859886037506446000</startTime>
+    <endTime>4859886038015747000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_69</flagId>
+    <startTime>4859886037511693000</startTime>
+    <endTime>4859886038023179000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_70</flagId>
+    <startTime>4859886049884210000</startTime>
+    <endTime>4859886051923425000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_71</flagId>
+    <startTime>4859886049675339000</startTime>
+    <endTime>4859886052221944000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_72</flagId>
+    <startTime>4859886049668428000</startTime>
+    <endTime>4859886052223298000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_73</flagId>
+    <startTime>4859886049682362000</startTime>
+    <endTime>4859886052227422000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_74</flagId>
+    <startTime>4859886049675137000</startTime>
+    <endTime>4859886052230795000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_75</flagId>
+    <startTime>4859886049873929000</startTime>
+    <endTime>4859886052408183000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_76</flagId>
+    <startTime>4859886049878270000</startTime>
+    <endTime>4859886052413971000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_77</flagId>
+    <startTime>4859886049891007000</startTime>
+    <endTime>4859886052436041000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_78</flagId>
+    <startTime>4859886049908499000</startTime>
+    <endTime>4859886052962535000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_79</flagId>
+    <startTime>4859886049913948000</startTime>
+    <endTime>4859886052969490000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_80</flagId>
+    <startTime>4859886231382839000</startTime>
+    <endTime>4859886233413518000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_81</flagId>
+    <startTime>4859886231388531000</startTime>
+    <endTime>4859886233418746000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_82</flagId>
+    <startTime>4859886231476174000</startTime>
+    <endTime>4859886233522534000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_83</flagId>
+    <startTime>4859886231488215000</startTime>
+    <endTime>4859886233529424000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_84</flagId>
+    <startTime>4859886231089744000</startTime>
+    <endTime>4859886233633402000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_85</flagId>
+    <startTime>4859886231095679000</startTime>
+    <endTime>4859886233645076000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_86</flagId>
+    <startTime>4859886231202986000</startTime>
+    <endTime>4859886233744793000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_87</flagId>
+    <startTime>4859886231203983000</startTime>
+    <endTime>4859886233745622000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_88</flagId>
+    <startTime>4859886231209319000</startTime>
+    <endTime>4859886233751065000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_89</flagId>
+    <startTime>4859886231212284000</startTime>
+    <endTime>4859886233754406000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_90</flagId>
+    <startTime>4859886230592000000</startTime>
+    <endTime>4859886233856000000</endTime>
+    <reason>Mount is off source</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_91</flagId>
+    <startTime>4859886248407647000</startTime>
+    <endTime>4859886249935805000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_92</flagId>
+    <startTime>4859886248414096000</startTime>
+    <endTime>4859886249941066000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_93</flagId>
+    <startTime>4859886248608888000</startTime>
+    <endTime>4859886250138900000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_94</flagId>
+    <startTime>4859886248098988000</startTime>
+    <endTime>4859886250143891000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_95</flagId>
+    <startTime>4859886248232725000</startTime>
+    <endTime>4859886250268770000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_96</flagId>
+    <startTime>4859886248239090000</startTime>
+    <endTime>4859886250275419000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_97</flagId>
+    <startTime>4859886248815916000</startTime>
+    <endTime>4859886250341687000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_98</flagId>
+    <startTime>4859886248304791000</startTime>
+    <endTime>4859886250347669000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_99</flagId>
+    <startTime>4859886248400990000</startTime>
+    <endTime>4859886250439529000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_100</flagId>
+    <startTime>4859886248408439000</startTime>
+    <endTime>4859886250444971000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_101</flagId>
+    <startTime>4859886259452298000</startTime>
+    <endTime>4859886260477668000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_102</flagId>
+    <startTime>4859886259460272000</startTime>
+    <endTime>4859886260483844000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_103</flagId>
+    <startTime>4859886259680650000</startTime>
+    <endTime>4859886260696234000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_104</flagId>
+    <startTime>4859886259681291000</startTime>
+    <endTime>4859886260698251000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_105</flagId>
+    <startTime>4859886259033289000</startTime>
+    <endTime>4859886260701931000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_106</flagId>
+    <startTime>4859886259041872000</startTime>
+    <endTime>4859886260704971000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_107</flagId>
+    <startTime>4859886259756089000</startTime>
+    <endTime>4859886260769939000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_108</flagId>
+    <startTime>4859886259243338000</startTime>
+    <endTime>4859886260776950000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_109</flagId>
+    <startTime>4859886259369767000</startTime>
+    <endTime>4859886260898239000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_110</flagId>
+    <startTime>4859886259376800000</startTime>
+    <endTime>4859886260904827000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_111</flagId>
+    <startTime>4859886267785441000</startTime>
+    <endTime>4859886269823484000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_112</flagId>
+    <startTime>4859886267793155000</startTime>
+    <endTime>4859886269828597000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_113</flagId>
+    <startTime>4859886267348003000</startTime>
+    <endTime>4859886269893090000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_114</flagId>
+    <startTime>4859886267479021000</startTime>
+    <endTime>4859886270102091000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_115</flagId>
+    <startTime>4859886267532762000</startTime>
+    <endTime>4859886270113136000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_116</flagId>
+    <startTime>4859886267593074000</startTime>
+    <endTime>4859886270154415000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_117</flagId>
+    <startTime>4859886267600730000</startTime>
+    <endTime>4859886270162614000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_118</flagId>
+    <startTime>4859886267779396000</startTime>
+    <endTime>4859886270316429000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_119</flagId>
+    <startTime>4859886267784144000</startTime>
+    <endTime>4859886270321876000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_120</flagId>
+    <startTime>4859886267353169000</startTime>
+    <endTime>4859886270402253000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_121</flagId>
+    <startTime>4859886295109898000</startTime>
+    <endTime>4859886295619258000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_122</flagId>
+    <startTime>4859886295124369000</startTime>
+    <endTime>4859886295633970000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_123</flagId>
+    <startTime>4859886295174466000</startTime>
+    <endTime>4859886295686957000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_124</flagId>
+    <startTime>4859886307769698000</startTime>
+    <endTime>4859886309805994000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_125</flagId>
+    <startTime>4859886307775389000</startTime>
+    <endTime>4859886309811801000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_126</flagId>
+    <startTime>4859886307812232000</startTime>
+    <endTime>4859886309839830000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_127</flagId>
+    <startTime>4859886307589908000</startTime>
+    <endTime>4859886310135571000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_128</flagId>
+    <startTime>4859886307596625000</startTime>
+    <endTime>4859886310141830000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_129</flagId>
+    <startTime>4859886307766950000</startTime>
+    <endTime>4859886310306335000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_130</flagId>
+    <startTime>4859886307772029000</startTime>
+    <endTime>4859886310312238000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_131</flagId>
+    <startTime>4859886307302731000</startTime>
+    <endTime>4859886310349648000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_132</flagId>
+    <startTime>4859886307999758000</startTime>
+    <endTime>4859886310570770000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_133</flagId>
+    <startTime>4859886307488107000</startTime>
+    <endTime>4859886311084997000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_134</flagId>
+    <startTime>4859886425638834000</startTime>
+    <endTime>4859886427683494000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_135</flagId>
+    <startTime>4859886425647941000</startTime>
+    <endTime>4859886427689999000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_136</flagId>
+    <startTime>4859886425374755000</startTime>
+    <endTime>4859886427922182000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_137</flagId>
+    <startTime>4859886425383609000</startTime>
+    <endTime>4859886427928986000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_138</flagId>
+    <startTime>4859886425570448000</startTime>
+    <endTime>4859886428114413000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_139</flagId>
+    <startTime>4859886425576346000</startTime>
+    <endTime>4859886428121715000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_140</flagId>
+    <startTime>4859886425632355000</startTime>
+    <endTime>4859886428177780000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_141</flagId>
+    <startTime>4859886425645447000</startTime>
+    <endTime>4859886428183346000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_142</flagId>
+    <startTime>4859886425647883000</startTime>
+    <endTime>4859886428231384000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_143</flagId>
+    <startTime>4859886425654353000</startTime>
+    <endTime>4859886428236289000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_144</flagId>
+    <startTime>4859886443106245000</startTime>
+    <endTime>4859886444638078000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_145</flagId>
+    <startTime>4859886443112005000</startTime>
+    <endTime>4859886444646110000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_146</flagId>
+    <startTime>4859886443287388000</startTime>
+    <endTime>4859886444810243000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_147</flagId>
+    <startTime>4859886442774282000</startTime>
+    <endTime>4859886444817854000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_148</flagId>
+    <startTime>4859886443339342000</startTime>
+    <endTime>4859886444861104000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_149</flagId>
+    <startTime>4859886442829347000</startTime>
+    <endTime>4859886444866790000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_150</flagId>
+    <startTime>4859886443354560000</startTime>
+    <endTime>4859886444877134000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_151</flagId>
+    <startTime>4859886442844982000</startTime>
+    <endTime>4859886444882804000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_152</flagId>
+    <startTime>4859886443394924000</startTime>
+    <endTime>4859886444913813000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_153</flagId>
+    <startTime>4859886442883651000</startTime>
+    <endTime>4859886444918904000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_154</flagId>
+    <startTime>4859886453922039000</startTime>
+    <endTime>4859886454945902000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_155</flagId>
+    <startTime>4859886453928277000</startTime>
+    <endTime>4859886454951940000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_156</flagId>
+    <startTime>4859886453958770000</startTime>
+    <endTime>4859886454978782000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_157</flagId>
+    <startTime>4859886453964236000</startTime>
+    <endTime>4859886454983862000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_158</flagId>
+    <startTime>4859886453982182000</startTime>
+    <endTime>4859886455006216000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_159</flagId>
+    <startTime>4859886453987396000</startTime>
+    <endTime>4859886455020614000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_160</flagId>
+    <startTime>4859886454014028000</startTime>
+    <endTime>4859886455084512000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_161</flagId>
+    <startTime>4859886454055612000</startTime>
+    <endTime>4859886455092553000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_162</flagId>
+    <startTime>4859886453758821000</startTime>
+    <endTime>4859886455290902000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_163</flagId>
+    <startTime>4859886453765606000</startTime>
+    <endTime>4859886455297831000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_164</flagId>
+    <startTime>4859886461874769000</startTime>
+    <endTime>4859886464431859000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_165</flagId>
+    <startTime>4859886461892220000</startTime>
+    <endTime>4859886464437689000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_166</flagId>
+    <startTime>4859886462030447000</startTime>
+    <endTime>4859886464609756000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_167</flagId>
+    <startTime>4859886462073535000</startTime>
+    <endTime>4859886464615338000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_168</flagId>
+    <startTime>4859886462086454000</startTime>
+    <endTime>4859886464630361000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_169</flagId>
+    <startTime>4859886462091634000</startTime>
+    <endTime>4859886464636197000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_170</flagId>
+    <startTime>4859886462107705000</startTime>
+    <endTime>4859886464649956000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_171</flagId>
+    <startTime>4859886462114193000</startTime>
+    <endTime>4859886464656506000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_172</flagId>
+    <startTime>4859886462167912000</startTime>
+    <endTime>4859886464706393000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_173</flagId>
+    <startTime>4859886462173614000</startTime>
+    <endTime>4859886464711689000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_174</flagId>
+    <startTime>4859886489974589000</startTime>
+    <endTime>4859886490483419000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_175</flagId>
+    <startTime>4859886502572468000</startTime>
+    <endTime>4859886504603301000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_176</flagId>
+    <startTime>4859886502061488000</startTime>
+    <endTime>4859886504609795000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_177</flagId>
+    <startTime>4859886502656013000</startTime>
+    <endTime>4859886504683834000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_178</flagId>
+    <startTime>4859886502512012000</startTime>
+    <endTime>4859886505069938000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_179</flagId>
+    <startTime>4859886502518104000</startTime>
+    <endTime>4859886505079927000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_180</flagId>
+    <startTime>4859886502575687000</startTime>
+    <endTime>4859886505123599000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_181</flagId>
+    <startTime>4859886502061313000</startTime>
+    <endTime>4859886505135915000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_182</flagId>
+    <startTime>4859886502147017000</startTime>
+    <endTime>4859886505193711000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_183</flagId>
+    <startTime>4859886502369519000</startTime>
+    <endTime>4859886505420800000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_184</flagId>
+    <startTime>4859886502375772000</startTime>
+    <endTime>4859886505428147000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_185</flagId>
+    <startTime>4859886621504000000</startTime>
+    <endTime>4859886623520000000</endTime>
+    <reason>Mount is off source</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_186</flagId>
+    <startTime>4859886622305071000</startTime>
+    <endTime>4859886624339443000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_187</flagId>
+    <startTime>4859886622311172000</startTime>
+    <endTime>4859886624344793000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_188</flagId>
+    <startTime>4859886621854615000</startTime>
+    <endTime>4859886624393771000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_189</flagId>
+    <startTime>4859886621901363000</startTime>
+    <endTime>4859886624443831000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_190</flagId>
+    <startTime>4859886621907063000</startTime>
+    <endTime>4859886624449512000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_191</flagId>
+    <startTime>4859886621960142000</startTime>
+    <endTime>4859886624496274000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_192</flagId>
+    <startTime>4859886621965983000</startTime>
+    <endTime>4859886624501380000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_193</flagId>
+    <startTime>4859886622033577000</startTime>
+    <endTime>4859886624577050000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_194</flagId>
+    <startTime>4859886622041320000</startTime>
+    <endTime>4859886624583360000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_195</flagId>
+    <startTime>4859886621861321000</startTime>
+    <endTime>4859886624910208000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_196</flagId>
+    <startTime>4859886639005483000</startTime>
+    <endTime>4859886640571511000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_197</flagId>
+    <startTime>4859886639015041000</startTime>
+    <endTime>4859886640577071000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_198</flagId>
+    <startTime>4859886639133869000</startTime>
+    <endTime>4859886640662048000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_199</flagId>
+    <startTime>4859886639139048000</startTime>
+    <endTime>4859886640668003000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_200</flagId>
+    <startTime>4859886639208649000</startTime>
+    <endTime>4859886640737772000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_201</flagId>
+    <startTime>4859886639213392000</startTime>
+    <endTime>4859886640743019000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_202</flagId>
+    <startTime>4859886639269599000</startTime>
+    <endTime>4859886640793632000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_203</flagId>
+    <startTime>4859886638758265000</startTime>
+    <endTime>4859886640799010000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_204</flagId>
+    <startTime>4859886639081218000</startTime>
+    <endTime>4859886641125874000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_205</flagId>
+    <startTime>4859886639086248000</startTime>
+    <endTime>4859886641131910000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_206</flagId>
+    <startTime>4859886650202079000</startTime>
+    <endTime>4859886651221629000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_207</flagId>
+    <startTime>4859886649691460000</startTime>
+    <endTime>4859886651227512000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_208</flagId>
+    <startTime>4859886650344467000</startTime>
+    <endTime>4859886651360344000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_209</flagId>
+    <startTime>4859886650345658000</startTime>
+    <endTime>4859886651365894000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_210</flagId>
+    <startTime>4859886650352495000</startTime>
+    <endTime>4859886651367432000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_211</flagId>
+    <startTime>4859886649719935000</startTime>
+    <endTime>4859886651367033000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_212</flagId>
+    <startTime>4859886649766563000</startTime>
+    <endTime>4859886651372123000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_213</flagId>
+    <startTime>4859886649843571000</startTime>
+    <endTime>4859886651373616000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_214</flagId>
+    <startTime>4859886649908714000</startTime>
+    <endTime>4859886651437392000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_215</flagId>
+    <startTime>4859886649913866000</startTime>
+    <endTime>4859886651443647000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_216</flagId>
+    <startTime>4859886658443874000</startTime>
+    <endTime>4859886660475395000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_217</flagId>
+    <startTime>4859886658448664000</startTime>
+    <endTime>4859886660482734000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_218</flagId>
+    <startTime>4859886658448835000</startTime>
+    <endTime>4859886660487831000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_219</flagId>
+    <startTime>4859886658458199000</startTime>
+    <endTime>4859886660493955000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_220</flagId>
+    <startTime>4859886658489884000</startTime>
+    <endTime>4859886660589519000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_221</flagId>
+    <startTime>4859886658012873000</startTime>
+    <endTime>4859886660611778000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_222</flagId>
+    <startTime>4859886658021308000</startTime>
+    <endTime>4859886660661371000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_223</flagId>
+    <startTime>4859886658309816000</startTime>
+    <endTime>4859886660857228000</endTime>
+    <reason>ACD is not over commanded band cartridge</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_224</flagId>
+    <startTime>4859886658316848000</startTime>
+    <endTime>4859886660863443000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_225</flagId>
+    <startTime>4859886658495091000</startTime>
+    <endTime>4859886661099799000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_226</flagId>
+    <startTime>4859886686169940000</startTime>
+    <endTime>4859886686681033000</endTime>
+    <reason>ACD motors are not in position.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_227</flagId>
+    <startTime>4859886713110421000</startTime>
+    <endTime>4859886714124723000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_1</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_228</flagId>
+    <startTime>4859886712745432000</startTime>
+    <endTime>4859886718948000000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_0</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_229</flagId>
+    <startTime>4859886712163535000</startTime>
+    <endTime>4859886718964000000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_2</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_230</flagId>
+    <startTime>4859886712438290000</startTime>
+    <endTime>4859886718964000000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_4</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+  <row>
+    <flagId>Flag_231</flagId>
+    <startTime>4859886712565573000</startTime>
+    <endTime>4859886718964000000</endTime>
+    <reason>The WCA is not locked.</reason>
+    <numAntenna>1</numAntenna>
+    <antennaId>1 1 Antenna_3</antennaId>
+    <spectralWindowId>1 0</spectralWindowId>
+  </row>
+</FlagTable>
+

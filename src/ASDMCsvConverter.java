@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,120 +22,160 @@ import au.com.bytecode.opencsv.CSVWriter;
 public class ASDMCsvConverter {
 
 	
-        public static final String ASDM_TEST_PATH = "uid___A002_X551c61_X1";
-        
-       
-        
-
         public static void main (String[] args) throws ConversionException, IllegalAccessException, IOException {
-                ASDM asdm = ASDM.getFromXML(ASDM_TEST_PATH);
-                
 
-                String csv = "test.csv";
-                CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
-                 
-
-                Long sumExptime;
-                Double vSpeedLight = 300000.0;
-                Double lambda;
-     
-                
-                
-                       
-                ExecBlockRow execBlockRow;
-
-
-                // Obtencion de SourceTable
-                SourceTable sourceTable = asdm.getSource();
-                SourceRow sourceRow;
-
-
-
-                // Obtencion de ScanTable
-                 ScanTable scanTable = asdm.getScan();
-                 
-
-                // Obtencion de SubscanTable
-                  SubscanTable subScanTable = asdm.getSubscan();
-                  
-                ObscoreRow obscoreRow = new ObscoreRow ();
-
-                        
-                        
-                for (ScanRow scanRow: scanTable.get()) {
-                	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
-
-               	 	// obs_id 
-                	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
-                	
-                	
-                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
-                	
-                	                	
-// es opcional en   // target_name 
-// en scantable
-                	obscoreRow.setTarget_name(scanRow.getSourceName().toString());
-
+        		String[] asdmFolderPath = listFolderASDMData();
+        		
+        		for (String asdmDataPath: asdmFolderPath) {
+        			
+        			
                     
-                    // s_resolution 
-                	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
+
+                    String csv = asdmDataPath.toUpperCase();
+
+                    System.out.println(csv);
+                    
+                    /*
+                    ASDM asdm = ASDM.getFromXML(asdmDataPath);
+                    CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
+                     
+
+                    Long sumExptime;
+                    Double vSpeedLight = 300000.0;
+                    Double lambda;
+         
                     
                     
-                	// t_min
-                	obscoreRow.setT_min(execBlockRow.getStartTime().toString());
+                           
+                    ExecBlockRow execBlockRow;
 
 
-                    // t_max
-                	obscoreRow.setT_max(execBlockRow.getEndTime().toString() );
+                    // Obtencion de SourceTable
+                    SourceTable sourceTable = asdm.getSource();
+                    SourceRow sourceRow;
 
 
-                    // t_exptime
-                	sumExptime = 0l;
-                	
-                    for (SubscanRow subScanRow: subScanTable.get()) {
+
+                    // Obtencion de ScanTable
+                     ScanTable scanTable = asdm.getScan();
+                     
+
+                    // Obtencion de SubscanTable
+                      SubscanTable subScanTable = asdm.getSubscan();
+                      
+                    ObscoreRow obscoreRow = new ObscoreRow ();
+
+                            
+                            
+                    for (ScanRow scanRow: scanTable.get()) {
+                    	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
+
+                   	 	// obs_id 
+                    	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
                     	
                     	
-                    	// si fila subcan pertenece a scan y al execblock
-                    	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
-                    		
-                    		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {
-                    			
-                    			sumExptime = sumExptime + (subScanRow.getEndTime().get() - subScanRow.getStartTime().get() );
-                    			
-                    		}
-                    	}
-                    }                    
-                    obscoreRow.setT_exptime(Long.toString(sumExptime) );
+                    	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
+                    	
+                    	                	
+    // es opcional en   // target_name 
+    // en scantable
+                    	obscoreRow.setTarget_name(scanRow.getSourceName().toString());
+
+                        
+                        // s_resolution 
+                    	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
+                        
+                        
+                    	// t_min
+                    	obscoreRow.setT_min(execBlockRow.getStartTime().toString());
 
 
-                    // em_min
-                    obscoreRow.setEm_min( execBlockRow.getBaseRangeMin().toString());
+                        // t_max
+                    	obscoreRow.setT_max(execBlockRow.getEndTime().toString() );
 
 
-                    // em_max
-                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
+                        // t_exptime
+                    	sumExptime = 0l;
+                    	
+                        for (SubscanRow subScanRow: subScanTable.get()) {
+                        	
+                        	
+                        	// si fila subcan pertenece a scan y al execblock
+                        	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
+                        		
+                        		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {
+                        			
+                        			sumExptime = sumExptime + (subScanRow.getEndTime().get() - subScanRow.getStartTime().get() );
+                        			
+                        		}
+                        	}
+                        }                    
+                        obscoreRow.setT_exptime(Long.toString(sumExptime) );
 
+
+                        // em_min
+                        obscoreRow.setEm_min( execBlockRow.getBaseRangeMin().toString());
+
+
+                        // em_max
+                        obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
+
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                       	
+                        
+                        
+                        writer.writeNext(obscoreRow.getObscoreRow());
+                        
+                        
+                        
+                    }
+                    
+
+                    writer.close();
+                    
+                    System.out.println("OK");
+                    */
+        			
+        		}
                 
-                    
-                    
-                    
-                    
-                    
-                    
-                   	
-                    
-                    
-                    writer.writeNext(obscoreRow.getObscoreRow());
-                    
-                    
-                    
-                }
-                
-
-                writer.close();
-                
-                System.out.println("OK");
         }   
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        private static String [] listFolderASDMData () throws IOException{
+        	
+        	ArrayList<String> arrayListFolder = new ArrayList<String>();
+        	
+            File Dir = new File("./ASDMData");					
+            File[] listaArchivos = Dir.listFiles();
+            
+            System.out.println ("Directorio actual: " + Dir.getCanonicalPath());
+            
+            for (int i = 0; i < listaArchivos.length; i++) {
+
+                if (listaArchivos[i].isDirectory()) {
+                	arrayListFolder.add(listaArchivos[i].getName());
+                }
+            }
+            
+            String [] Folders = arrayListFolder.toArray(new String[arrayListFolder.size()]);
+            
+			return Folders;
+        }
 }
 
 

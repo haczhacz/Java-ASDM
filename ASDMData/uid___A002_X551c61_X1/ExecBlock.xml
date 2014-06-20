@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecBlockTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:excblk="http://Alma/XASDM/ExecBlockTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551ca0/X1" entityIdEncrypted="na" entityTypeName="ExecBlockTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <execBlockId>ExecBlock_0</execBlockId>
+    <startTime>4859885680226000000</startTime>
+    <endTime>4859886718930000000</endTime>
+    <execBlockNum>999</execBlockNum>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X551c61/X1" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <projectUID>
+      <EntityRef entityId="uid://A002/X2aba5d/X36" partId="X00000000" entityTypeName="ObsProject" documentVersion="1" />
+    </projectUID>
+    <configName>A</configName>
+    <telescopeName>ALMA</telescopeName>
+    <observerName>nsaez</observerName>
+    <numObservingLog>0</numObservingLog>
+    <observingLog>1 0</observingLog>
+    <sessionReference>
+      <EntityRef entityId="uid://A002/X2aba5d/X3c" partId="X00000e76" entityTypeName="OUSStatus" documentVersion="1.0" />
+    </sessionReference>
+    <baseRangeMin>0.0</baseRangeMin>
+    <baseRangeMax>0.0</baseRangeMax>
+    <baseRmsMinor>0.0</baseRmsMinor>
+    <baseRmsMajor>0.0</baseRmsMajor>
+    <basePa>0.0</basePa>
+    <aborted>false</aborted>
+    <numAntenna>5</numAntenna>
+    <siteAltitude>0.0</siteAltitude>
+    <siteLongitude>0.0</siteLongitude>
+    <siteLatitude>0.0</siteLatitude>
+    <observingScript>---Use the edit facility to enter your script here---</observingScript>
+    <antennaId>1 5 Antenna_0 Antenna_1 Antenna_2 Antenna_3 Antenna_4</antennaId>
+    <sBSummaryId>SBSummary_0</sBSummaryId>
+  </row>
+</ExecBlockTable>
+

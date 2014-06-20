@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpectralWindowTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:spctrw="http://Alma/XASDM/SpectralWindowTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551cae/X1" entityIdEncrypted="na" entityTypeName="SpectralWindowTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <spectralWindowId>SpectralWindow_0</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.833E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <name>WVR#NOMINAL</name>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>8</numAssocValues>
+    <assocNature>1 8 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 8 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_1</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8331E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <name>WVR#Antenna_0</name>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>8</numAssocValues>
+    <assocNature>1 8 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 8 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_2</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8332000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <name>WVR#Antenna_1</name>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>8</numAssocValues>
+    <assocNature>1 8 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 8 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_3</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8333E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <name>WVR#Antenna_2</name>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>8</numAssocValues>
+    <assocNature>1 8 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 8 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_4</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8334E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <name>WVR#Antenna_3</name>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>8</numAssocValues>
+    <assocNature>1 8 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 8 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_5</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8335000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <name>WVR#Antenna_4</name>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>8</numAssocValues>
+    <assocNature>1 8 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 8 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_6</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>8.72921875E10</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <name>ALMA_RB_03#BB_1#SW-01#FULL_RES</name>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_7</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_7</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.71671875E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.78125E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 8.62765625E10</chanFreqArray>
+    <chanWidthArray>1 1 1.78125E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.78125E9</effectiveBwArray>
+    <name>ALMA_RB_03#BB_1#SW-01#CH_AVG</name>
+    <quantization>false</quantization>
+    <refChan>-0.5</refChan>
+    <resolutionArray>1 1 1.78125E9</resolutionArray>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_8</spectralWindowId>
+    <basebandName>BB_2</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>8.72921875E10</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <name>ALMA_RB_03#BB_2#SW-01#FULL_RES</name>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_9</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_9</spectralWindowId>
+    <basebandName>BB_2</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.71671875E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.78125E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 8.62765625E10</chanFreqArray>
+    <chanWidthArray>1 1 1.78125E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.78125E9</effectiveBwArray>
+    <name>ALMA_RB_03#BB_2#SW-01#CH_AVG</name>
+    <quantization>false</quantization>
+    <refChan>-0.5</refChan>
+    <resolutionArray>1 1 1.78125E9</resolutionArray>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_8</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_10</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>8.72921875E10</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <name>ALMA_RB_03#BB_3#SW-01#FULL_RES</name>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_11</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_11</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.71671875E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.78125E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 8.62765625E10</chanFreqArray>
+    <chanWidthArray>1 1 1.78125E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.78125E9</effectiveBwArray>
+    <name>ALMA_RB_03#BB_3#SW-01#CH_AVG</name>
+    <quantization>false</quantization>
+    <refChan>-0.5</refChan>
+    <resolutionArray>1 1 1.78125E9</resolutionArray>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_10</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_12</spectralWindowId>
+    <basebandName>BB_4</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>8.72921875E10</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <name>ALMA_RB_03#BB_4#SW-01#FULL_RES</name>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_13</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_13</spectralWindowId>
+    <basebandName>BB_4</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.71671875E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.78125E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 8.62765625E10</chanFreqArray>
+    <chanWidthArray>1 1 1.78125E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.78125E9</effectiveBwArray>
+    <name>ALMA_RB_03#BB_4#SW-01#CH_AVG</name>
+    <quantization>false</quantization>
+    <refChan>-0.5</refChan>
+    <resolutionArray>1 1 1.78125E9</resolutionArray>
+    <numAssocValues>6</numAssocValues>
+    <assocNature>1 6 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 6 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_12</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_14</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 1 8.7189E10</chanFreqArray>
+    <chanWidth>2.0E9</chanWidth>
+    <effectiveBw>2.0E9</effectiveBw>
+    <name>BB_1#SQLD</name>
+    <resolution>2.0E9</resolution>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_15</spectralWindowId>
+    <basebandName>BB_2</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 1 8.7189E10</chanFreqArray>
+    <chanWidth>2.0E9</chanWidth>
+    <effectiveBw>2.0E9</effectiveBw>
+    <name>BB_2#SQLD</name>
+    <resolution>2.0E9</resolution>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_16</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 1 8.7189E10</chanFreqArray>
+    <chanWidth>2.0E9</chanWidth>
+    <effectiveBw>2.0E9</effectiveBw>
+    <name>BB_3#SQLD</name>
+    <resolution>2.0E9</resolution>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_17</spectralWindowId>
+    <basebandName>BB_4</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>8.73E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 1 8.7189E10</chanFreqArray>
+    <chanWidth>2.0E9</chanWidth>
+    <effectiveBw>2.0E9</effectiveBw>
+    <name>BB_4#SQLD</name>
+    <resolution>2.0E9</resolution>
+  </row>
+</SpectralWindowTable>
+
