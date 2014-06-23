@@ -49,7 +49,6 @@ public class ASDMCsvConverter {
 
                 // Obtencion de SourceTable
                 SourceTable sourceTable = asdm.getSource();
-                SourceRow sourceRow;
 
 
 
@@ -74,11 +73,27 @@ public class ASDMCsvConverter {
                 	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
                 	
                 	                	
-// es opcional en   // target_name 
-// en scantable
-                	obscoreRow.setTarget_name(scanRow.getSourceName().toString());
 
-                    
+                	String sourceName = scanRow.getSourceName();
+                	// target_name 													// es opcional  en scantable
+                	obscoreRow.setTarget_name(sourceName);
+
+                                    	
+                    // s_ra
+                	// s_dec
+                	for (SourceRow sourceRow: sourceTable.get()) {													// busca en la tabla source 
+                		if (sourceRow.getSourceName().equals(sourceName)) {											// si alguno coincide con el sourceName
+                			
+                			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
+                			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
+                			
+
+                		    break;																					// basta solo encontrar uno
+                			
+                		}
+                	}
+                	                	
+                	
                     // s_resolution 
                 	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
