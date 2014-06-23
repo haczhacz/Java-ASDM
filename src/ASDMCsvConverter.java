@@ -18,24 +18,33 @@ import au.com.bytecode.opencsv.CSVWriter;
 public class ASDMCsvConverter {
 	
 	 	public static final String ASDM_INPUT_DATA_PATH = "./ASDMData/";
-	 	public static final String ASDM_OUTPUT_DATA_PATH = ".";
+	 	public static final String ASDM_OUTPUT_DATA_PATH = "./CSV/";
 	
 			
         public static void main (String[] args) throws ConversionException, IllegalAccessException, IOException {
         	
            
     		String[] asdmFoldersPath = listFolderASDMData(ASDM_INPUT_DATA_PATH);
+        
+    		// verifica y crea carpeta csv de output
+    		File folder = new File(ASDM_OUTPUT_DATA_PATH);
+    		if (!folder.exists()) {
+    			System.out.println("NO EXISTE");
+    			folder.mkdirs();
+    			
+    		}
+    		
     		
     		
     		for (String asdmDataFolder: asdmFoldersPath) {
     			
-                String csv = asdmDataFolder + ".csv";
+                String csv = ASDM_OUTPUT_DATA_PATH + asdmDataFolder + ".csv";
                 
                 ASDM asdm = ASDM.getFromXML(ASDM_INPUT_DATA_PATH + asdmDataFolder);
                 
                 
                 CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
-                
+               
 
                 Long sumExptime;
                 Double vSpeedLight = 300000.0;
@@ -98,7 +107,7 @@ public class ASDMCsvConverter {
                 	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
                     
-                	// t_min
+                	// t_ms_fovin
                 	obscoreRow.setT_min(execBlockRow.getStartTime().toString());
 
 
