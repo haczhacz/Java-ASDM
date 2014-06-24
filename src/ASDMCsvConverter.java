@@ -18,24 +18,33 @@ import au.com.bytecode.opencsv.CSVWriter;
 public class ASDMCsvConverter {
 	
 	 	public static final String ASDM_INPUT_DATA_PATH = "./ASDMData/";
-	 	public static final String ASDM_OUTPUT_DATA_PATH = ".";
+	 	public static final String ASDM_OUTPUT_DATA_PATH = "./CSV/";
 	
 			
         public static void main (String[] args) throws ConversionException, IllegalAccessException, IOException {
         	
            
     		String[] asdmFoldersPath = listFolderASDMData(ASDM_INPUT_DATA_PATH);
+        
+    		// verifica y crea carpeta csv de output
+    		File folder = new File(ASDM_OUTPUT_DATA_PATH);
+    		if (!folder.exists()) {
+    			System.out.println("NO EXISTE");
+    			folder.mkdirs();
+    			
+    		}
+    		
     		
     		
     		for (String asdmDataFolder: asdmFoldersPath) {
     			
-                String csv = asdmDataFolder + ".csv";
+                String csv = ASDM_OUTPUT_DATA_PATH + asdmDataFolder + ".csv";
                 
                 ASDM asdm = ASDM.getFromXML(ASDM_INPUT_DATA_PATH + asdmDataFolder);
                 
                 
                 CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
-                
+               
 
                 Long sumExptime;
                 Double vSpeedLight = 300000.0;
@@ -49,7 +58,6 @@ public class ASDMCsvConverter {
 
                 // Obtencion de SourceTable
                 SourceTable sourceTable = asdm.getSource();
-                SourceRow sourceRow;
 
 
 
@@ -74,16 +82,32 @@ public class ASDMCsvConverter {
                 	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
                 	
                 	                	
-// es opcional en   // target_name 
-// en scantable
-                	obscoreRow.setTarget_name(scanRow.getSourceName().toString());
 
-                    
+                	String sourceName = scanRow.getSourceName();
+                	// target_name 													// es opcional  en scantable
+                	obscoreRow.setTarget_name(sourceName);
+
+                                    	
+                    // s_ra
+                	// s_dec
+                	for (SourceRow sourceRow: sourceTable.get()) {													// busca en la tabla source 
+                		if (sourceRow.getSourceName().equals(sourceName)) {											// si alguno coincide con el sourceName
+                			
+                			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
+                			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
+                			
+
+                		    break;																					// basta solo encontrar uno
+                			
+                		}
+                	}
+                	                	
+                	
                     // s_resolution 
                 	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
                     
-                	// t_min
+                	// t_ms_fovin
                 	obscoreRow.setT_min(execBlockRow.getStartTime().toString());
 
 
@@ -170,5 +194,6 @@ public class ASDMCsvConverter {
 			return Folders;
         }
 }
+
 
 
