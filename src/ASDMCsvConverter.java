@@ -21,7 +21,7 @@ public class ASDMCsvConverter {
 	 	public static final String ASDM_OUTPUT_DATA_PATH = "./CSV/";
 	
 			
-        public static void main (String[] args) throws ConversionException, IllegalAccessException, IOException {
+        public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
            
     		String[] asdmFoldersPath = listFolderASDMData(ASDM_INPUT_DATA_PATH);
@@ -82,24 +82,29 @@ public class ASDMCsvConverter {
                 	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
                 	
                 	                	
+                	if ( scanRow.isSourceNameExists() ) {							// comprueba que sourceName exista (es opcional en scanTable)
+                		
+                		String sourceName = scanRow.getSourceName();
+                    	// target_name 													// es opcional  en scantable
+                    	obscoreRow.setTarget_name(sourceName);
 
-                	String sourceName = scanRow.getSourceName();
-                	// target_name 													// es opcional  en scantable
-                	obscoreRow.setTarget_name(sourceName);
+                                        	
+                        // s_ra
+                    	// s_dec
+                    	for (SourceRow sourceRow: sourceTable.get()) {													// busca en la tabla source 
+                    		if (sourceRow.getSourceName().equals(sourceName)) {											// si alguno coincide con el sourceName
+                    			
+                    			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
+                    			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
+                    			
 
-                                    	
-                    // s_ra
-                	// s_dec
-                	for (SourceRow sourceRow: sourceTable.get()) {													// busca en la tabla source 
-                		if (sourceRow.getSourceName().equals(sourceName)) {											// si alguno coincide con el sourceName
-                			
-                			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
-                			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
-                			
-
-                		    break;																					// basta solo encontrar uno
-                			
-                		}
+                    		    break;																					// basta solo encontrar uno
+                    			
+                    		}
+                    	}                		
+                	}
+                	else {
+                		// ver como rellenar campos si no existe
                 	}
                 	                	
                 	
