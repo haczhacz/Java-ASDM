@@ -17,6 +17,8 @@ import au.com.bytecode.opencsv.CSVWriter;
 
 public class ASDMCsvConverter {
 		
+		public static String NOMBRE_CARPETA_PROCESADOS = "Procesados";
+	
 			
         public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
@@ -24,6 +26,8 @@ public class ASDMCsvConverter {
         	String ASDM_INPUT_DATA_PATH = "./ASDMData/";
     	 	String ASDM_OUTPUT_DATA_PATH = "./CSV/";
           	
+    	 	
+    	 	
         	// maneja el caso que se ejecute por bash
         	if (args.length == 2) {
         	 	ASDM_INPUT_DATA_PATH = args[0];
@@ -32,23 +36,22 @@ public class ASDMCsvConverter {
           	
         
         	
-    		String[] asdmFoldersPath = listFolderASDMData(ASDM_INPUT_DATA_PATH);
+        	ArrayList<File> listaCarpetas =  listFolder(ASDM_INPUT_DATA_PATH);
         
     		// verifica y crea carpeta csv de output
     		File folder = new File(ASDM_OUTPUT_DATA_PATH);
     		if (!folder.exists()) {
-    			System.out.println("NO EXISTE");
-    			folder.mkdirs();
-    			
+    			folder.mkdirs();    			
     		}
     		
     		
     		
-    		for (String asdmDataFolder: asdmFoldersPath) {
+    		for (File asdmDataFolder: listaCarpetas) {
     			
-                String csv = ASDM_OUTPUT_DATA_PATH + asdmDataFolder + ".csv";
+    			
+                String csv = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
                 
-                ASDM asdm = ASDM.getFromXML(ASDM_INPUT_DATA_PATH + asdmDataFolder);
+                ASDM asdm = ASDM.getFromXML(ASDM_INPUT_DATA_PATH + asdmDataFolder.getName());
                 
                 
                 CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
@@ -160,6 +163,11 @@ public class ASDMCsvConverter {
                     
                     writer.writeNext(obscoreRow.getObscoreRow());
                     
+                    
+                    
+                    // se mueve a carpeta procesados
+        			renameFolder(asdmDataFolder, NOMBRE_CARPETA_PROCESADOS);
+                    
                    
                     
                 }
@@ -170,8 +178,9 @@ public class ASDMCsvConverter {
                 System.out.println("OK");
                  
               
-    			
+    		
     		}
+    		
                 
         }   
 
@@ -183,29 +192,45 @@ public class ASDMCsvConverter {
         
         
         /*
-         * Lee el directorio dado, para encontrar todas las carpetas que existan
+         * Lee el directorio, seleccionando solo las carpetas
          * Carpeta debe contener los datos ASDM
-         */
-        
-        
-        private static String [] listFolderASDMData (String Path) throws IOException{
+         */        
+        private static ArrayList<File> listFolder (String Path) throws IOException{
         	
-        	ArrayList<String> arrayListFolder = new ArrayList<String>();
+        	ArrayList<File> listaCarpetas = new ArrayList<File>();
         	
         	File Dir = new File(Path);	
             File[] listaArchivos = Dir.listFiles();
             
             for (int i = 0; i < listaArchivos.length; i++) {
 
-                if (listaArchivos[i].isDirectory()) {
-                	arrayListFolder.add(listaArchivos[i].getName());
-                }
+                if (listaArchivos[i].isDirectory() && !listaArchivos[i].getName().equals(NOMBRE_CARPETA_PROCESADOS)) {
+                	listaCarpetas.add(listaArchivos[i]);     
+                }               
             }
             
-            String [] Folders = arrayListFolder.toArray(new String[arrayListFolder.size()]);
-            
-			return Folders;
+			return listaCarpetas;
         }
+        
+        
+        
+        
+        
+        
+        private static void renameFolder (File asdmDataFolder, String newName) throws IOException {  
+                File dirProcesados = new File (asdmDataFolder.getParent() + "/" + newName  + "/" );
+                File dirNewName = new File( asdmDataFolder.getParent() + "/" + newName  + "/" + asdmDataFolder.getName() );  
+                
+                if (!dirProcesados.exists()){
+                	dirProcesados.mkdirs();
+                }
+                
+                if ( asdmDataFolder.isDirectory()) {  
+                	asdmDataFolder.renameTo(dirNewName);  
+                } 
+                
+        }
+        
 }
 
 

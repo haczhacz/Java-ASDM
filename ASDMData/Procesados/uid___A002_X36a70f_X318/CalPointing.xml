@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalPointingTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clpntg="http://Alma/XASDM/CalPointingTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36ab2c/X1" entityIdEncrypted="na" entityTypeName="CalPointingTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36a70f/X318" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <antennaName>DA42</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>AEM_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182303037127548 0.4860670786072813</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 4.574277703023177E-6 -1.1793204864383679E-5 4.574277703023177E-6 -1.1793204864383679E-5</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.001165409126359495 0.00349868436145391 -0.001165409126359495 0.00349868436145391</collOffsetAbsolute>
+    <collError>2 2 2 7.321027457155671E-7 7.300482358817449E-7 7.321027457155671E-7 7.300482358817449E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.15712376811638482 0.15712376811638482</peakIntensity>
+    <peakIntensityError>1 2 4.95853755277687E-4 4.95853755277687E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DA43</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>AEM_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182295957340671 0.4860597866505176</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 1.1710363688713243E-5 3.591989306251453E-6 1.1710363688713243E-5 3.591989306251453E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.0011277780783728645 0.0019136057678111277 -0.0011277780783728645 0.0019136057678111277</collOffsetAbsolute>
+    <collError>2 2 2 6.325401185375285E-7 6.343255487005525E-7 6.325401185375285E-7 6.343255487005525E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.20351001970302368 0.20351001970302368</peakIntensity>
+    <peakIntensityError>1 2 5.563855690207232E-4 5.563855690207232E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV01</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182305980712037 0.4860835836118485</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -2.0005627740921854E-6 -4.307855338822448E-6 -2.0005627740921854E-6 -4.307855338822448E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 0.001244098995045373 8.094073665222766E-4 0.001244098995045373 8.094073665222766E-4</collOffsetAbsolute>
+    <collError>2 2 2 1.107629667852773E-6 1.1073578998160475E-6 1.107629667852773E-6 1.1073578998160475E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19784792623453998 0.19784792623453998</peakIntensity>
+    <peakIntensityError>1 2 9.441461822874922E-4 9.441461822874922E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV03</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182299009254802 0.4860643339445225</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -3.6309131345693606E-6 7.955322509708275E-6 -3.6309131345693606E-6 7.955322509708275E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.007222146840922204 0.002149243997366472 -0.007222146840922204 0.002149243997366472</collOffsetAbsolute>
+    <collError>2 2 2 9.09995467059802E-7 9.087700342810546E-7 9.09995467059802E-7 9.087700342810546E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.20589692339179583 0.20589692339179583</peakIntensity>
+    <peakIntensityError>1 2 8.069374554246545E-4 8.069374554246545E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV05</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182297150203185 0.4860574614418129</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -1.4510600794928855E-5 -4.659583408508503E-6 -1.4510600794928855E-5 -4.659583408508503E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.0012451481317740782 9.400688409588184E-4 -0.0012451481317740782 9.400688409588184E-4</collOffsetAbsolute>
+    <collError>2 2 2 1.069406315634533E-6 1.0740407900849967E-6 1.069406315634533E-6 1.0740407900849967E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.16731674654336684 0.16731674654336684</peakIntensity>
+    <peakIntensityError>1 2 7.748242552040704E-4 7.748242552040704E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV06</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.1823000272597985 0.48606271951655977</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -5.011330537912729E-6 5.3097744970528545E-6 -5.011330537912729E-6 5.3097744970528545E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.0020038976639210697 -7.204136999031108E-4 -0.0020038976639210697 -7.204136999031108E-4</collOffsetAbsolute>
+    <collError>2 2 2 1.0396639376032915E-6 1.0394825190683593E-6 1.0396639376032915E-6 1.0394825190683593E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19253910418070733 0.19253910418070733</peakIntensity>
+    <peakIntensityError>1 2 8.626607816635122E-4 8.626607816635122E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV07</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182301471909402 0.4860584661551654</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -3.716648037171798E-6 1.601088189762048E-6 -3.716648037171798E-6 1.601088189762048E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 0.002191017601453615 -4.0941521030993776E-4 0.002191017601453615 -4.0941521030993776E-4</collOffsetAbsolute>
+    <collError>2 2 2 7.712302103064439E-7 7.714221377629125E-7 7.712302103064439E-7 7.714221377629125E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.18706806541374169 0.18706806541374169</peakIntensity>
+    <peakIntensityError>1 2 6.216517478206972E-4 6.216517478206972E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV10</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182294999076135 0.4860535563006806</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 4.084282675135454E-7 5.905293375086366E-6 4.084282675135454E-7 5.905293375086366E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.004332327002445075 -8.35231157495308E-4 -0.004332327002445075 -8.35231157495308E-4</collOffsetAbsolute>
+    <collError>2 2 2 4.215442447671292E-6 4.211794183836293E-6 4.215442447671292E-6 4.211794183836293E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19594263547180116 0.19594263547180116</peakIntensity>
+    <peakIntensityError>1 2 0.003556726738952561 0.003556726738952561</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV11</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182303448608343 0.48606248750495884</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 2.0497030282265967E-5 -1.3745825065541737E-5 2.0497030282265967E-5 -1.3745825065541737E-5</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.0021668027372405774 -0.0010714975738284817 -0.0021668027372405774 -0.0010714975738284817</collOffsetAbsolute>
+    <collError>2 2 2 7.265983534987474E-7 7.306639354127139E-7 7.265983534987474E-7 7.306639354127139E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19137769262734486 0.19137769262734486</peakIntensity>
+    <peakIntensityError>1 2 6.060103465660091E-4 6.060103465660091E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV12</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.18230230434742 0.4860721126480961</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -5.384045346942724E-6 -9.588275850962866E-6 -5.384045346942724E-6 -9.588275850962866E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.002316030794298177 0.0011217451246008712 -0.002316030794298177 0.0011217451246008712</collOffsetAbsolute>
+    <collError>2 2 2 1.1840246183097898E-6 1.18245931276751E-6 1.1840246183097898E-6 1.18245931276751E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19265676986010913 0.19265676986010913</peakIntensity>
+    <peakIntensityError>1 2 9.833447018878722E-4 9.833447018878722E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV13</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182298919036785 0.48605772695775534</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -1.3959623760271309E-5 -7.4560233263295335E-6 -1.3959623760271309E-5 -7.4560233263295335E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.001140822232913755 9.106125782934246E-4 -0.001140822232913755 9.106125782934246E-4</collOffsetAbsolute>
+    <collError>2 2 2 7.421874026785741E-7 7.445155877760941E-7 7.421874026785741E-7 7.445155877760941E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.18456957339714358 0.18456957339714358</peakIntensity>
+    <peakIntensityError>1 2 5.929723293846152E-4 5.929723293846152E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV14</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182297052906736 0.4860531343916727</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -3.54067550724811E-6 -4.678350986069338E-7 -3.54067550724811E-6 -4.678350986069338E-7</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 0.002085883346180439 8.416713115694277E-4 0.002085883346180439 8.416713115694277E-4</collOffsetAbsolute>
+    <collError>2 2 2 9.433125861348022E-7 9.436107697932485E-7 9.433125861348022E-7 9.436107697932485E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19698838389865314 0.19698838389865314</peakIntensity>
+    <peakIntensityError>1 2 8.002269370058779E-4 8.002269370058779E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV15</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182303990772669 0.4860717553551683</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -1.5052638989739755E-5 -1.7293494821052238E-6 -1.5052638989739755E-5 -1.7293494821052238E-6</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.0016854224449204466 0.001808900745753711 -0.0016854224449204466 0.001808900745753711</collOffsetAbsolute>
+    <collError>2 2 2 1.2401328393567747E-6 1.246524943963534E-6 1.2401328393567747E-6 1.246524943963534E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.18722021842291578 0.18722021842291578</peakIntensity>
+    <peakIntensityError>1 2 0.0010056498988223128 0.0010056498988223128</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV16</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>VERTEX_12</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182301260562742 0.48604973284366065</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 4.0719185322771076E-7 -9.317916422951839E-7 4.0719185322771076E-7 -9.317916422951839E-7</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 0.0027589113007255002 -0.001269366454406047 0.0027589113007255002 -0.001269366454406047</collOffsetAbsolute>
+    <collError>2 2 2 6.385577092284864E-7 6.38546447947962E-7 6.385577092284864E-7 6.38546447947962E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19916017923775095 0.19916017923775095</peakIntensity>
+    <peakIntensityError>1 2 5.477558969267584E-4 5.477558969267584E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM01</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>MITSUBISHI_12_B</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182300870890696 0.4860609354023628</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 1.4008193888976706E-5 2.658542026458737E-5 1.4008193888976706E-5 2.658542026458737E-5</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.013785979771071231 0.001721061663101831 -0.013785979771071231 0.001721061663101831</collOffsetAbsolute>
+    <collError>2 2 2 1.128879839080669E-6 1.1164690227773707E-6 1.128879839080669E-6 1.1164690227773707E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.18165545932230936 0.18165545932230936</peakIntensity>
+    <peakIntensityError>1 2 8.893760479910578E-4 8.893760479910578E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM02</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>MITSUBISHI_12_B</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182299052755042 0.4860625629065787</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 1.447014317007102E-5 1.0651911341564395E-5 1.447014317007102E-5 1.0651911341564395E-5</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 -0.0013034241911140478 0.0018482397191540508 -0.0013034241911140478 0.0018482397191540508</collOffsetAbsolute>
+    <collError>2 2 2 1.5215530394035851E-6 1.5251221805052058E-6 1.5215530394035851E-6 1.5251221805052058E-6</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.1568721232709417 0.1568721232709417</peakIntensity>
+    <peakIntensityError>1 2 0.0010337384387867205 0.0010337384387867205</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM03</antennaName>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <startValidTime>4832948960880000000</startValidTime>
+    <endValidTime>4832952560880000000</endValidTime>
+    <ambientTemperature>273.8840026855469</ambientTemperature>
+    <antennaMake>MITSUBISHI_12_B</antennaMake>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <direction>1 2 -4.182298957542017 0.4860549914927344</direction>
+    <frequencyRange>1 2 9.00805125E10 1.058773875E11</frequencyRange>
+    <pointingModelMode>RADIO</pointingModelMode>
+    <pointingMethod>FIVE_POINT</pointingMethod>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <collOffsetRelative>2 2 2 -1.2641020007775665E-6 1.8926230068468482E-5 -1.2641020007775665E-6 1.8926230068468482E-5</collOffsetRelative>
+    <collOffsetAbsolute>2 2 2 0.004186499764336042 0.0017596011394752477 0.004186499764336042 0.0017596011394752477</collOffsetAbsolute>
+    <collError>2 2 2 6.782473272029562E-7 6.727874863098383E-7 6.782473272029562E-7 6.727874863098383E-7</collError>
+    <collOffsetTied>2 2 2 false false false false</collOffsetTied>
+    <reducedChiSquared>1 2 0.0 0.0</reducedChiSquared>
+    <averagedPolarizations>true</averagedPolarizations>
+    <beamWidth>2 2 2 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4 2.9167758781557557E-4</beamWidth>
+    <beamWidthError>2 2 2 0.0 0.0 0.0 0.0</beamWidthError>
+    <beamWidthWasFixed>1 2 true true</beamWidthWasFixed>
+    <offIntensity>1 2 0.0 0.0</offIntensity>
+    <offIntensityError>1 2 0.0 0.0</offIntensityError>
+    <offIntensityWasFixed>false</offIntensityWasFixed>
+    <peakIntensity>1 2 0.19764500491897724 0.19764500491897724</peakIntensity>
+    <peakIntensityError>1 2 5.775475781547508E-4 5.775475781547508E-4</peakIntensityError>
+    <peakIntensityWasFixed>false</peakIntensityWasFixed>
+    <calDataId>CalData_1</calDataId>
+    <calReductionId>CalReduction_1</calReductionId>
+  </row>
+</CalPointingTable>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CorrelatorModeTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cormod="http://Alma/XASDM/CorrelatorModeTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db98/X1" entityIdEncrypted="na" entityTypeName="CorrelatorModeTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <correlatorModeId>CorrelatorMode_0</correlatorModeId>
+    <numBaseband>4</numBaseband>
+    <basebandNames>1 4 BB_1 BB_2 BB_3 BB_4</basebandNames>
+    <basebandConfig>1 4 0 0 0 0</basebandConfig>
+    <accumMode>NORMAL</accumMode>
+    <binMode>0</binMode>
+    <numAxes>10</numAxes>
+    <axesOrderArray>1 10 ANT APC BAB BAL BIN POL SPP SPW SUB TIM</axesOrderArray>
+    <filterMode>1 4 FILTER_TDM FILTER_TDM FILTER_TDM FILTER_TDM</filterMode>
+    <correlatorName>ALMA_BASELINE</correlatorName>
+  </row>
+  <row>
+    <correlatorModeId>CorrelatorMode_1</correlatorModeId>
+    <numBaseband>2</numBaseband>
+    <basebandNames>1 2 BB_1 BB_3</basebandNames>
+    <basebandConfig>1 2 0 0</basebandConfig>
+    <accumMode>NORMAL</accumMode>
+    <binMode>0</binMode>
+    <numAxes>10</numAxes>
+    <axesOrderArray>1 10 ANT APC BAB BAL BIN POL SPP SPW SUB TIM</axesOrderArray>
+    <filterMode>1 2 FILTER_TDM FILTER_TDM</filterMode>
+    <correlatorName>ALMA_BASELINE</correlatorName>
+  </row>
+  <row>
+    <correlatorModeId>CorrelatorMode_2</correlatorModeId>
+    <numBaseband>2</numBaseband>
+    <basebandNames>1 2 BB_1 BB_3</basebandNames>
+    <basebandConfig>1 2 0 0</basebandConfig>
+    <accumMode>NORMAL</accumMode>
+    <binMode>0</binMode>
+    <numAxes>10</numAxes>
+    <axesOrderArray>1 10 ANT APC BAB BAL BIN POL SPP SPW SUB TIM</axesOrderArray>
+    <filterMode>1 2 FILTER_TFB FILTER_TFB</filterMode>
+    <correlatorName>ALMA_BASELINE</correlatorName>
+  </row>
+</CorrelatorModeTable>
+

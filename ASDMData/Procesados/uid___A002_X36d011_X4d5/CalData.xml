@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalDataTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cldata="http://Alma/XASDM/CalDataTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db8f/X1" entityIdEncrypted="na" entityTypeName="CalDataTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <calDataId>CalData_0</calDataId>
+    <startTimeObserved>4833137975793000000</startTimeObserved>
+    <endTimeObserved>4833138069467000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 1</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_1</calDataId>
+    <startTimeObserved>4833137975793000000</startTimeObserved>
+    <endTimeObserved>4833138069467000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_POINTING</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 1</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_2</calDataId>
+    <startTimeObserved>4833138110384000000</startTimeObserved>
+    <endTimeObserved>4833138213060000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 2</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_3</calDataId>
+    <startTimeObserved>4833138110384000000</startTimeObserved>
+    <endTimeObserved>4833138213060000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 2</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_4</calDataId>
+    <startTimeObserved>4833138243806000000</startTimeObserved>
+    <endTimeObserved>4833138309890000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 3</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_5</calDataId>
+    <startTimeObserved>4833138243806000000</startTimeObserved>
+    <endTimeObserved>4833138309890000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 3</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_6</calDataId>
+    <startTimeObserved>4833138346830000000</startTimeObserved>
+    <endTimeObserved>4833138568539000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 4</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_7</calDataId>
+    <startTimeObserved>4833138346830000000</startTimeObserved>
+    <endTimeObserved>4833138568539000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 4</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_8</calDataId>
+    <startTimeObserved>4833138346830000000</startTimeObserved>
+    <endTimeObserved>4833138568539000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_CROSS</calDataType>
+    <calType>CAL_BANDPASS</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 4</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_9</calDataId>
+    <startTimeObserved>4833138770045000000</startTimeObserved>
+    <endTimeObserved>4833138824939000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 6</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_10</calDataId>
+    <startTimeObserved>4833138770045000000</startTimeObserved>
+    <endTimeObserved>4833138824939000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 6</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_11</calDataId>
+    <startTimeObserved>4833138854933000000</startTimeObserved>
+    <endTimeObserved>4833139004907000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 7</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_12</calDataId>
+    <startTimeObserved>4833138854933000000</startTimeObserved>
+    <endTimeObserved>4833139004907000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_AMPLI</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 7</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_13</calDataId>
+    <startTimeObserved>4833138854933000000</startTimeObserved>
+    <endTimeObserved>4833139004907000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 7</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_14</calDataId>
+    <startTimeObserved>4833139199178000000</startTimeObserved>
+    <endTimeObserved>4833139254625000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 9</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_15</calDataId>
+    <startTimeObserved>4833139199178000000</startTimeObserved>
+    <endTimeObserved>4833139254625000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 9</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_16</calDataId>
+    <startTimeObserved>4833139284775000000</startTimeObserved>
+    <endTimeObserved>4833139328360000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 10</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_17</calDataId>
+    <startTimeObserved>4833139284775000000</startTimeObserved>
+    <endTimeObserved>4833139328360000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 10</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_18</calDataId>
+    <startTimeObserved>4833139346056000000</startTimeObserved>
+    <endTimeObserved>4833139401587000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 11</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_19</calDataId>
+    <startTimeObserved>4833139346056000000</startTimeObserved>
+    <endTimeObserved>4833139401587000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 11</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_20</calDataId>
+    <startTimeObserved>4833139431773000000</startTimeObserved>
+    <endTimeObserved>4833139867066000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 12</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_21</calDataId>
+    <startTimeObserved>4833139884112000000</startTimeObserved>
+    <endTimeObserved>4833139935208000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 13</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_22</calDataId>
+    <startTimeObserved>4833139884112000000</startTimeObserved>
+    <endTimeObserved>4833139935208000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 13</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_23</calDataId>
+    <startTimeObserved>4833139958401000000</startTimeObserved>
+    <endTimeObserved>4833140001919000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 14</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_24</calDataId>
+    <startTimeObserved>4833139958401000000</startTimeObserved>
+    <endTimeObserved>4833140001919000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 14</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_25</calDataId>
+    <startTimeObserved>4833140020104000000</startTimeObserved>
+    <endTimeObserved>4833140071149000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 15</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_26</calDataId>
+    <startTimeObserved>4833140020104000000</startTimeObserved>
+    <endTimeObserved>4833140071149000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 15</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_27</calDataId>
+    <startTimeObserved>4833140094504000000</startTimeObserved>
+    <endTimeObserved>4833140530188000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 16</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_28</calDataId>
+    <startTimeObserved>4833140548321000000</startTimeObserved>
+    <endTimeObserved>4833140598911000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 17</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_29</calDataId>
+    <startTimeObserved>4833140548321000000</startTimeObserved>
+    <endTimeObserved>4833140598911000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 17</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_30</calDataId>
+    <startTimeObserved>4833140622223000000</startTimeObserved>
+    <endTimeObserved>4833140665711000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 18</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_31</calDataId>
+    <startTimeObserved>4833140622223000000</startTimeObserved>
+    <endTimeObserved>4833140665711000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 18</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_32</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833140648880000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_CURVE</calType>
+    <numScan>3</numScan>
+    <scanSet>1 3 10 14 18</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_33</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833140648880000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_SEEING</calType>
+    <numScan>3</numScan>
+    <scanSet>1 3 10 14 18</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_34</calDataId>
+    <startTimeObserved>4833140683833000000</startTimeObserved>
+    <endTimeObserved>4833140734192000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 19</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_35</calDataId>
+    <startTimeObserved>4833140683833000000</startTimeObserved>
+    <endTimeObserved>4833140734192000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 19</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_36</calDataId>
+    <startTimeObserved>4833140757095000000</startTimeObserved>
+    <endTimeObserved>4833141192404000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 20</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_37</calDataId>
+    <startTimeObserved>4833141209335000000</startTimeObserved>
+    <endTimeObserved>4833141265358000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 21</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_38</calDataId>
+    <startTimeObserved>4833141209335000000</startTimeObserved>
+    <endTimeObserved>4833141265358000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 21</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_39</calDataId>
+    <startTimeObserved>4833141295734000000</startTimeObserved>
+    <endTimeObserved>4833141339198000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 22</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_40</calDataId>
+    <startTimeObserved>4833141295734000000</startTimeObserved>
+    <endTimeObserved>4833141339198000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 22</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_41</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833141322320000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_CURVE</calType>
+    <numScan>4</numScan>
+    <scanSet>1 4 10 14 18 22</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_42</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833141322320000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_SEEING</calType>
+    <numScan>4</numScan>
+    <scanSet>1 4 10 14 18 22</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_43</calDataId>
+    <startTimeObserved>4833141357422000000</startTimeObserved>
+    <endTimeObserved>4833141413053000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 23</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_44</calDataId>
+    <startTimeObserved>4833141357422000000</startTimeObserved>
+    <endTimeObserved>4833141413053000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 23</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_45</calDataId>
+    <startTimeObserved>4833141443165000000</startTimeObserved>
+    <endTimeObserved>4833141878634000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 24</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_46</calDataId>
+    <startTimeObserved>4833141896312000000</startTimeObserved>
+    <endTimeObserved>4833141947126000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 25</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_47</calDataId>
+    <startTimeObserved>4833141896312000000</startTimeObserved>
+    <endTimeObserved>4833141947126000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 25</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_48</calDataId>
+    <startTimeObserved>4833141970421000000</startTimeObserved>
+    <endTimeObserved>4833142013707000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 26</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_49</calDataId>
+    <startTimeObserved>4833141970421000000</startTimeObserved>
+    <endTimeObserved>4833142013707000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 26</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_50</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833141996912000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_CURVE</calType>
+    <numScan>5</numScan>
+    <scanSet>1 5 10 14 18 22 26</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_51</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833141996912000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_SEEING</calType>
+    <numScan>5</numScan>
+    <scanSet>1 5 10 14 18 22 26</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_52</calDataId>
+    <startTimeObserved>4833142031747000000</startTimeObserved>
+    <endTimeObserved>4833142082405000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 27</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_53</calDataId>
+    <startTimeObserved>4833142031747000000</startTimeObserved>
+    <endTimeObserved>4833142082405000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>FULL_RESOLUTION_AUTO</calDataType>
+    <calType>CAL_ATMOSPHERE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 27</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_54</calDataId>
+    <startTimeObserved>4833142105284000000</startTimeObserved>
+    <endTimeObserved>4833142184412000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 28</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_55</calDataId>
+    <startTimeObserved>4833142205156000000</startTimeObserved>
+    <endTimeObserved>4833142248741000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>WVR</calDataType>
+    <calType>CAL_WVR</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 29</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_56</calDataId>
+    <startTimeObserved>4833142205156000000</startTimeObserved>
+    <endTimeObserved>4833142248741000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_PHASE</calType>
+    <numScan>1</numScan>
+    <scanSet>1 1 29</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_57</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833142231872000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_CURVE</calType>
+    <numScan>6</numScan>
+    <scanSet>1 6 10 14 18 22 26 29</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+  <row>
+    <calDataId>CalData_58</calDataId>
+    <startTimeObserved>4833139311648000000</startTimeObserved>
+    <endTimeObserved>4833142231872000000</endTimeObserved>
+    <execBlockUID>
+      <EntityRef entityId="uid://A002/X36d011/X4d5" partId="X00000000" entityTypeName="ASDM" documentVersion="1" />
+    </execBlockUID>
+    <calDataType>CHANNEL_AVERAGE_CROSS</calDataType>
+    <calType>CAL_SEEING</calType>
+    <numScan>6</numScan>
+    <scanSet>1 6 10 14 18 22 26 29</scanSet>
+    <assocCalNature>ASSOCIATED_EXECBLOCK</assocCalNature>
+  </row>
+</CalDataTable>
+

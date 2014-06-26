@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalFluxTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clflx="http://Alma/XASDM/CalFluxTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db91/X1" entityIdEncrypted="na" entityTypeName="CalFluxTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <sourceName>Callisto</sourceName>
+    <startValidTime>4833138842581000000</startValidTime>
+    <endValidTime>4833138992555000000</endValidTime>
+    <numFrequencyRanges>2</numFrequencyRanges>
+    <numStokes>2</numStokes>
+    <frequencyRanges>2 2 2 2.52821895859475E11 2.54696895859475E11 2.39467195859275E11 2.41342195859275E11</frequencyRanges>
+    <fluxMethod>EFFICIENCY</fluxMethod>
+    <flux>2 2 2 3.0741171199414463 3.137646123766899 3.072038316892253 3.1074951969914966</flux>
+    <fluxError>2 2 2 0.0 0.0 0.0 0.0</fluxError>
+    <stokes>1 2 XX YY</stokes>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+</CalFluxTable>
+

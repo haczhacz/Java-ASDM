@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FocusModelTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:focsm="http://Alma/XASDM/FocusModelTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db9f/X1" entityIdEncrypted="na" entityTypeName="FocusModelTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 3.5414056E-4 0.0 0.0 -0.004934 -0.0030519809 0.0 0.0 0.0 -7.02288E-4 0.002014 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_13</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 3.5414056E-4 0.0 0.0 -0.004934 -0.0030519809 0.0 0.0 0.0 -7.02288E-4 0.002014 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_13</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.116586E-4 0.0 0.0 -0.003418 -0.0027375994 0.0 0.0 0.0 -0.004543748 0.002195 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_11</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.116586E-4 0.0 0.0 -0.003418 -0.0027375994 0.0 0.0 0.0 -0.004543748 0.002195 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_11</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0025415292 0.0 0.0 -0.004057 -0.002831173 0.0 0.0 0.0 -0.00233507 0.00178 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_4</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0025415292 0.0 0.0 -0.004057 -0.002831173 0.0 0.0 0.0 -0.00233507 0.00178 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_4</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0030522575 0.0 0.0 -0.004372 -0.0014078357 0.0 0.0 0.0 0.0016623897 0.001872 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_6</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0030522575 0.0 0.0 -0.004372 -0.0014078357 0.0 0.0 0.0 0.0016623897 0.001872 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_6</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -4.492266E-4 0.0 0.0 -0.003592 -0.0037581504 0.0 0.0 0.0 -6.3280854E-4 0.001764 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_9</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -4.492266E-4 0.0 0.0 -0.003592 -0.0037581504 0.0 0.0 0.0 -6.3280854E-4 0.001764 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_9</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -6.305559E-4 0.0 0.0 -0.004089 -0.0052009574 0.0 0.0 0.0 -0.0020431613 0.001881 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_2</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -6.305559E-4 0.0 0.0 -0.004089 -0.0052009574 0.0 0.0 0.0 -0.0020431613 0.001881 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_2</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 0.0026100376 0.0 0.0 -0.004391 -0.004605314 0.0 0.0 0.0 -0.0020897277 0.001678 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_7</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 0.0026100376 0.0 0.0 -0.004391 -0.004605314 0.0 0.0 0.0 -0.0020897277 0.001678 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_7</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0014202662 0.0 0.0 -0.004365 -0.0038041964 0.0 0.0 0.0 0.0013220574 0.00194 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_10</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0014202662 0.0 0.0 -0.004365 -0.0038041964 0.0 0.0 0.0 0.0013220574 0.00194 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_10</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.001472353 0.0 0.0 -0.006064 -4.855623E-4 0.0 0.0 0.0 0.0041813026 0.001821 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_16</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.001472353 0.0 0.0 -0.006064 -4.855623E-4 0.0 0.0 0.0 0.0041813026 0.001821 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_16</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -7.5221685E-4 0.0 0.0 -0.004052 -0.0029831622 0.0 0.0 0.0 -0.0026719354 0.001958 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_14</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -7.5221685E-4 0.0 0.0 -0.004052 -0.0029831622 0.0 0.0 0.0 -0.0026719354 0.001958 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_14</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -8.1333367E-4 0.0 0.0 -0.006755 3.3255745E-4 0.0 0.0 0.0 0.0010698799 0.00202 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_17</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -8.1333367E-4 0.0 0.0 -0.006755 3.3255745E-4 0.0 0.0 0.0 0.0010698799 0.00202 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_17</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 2.6957193E-4 0.0 0.0 -0.002727 -0.0058133993 0.0 0.0 0.0 0.0023701182 6.62E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_0</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 2.6957193E-4 0.0 0.0 -0.002727 -0.0058133993 0.0 0.0 0.0 0.0023701182 6.62E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_0</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 4.992768E-4 0.0 0.0 -0.006525 -2.0856706E-4 0.0 0.0 0.0 8.370113E-4 0.001852 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_15</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 4.992768E-4 0.0 0.0 -0.006525 -2.0856706E-4 0.0 0.0 0.0 8.370113E-4 0.001852 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_15</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.002604292 0.0 0.0 -0.003655 -0.0037059824 0.0 0.0 0.0 0.0017933976 0.001972 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_5</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.002604292 0.0 0.0 -0.003655 -0.0037059824 0.0 0.0 0.0 0.0017933976 0.001972 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_5</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.4843173E-4 0.0 0.0 -0.003612 -0.0054831123 0.0 0.0 0.0 0.0032701916 0.001943 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_8</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.4843173E-4 0.0 0.0 -0.003612 -0.0054831123 0.0 0.0 0.0 0.0032701916 0.001943 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_8</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0016331084 0.0 0.0 -0.003322 -0.0017881708 0.0 0.0 0.0 -3.9719715E-4 0.002029 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_12</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0016331084 0.0 0.0 -0.003322 -0.0017881708 0.0 0.0 0.0 -3.9719715E-4 0.002029 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_12</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0024336255 0.0 0.0 -0.003717 -0.0018712644 0.0 0.0 0.0 -0.0010749815 0.001853 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_3</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0024336255 0.0 0.0 -0.003717 -0.0018712644 0.0 0.0 0.0 -0.0010749815 0.001853 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_3</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>0</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.639479E-4 0.0 0.0 -0.002906 -9.164538E-4 0.0 0.0 0.0 0.0018114325 7.55E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_1</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>1</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_03</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.639479E-4 0.0 0.0 -0.002906 -9.164538E-4 0.0 0.0 0.0 0.0018114325 7.55E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_1</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -1.11428075E-4 0.0 0.0 -0.002727 -0.0054903994 0.0 0.0 0.0 0.002161118 6.62E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_0</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -1.11428075E-4 0.0 0.0 -0.002727 -0.0054903994 0.0 0.0 0.0 0.002161118 6.62E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_0</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -5.589479E-4 0.0 0.0 -0.002906 -9.654538E-4 0.0 0.0 0.0 0.0016474325 7.55E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_1</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -5.589479E-4 0.0 0.0 -0.002906 -9.654538E-4 0.0 0.0 0.0 0.0016474325 7.55E-4 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_1</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -6.975559E-4 0.0 0.0 -0.004089 -0.0051559573 0.0 0.0 0.0 -0.0022561613 0.001881 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_2</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -6.975559E-4 0.0 0.0 -0.004089 -0.0051559573 0.0 0.0 0.0 -0.0022561613 0.001881 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_2</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0025056256 0.0 0.0 -0.003717 -0.0021712645 0.0 0.0 0.0 -8.469815E-4 0.001853 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_3</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0025056256 0.0 0.0 -0.003717 -0.0021712645 0.0 0.0 0.0 -8.469815E-4 0.001853 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_3</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0026245292 0.0 0.0 -0.004057 -0.002941173 0.0 0.0 0.0 -0.00219207 0.00178 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_4</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0026245292 0.0 0.0 -0.004057 -0.002941173 0.0 0.0 0.0 -0.00219207 0.00178 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_4</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.002588292 0.0 0.0 -0.003655 -0.0035449823 0.0 0.0 0.0 0.0019213975 0.001972 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_5</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.002588292 0.0 0.0 -0.003655 -0.0035449823 0.0 0.0 0.0 0.0019213975 0.001972 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_5</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0029022575 0.0 0.0 -0.004372 -0.0015738357 0.0 0.0 0.0 0.0017943898 0.001872 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_6</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0029022575 0.0 0.0 -0.004372 -0.0015738357 0.0 0.0 0.0 0.0017943898 0.001872 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_6</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 0.0026090376 0.0 0.0 -0.004391 -0.0040343143 0.0 0.0 0.0 -0.0018307276 0.001678 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_7</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 0.0026090376 0.0 0.0 -0.004391 -0.0040343143 0.0 0.0 0.0 -0.0018307276 0.001678 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_7</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -5.314317E-4 0.0 0.0 -0.003612 -0.005471112 0.0 0.0 0.0 0.0036841917 0.001943 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_8</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -5.314317E-4 0.0 0.0 -0.003612 -0.005471112 0.0 0.0 0.0 0.0036841917 0.001943 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_8</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -4.7022657E-4 0.0 0.0 -0.003592 -0.0035951505 0.0 0.0 0.0 -4.8780855E-4 0.001764 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_9</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -4.7022657E-4 0.0 0.0 -0.003592 -0.0035951505 0.0 0.0 0.0 -4.8780855E-4 0.001764 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_9</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0016042662 0.0 0.0 -0.004365 -0.0036581964 0.0 0.0 0.0 0.0015710575 0.00194 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_10</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0016042662 0.0 0.0 -0.004365 -0.0036581964 0.0 0.0 0.0 0.0015710575 0.00194 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_10</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.036586E-4 0.0 0.0 -0.003418 -0.0026415994 0.0 0.0 0.0 -0.004499748 0.002195 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_11</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -3.036586E-4 0.0 0.0 -0.003418 -0.0026415994 0.0 0.0 0.0 -0.004499748 0.002195 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_11</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0018131085 0.0 0.0 -0.003322 -0.0019231708 0.0 0.0 0.0 -2.0919714E-4 0.002029 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_12</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.0018131085 0.0 0.0 -0.003322 -0.0019231708 0.0 0.0 0.0 -2.0919714E-4 0.002029 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_12</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 3.4414054E-4 0.0 0.0 -0.004934 -0.002791981 0.0 0.0 0.0 -9.80288E-4 0.002014 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_13</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 3.4414054E-4 0.0 0.0 -0.004934 -0.002791981 0.0 0.0 0.0 -9.80288E-4 0.002014 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_13</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -7.3621684E-4 0.0 0.0 -0.004052 -0.002879162 0.0 0.0 0.0 -0.0029329355 0.001958 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_14</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -7.3621684E-4 0.0 0.0 -0.004052 -0.002879162 0.0 0.0 0.0 -0.0029329355 0.001958 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_14</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 4.2927678E-4 0.0 0.0 -0.006525 -9.856706E-5 0.0 0.0 0.0 5.7301135E-4 0.001852 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_15</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 4.2927678E-4 0.0 0.0 -0.006525 -9.856706E-5 0.0 0.0 0.0 5.7301135E-4 0.001852 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_15</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.001778353 0.0 0.0 -0.006064 -9.156232E-5 0.0 0.0 0.0 0.0037993027 0.001821 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_16</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -0.001778353 0.0 0.0 -0.006064 -9.156232E-5 0.0 0.0 0.0 0.0037993027 0.001821 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_16</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>2</focusModelId>
+    <polarizationType>X</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -6.8133365E-4 0.0 0.0 -0.006755 1.8655746E-4 0.0 0.0 0.0 8.0187985E-4 0.00202 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_17</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+  <row>
+    <focusModelId>3</focusModelId>
+    <polarizationType>Y</polarizationType>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <numCoeff>14</numCoeff>
+    <coeffName>1 14 "ALPHA" "BETA" "XC" "XR" "XS" "XTA" "YC" "YR" "YS" "YTA" "ZC" "ZR" "ZS" "ZTA"</coeffName>
+    <coeffFormula>1 14 "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified" "Unspecified"</coeffFormula>
+    <coeffVal>1 14 0.0 0.0 0.0 -6.8133365E-4 0.0 0.0 -0.006755 1.8655746E-4 0.0 0.0 0.0 8.0187985E-4 0.00202 0.0</coeffVal>
+    <assocNature>UNIMPLEMENTED</assocNature>
+    <antennaId>Antenna_17</antennaId>
+    <assocFocusModelId>-99</assocFocusModelId>
+  </row>
+</FocusModelTable>
+

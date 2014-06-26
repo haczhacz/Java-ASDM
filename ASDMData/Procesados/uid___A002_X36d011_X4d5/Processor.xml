@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessorTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prcssr="http://Alma/XASDM/ProcessorTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36dba3/X1" entityIdEncrypted="na" entityTypeName="ProcessorTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <processorId>Processor_0</processorId>
+    <modeId>CorrelatorMode_0</modeId>
+    <processorType>CORRELATOR</processorType>
+    <processorSubType>ALMA_CORRELATOR_MODE</processorSubType>
+  </row>
+  <row>
+    <processorId>Processor_1</processorId>
+    <modeId>AlmaRadiometer_3</modeId>
+    <processorType>RADIOMETER</processorType>
+    <processorSubType>ALMA_RADIOMETER</processorSubType>
+  </row>
+  <row>
+    <processorId>Processor_2</processorId>
+    <modeId>CorrelatorMode_1</modeId>
+    <processorType>CORRELATOR</processorType>
+    <processorSubType>ALMA_CORRELATOR_MODE</processorSubType>
+  </row>
+  <row>
+    <processorId>Processor_3</processorId>
+    <modeId>CorrelatorMode_2</modeId>
+    <processorType>CORRELATOR</processorType>
+    <processorSubType>ALMA_CORRELATOR_MODE</processorSubType>
+  </row>
+</ProcessorTable>
+
