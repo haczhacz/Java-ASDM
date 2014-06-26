@@ -16,14 +16,22 @@ import alma.hla.runtime.asdm.ex.ConversionException;
 import au.com.bytecode.opencsv.CSVWriter;
 
 public class ASDMCsvConverter {
-	
-	 	public static final String ASDM_INPUT_DATA_PATH = "./ASDMData/";
-	 	public static final String ASDM_OUTPUT_DATA_PATH = "./CSV/";
-	
+		
 			
         public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
-           
+        	// validas para eclipse
+        	String ASDM_INPUT_DATA_PATH = "./ASDMData/";
+    	 	String ASDM_OUTPUT_DATA_PATH = "./CSV/";
+          	
+        	// maneja el caso que se ejecute por bash
+        	if (args.length == 2) {
+        	 	ASDM_INPUT_DATA_PATH = args[0];
+        	 	ASDM_OUTPUT_DATA_PATH = args[1];
+        	}
+          	
+        
+        	
     		String[] asdmFoldersPath = listFolderASDMData(ASDM_INPUT_DATA_PATH);
         
     		// verifica y crea carpeta csv de output
