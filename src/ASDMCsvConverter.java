@@ -101,19 +101,11 @@ public class ASDMCsvConverter {
                 	                	
                 	if ( scanRow.isSourceNameExists() ) {							// comprueba que sourceName exista (es opcional en scanTable)
                 		
-                		String sourceName = scanRow.getSourceName();
+                		String sourceName = scanRow.getSourceName().replace(" ", "_");
                     	// target_name 													// es opcional  en scantable
-                    	String newSourceName = "";
-                		
-                		StringTokenizer stTexto = new StringTokenizer(sourceName, " ");
-
-                		while (stTexto.hasMoreElements())
-                			newSourceName = newSourceName + "_" + stTexto.nextElement();
-                		
-                		System.out.println(newSourceName);
-                		
-                		obscoreRow.setTarget_name(newSourceName);
-
+                    		
+                		obscoreRow.setTarget_name( sourceName );
+                		System.out.println (obscoreRow.getTarget_name());
                                         	
                         // s_ra
                     	// s_dec
@@ -191,15 +183,14 @@ public class ASDMCsvConverter {
 
                 // se mueve a carpeta procesados
     			renameFolder(asdmDataFolder.getCanonicalPath(), asdmDataFolder.getParent(), NOMBRE_CARPETA_PROCESADOS);
-                
-                
-              
-    		
+                                
     		}
     		
                 
         }   
 
+        
+        
         
         
         
@@ -239,10 +230,7 @@ public class ASDMCsvConverter {
          * y a una ruta pasada por parametro
          */
         private static void renameFolder (String folderDataPath, String newFolderPath, String newNameFolder) throws IOException {  
-        	
-
-			
-			
+        				
     		File asdmDataFolder = new File (folderDataPath);
             File dirProcesados = new File (newFolderPath + "/" + newNameFolder  + "/" );
             File dirNewName = new File( dirProcesados + "/" + asdmDataFolder.getName() );  
