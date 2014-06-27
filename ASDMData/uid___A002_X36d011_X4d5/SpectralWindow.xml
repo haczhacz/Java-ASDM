@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpectralWindowTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:spctrw="http://Alma/XASDM/SpectralWindowTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36dba8/X1" entityIdEncrypted="na" entityTypeName="SpectralWindowTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <spectralWindowId>SpectralWindow_0</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.833E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_1</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8331E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_2</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8332000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_3</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8333E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_4</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8334E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_5</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8335000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_6</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8336E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_7</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8337E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_8</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8338000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_9</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8339E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_10</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.834E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_11</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8341000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_12</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8342000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_13</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8343E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_14</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8344E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_15</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8345000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_16</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8346E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_17</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8347E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_18</spectralWindowId>
+    <basebandName>NOBB</basebandName>
+    <netSideband>DSB</netSideband>
+    <numChan>4</numChan>
+    <refFreq>1.8348000000000003E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>7.5E9</totBandwidth>
+    <windowFunction>UNIFORM</windowFunction>
+    <chanFreqArray>1 4 1.8455E11 1.8655E11 1.888E11 1.9055E11</chanFreqArray>
+    <chanWidthArray>1 4 1.5E9 2.5E9 2.0E9 1.5E9</chanWidthArray>
+    <effectiveBwArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</effectiveBwArray>
+    <resolutionArray>1 4 7.5E9 7.5E9 7.5E9 7.5E9</resolutionArray>
+    <numAssocValues>16</numAssocValues>
+    <assocNature>1 16 FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE FULL_RESOLUTION CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 16 SpectralWindow_19 SpectralWindow_20 SpectralWindow_21 SpectralWindow_22 SpectralWindow_23 SpectralWindow_24 SpectralWindow_25 SpectralWindow_26 SpectralWindow_27 SpectralWindow_28 SpectralWindow_29 SpectralWindow_30 SpectralWindow_31 SpectralWindow_32 SpectralWindow_33 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_19</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>9.1994575E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>9.19867625E10</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_20</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_20</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>9.1994575E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.796875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 9.097895E10</chanFreqArray>
+    <chanWidthArray>1 1 1.796875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.796875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.796875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_19</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_21</spectralWindowId>
+    <basebandName>BB_2</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>9.3932075E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>9.39242625E10</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_22</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_22</spectralWindowId>
+    <basebandName>BB_2</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>9.3932075E10</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.796875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 9.291645E10</chanFreqArray>
+    <chanWidthArray>1 1 1.796875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.796875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.796875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_21</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_23</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>1.01994575E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>1.020023875E11</chanFreqStart>
+    <chanFreqStep>1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_24</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_24</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>1.01994575E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.796875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 1.0297895E11</chanFreqArray>
+    <chanWidthArray>1 1 1.796875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.796875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.796875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_23</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_25</spectralWindowId>
+    <basebandName>BB_4</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>1.03994575E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>1.040023875E11</chanFreqStart>
+    <chanFreqStep>1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_26</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_26</spectralWindowId>
+    <basebandName>BB_4</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>1.03994575E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.796875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 1.0497895E11</chanFreqArray>
+    <chanWidthArray>1 1 1.796875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.796875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.796875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_25</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_27</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>2.527596400001E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>2.527674525001E11</chanFreqStart>
+    <chanFreqStep>1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_28</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_28</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>2.527596400001E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.796875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 2.537440150001E11</chanFreqArray>
+    <chanWidthArray>1 1 1.796875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.796875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.796875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_27</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_29</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>128</numChan>
+    <refFreq>2.414049399999E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>2.0E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>2.413971274999E11</chanFreqStart>
+    <chanFreqStep>-1.5625E7</chanFreqStep>
+    <chanWidth>1.5625E7</chanWidth>
+    <effectiveBw>1.5625E7</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-0.5</refChan>
+    <resolution>1.5625E7</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_30</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_30</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>2.414049399999E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.796875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 2.403893149999E11</chanFreqArray>
+    <chanWidthArray>1 1 1.796875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.796875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.796875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_29</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_31</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>3840</numChan>
+    <refFreq>2.527596400001E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>2.52822384140725E11</chanFreqStart>
+    <chanFreqStep>488281.25</chanFreqStep>
+    <chanWidth>488281.25</chanWidth>
+    <effectiveBw>488281.25</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-128.5</refChan>
+    <resolution>488281.25</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_32</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_32</spectralWindowId>
+    <basebandName>BB_1</basebandName>
+    <netSideband>USB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>2.527596400001E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 2.53759395859475E11</chanFreqArray>
+    <chanWidthArray>1 1 1.875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_31</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_33</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>3840</numChan>
+    <refFreq>2.414049399999E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqStart>2.41342195859275E11</chanFreqStart>
+    <chanFreqStep>-488281.25</chanFreqStep>
+    <chanWidth>488281.25</chanWidth>
+    <effectiveBw>488281.25</effectiveBw>
+    <quantization>true</quantization>
+    <refChan>-128.5</refChan>
+    <resolution>488281.25</resolution>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE CHANNEL_AVERAGE</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_34</assocSpectralWindowId>
+  </row>
+  <row>
+    <spectralWindowId>SpectralWindow_34</spectralWindowId>
+    <basebandName>BB_3</basebandName>
+    <netSideband>LSB</netSideband>
+    <numChan>1</numChan>
+    <refFreq>2.414049399999E11</refFreq>
+    <sidebandProcessingMode>NONE</sidebandProcessingMode>
+    <totBandwidth>1.875E9</totBandwidth>
+    <windowFunction>HANNING</windowFunction>
+    <chanFreqArray>1 1 2.40404695859275E11</chanFreqArray>
+    <chanWidthArray>1 1 1.875E9</chanWidthArray>
+    <effectiveBwArray>1 1 1.875E9</effectiveBwArray>
+    <quantization>false</quantization>
+    <resolutionArray>1 1 1.875E9</resolutionArray>
+    <numAssocValues>19</numAssocValues>
+    <assocNature>1 19 BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE BASEBAND_WIDE FULL_RESOLUTION</assocNature>
+    <assocSpectralWindowId>1 19 SpectralWindow_1 SpectralWindow_2 SpectralWindow_3 SpectralWindow_4 SpectralWindow_5 SpectralWindow_6 SpectralWindow_7 SpectralWindow_8 SpectralWindow_9 SpectralWindow_10 SpectralWindow_11 SpectralWindow_12 SpectralWindow_13 SpectralWindow_14 SpectralWindow_15 SpectralWindow_16 SpectralWindow_17 SpectralWindow_18 SpectralWindow_33</assocSpectralWindowId>
+  </row>
+</SpectralWindowTable>
+

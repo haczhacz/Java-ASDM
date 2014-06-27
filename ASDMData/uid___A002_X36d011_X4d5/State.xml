@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StateTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:state="http://Alma/XASDM/StateTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36dba9/X1" entityIdEncrypted="na" entityTypeName="StateTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <stateId>State_0</stateId>
+    <calDeviceName>NONE</calDeviceName>
+    <sig>true</sig>
+    <ref>false</ref>
+    <onSky>true</onSky>
+    <weight>1.0</weight>
+  </row>
+  <row>
+    <stateId>State_1</stateId>
+    <calDeviceName>AMBIENT_LOAD</calDeviceName>
+    <sig>false</sig>
+    <ref>true</ref>
+    <onSky>false</onSky>
+    <weight>1.0</weight>
+  </row>
+  <row>
+    <stateId>State_2</stateId>
+    <calDeviceName>HOT_LOAD</calDeviceName>
+    <sig>false</sig>
+    <ref>true</ref>
+    <onSky>false</onSky>
+    <weight>1.0</weight>
+  </row>
+</StateTable>
+

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalAmpliTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clmpl="http://Alma/XASDM/CalAmpliTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36ab24/X1" entityIdEncrypted="na" entityTypeName="CalAmpliTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36a70f/X318" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <antennaName>DA42</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.8411615 0.8809494</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DA43</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.56500614 0.5439457</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV01</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.06538196 0.075418346</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV03</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.8063494 0.8078891</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV05</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.83490497 0.80226564</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV06</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 1.012314 0.9924516</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV07</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.61486965 0.42679602</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV10</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.39165443 0.36993125</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV11</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.5978088 0.5533515</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV12</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.48887777 0.45336434</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV13</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.9560816 0.97705007</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV14</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.6205798 0.6507754</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV15</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.6517622 0.61001915</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV16</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.052744605 0.05395331</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM01</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.73794216 0.6810364</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM02</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.9952516 1.0133718</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM03</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_1</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.52821895859475E11 2.54696895859475E11</frequencyRange>
+    <apertureEfficiency>1 2 0.74138165 0.77135956</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DA42</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.6100805 0.7617791</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DA43</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.6362741 0.5861986</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV01</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.1042682 0.10699722</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV03</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.8515468 0.82253814</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV05</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.3647464 0.7555145</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV06</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.9781062 0.97949994</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV07</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.61152965 0.3992886</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV10</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.45125005 0.45234898</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV11</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.6642396 0.62261665</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV12</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.5869304 0.4992975</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV13</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 1.0536392 0.95880663</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV14</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.72400993 0.71713483</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV15</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.73355424 0.71924007</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>DV16</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.070993915 0.07026037</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM01</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.7504473 0.73051274</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM02</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.9932371 1.0157397</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+  <row>
+    <antennaName>PM03</antennaName>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <receiverBand>ALMA_RB_06</receiverBand>
+    <basebandName>BB_3</basebandName>
+    <numReceptor>2</numReceptor>
+    <polarizationTypes>1 2 X Y</polarizationTypes>
+    <startValidTime>4832949813994500000</startValidTime>
+    <endValidTime>4832949963541500000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.41342195859275E11</frequencyRange>
+    <apertureEfficiency>1 2 0.82836866 0.8335181</apertureEfficiency>
+    <apertureEfficiencyError>1 2 0.0 0.0</apertureEfficiencyError>
+    <calDataId>CalData_12</calDataId>
+    <calReductionId>CalReduction_12</calReductionId>
+  </row>
+</CalAmpliTable>
+

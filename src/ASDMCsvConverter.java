@@ -36,22 +36,27 @@ public class ASDMCsvConverter {
           	
         
         	
-        	ArrayList<File> listaCarpetas =  listFolder(ASDM_INPUT_DATA_PATH);
+        	String[] listaCarpetas =  listFolderASDMData(ASDM_INPUT_DATA_PATH);
+        	File asdmDataFolder;
         
-    		// verifica y crea carpeta csv de output
+    		// verifica y crea carpeta CSV de output
     		File folder = new File(ASDM_OUTPUT_DATA_PATH);
     		if (!folder.exists()) {
     			folder.mkdirs();    			
     		}
     		
+
+			
     		
-    		
-    		for (File asdmDataFolder: listaCarpetas) {
-    			
+    		for (String Folder: listaCarpetas) {
+    			asdmDataFolder = new File (Folder);
     			
                 String csv = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
                 
+                
+                
                 ASDM asdm = ASDM.getFromXML(ASDM_INPUT_DATA_PATH + asdmDataFolder.getName());
+                
                 
                 
                 CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
@@ -165,9 +170,6 @@ public class ASDMCsvConverter {
                     
                     
                     
-                    // se mueve a carpeta procesados
-        			renameFolder(asdmDataFolder, NOMBRE_CARPETA_PROCESADOS);
-                    
                    
                     
                 }
@@ -176,7 +178,11 @@ public class ASDMCsvConverter {
                 writer.close();
                 
                 System.out.println("OK");
-                 
+
+                // se mueve a carpeta procesados
+    			renameFolder(asdmDataFolder.getCanonicalPath(), asdmDataFolder.getParent(), NOMBRE_CARPETA_PROCESADOS);
+                
+                
               
     		
     		}
@@ -195,39 +201,51 @@ public class ASDMCsvConverter {
          * Lee el directorio, seleccionando solo las carpetas
          * Carpeta debe contener los datos ASDM
          */        
-        private static ArrayList<File> listFolder (String Path) throws IOException{
-        	
-        	ArrayList<File> listaCarpetas = new ArrayList<File>();
-        	
+        private static String [] listFolderASDMData (String Path) throws IOException{
+            
+        	ArrayList<String> arrayListFolder = new ArrayList<String>();
+           
         	File Dir = new File(Path);	
-            File[] listaArchivos = Dir.listFiles();
-            
-            for (int i = 0; i < listaArchivos.length; i++) {
+        	File [] listaArchivos = Dir.listFiles();
+               
+              	for (int i = 0; i < listaArchivos.length; i++) {
 
-                if (listaArchivos[i].isDirectory() && !listaArchivos[i].getName().equals(NOMBRE_CARPETA_PROCESADOS)) {
-                	listaCarpetas.add(listaArchivos[i]);     
-                }               
-            }
-            
-			return listaCarpetas;
+                   if (listaArchivos[i].isDirectory()) {
+                    arrayListFolder.add(listaArchivos[i].getCanonicalPath());
+                   }
+               }
+               
+           String [] Folders = arrayListFolder.toArray(new String[arrayListFolder.size()]);
+               
+           return Folders;
         }
         
         
         
         
         
-        
-        private static void renameFolder (File asdmDataFolder, String newName) throws IOException {  
-                File dirProcesados = new File (asdmDataFolder.getParent() + "/" + newName  + "/" );
-                File dirNewName = new File( asdmDataFolder.getParent() + "/" + newName  + "/" + asdmDataFolder.getName() );  
-                
-                if (!dirProcesados.exists()){
-                	dirProcesados.mkdirs();
-                }
-                
-                if ( asdmDataFolder.isDirectory()) {  
-                	asdmDataFolder.renameTo(dirNewName);  
-                } 
+        /*
+         * Mueve las carpetas procesadas a una nueva carpeta con nombre pasado por parametro
+         * y a una ruta pasada por parametro
+         */
+        private static void renameFolder (String folderDataPath, String newFolderPath, String newNameFolder) throws IOException {  
+        	
+
+			
+			
+    		File asdmDataFolder = new File (folderDataPath);
+            File dirProcesados = new File (newFolderPath + "/" + newNameFolder  + "/" );
+            File dirNewName = new File( dirProcesados + "/" + asdmDataFolder.getName() );  
+           
+            
+            if (!dirProcesados.exists()){
+            	dirProcesados.mkdirs();
+            }
+            
+            if ( asdmDataFolder.isDirectory()) {  
+            	asdmDataFolder.renameTo(dirNewName);  
+            } 
+             
                 
         }
         

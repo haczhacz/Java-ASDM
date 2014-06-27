@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalReductionTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clred="http://Alma/XASDM/CalReductionTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db94/X1" entityIdEncrypted="na" entityTypeName="CalReductionTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <calReductionId>CalReduction_0</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138070932385000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_1</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138073156231000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_2</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138214863158000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_3</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138217089159000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_4</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138310401936000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_5</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138314197456000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_6</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138576456181000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_7</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138579107457000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_8</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138589163975000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_9</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138825543344000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_10</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833138829463211000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_11</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139008525910000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_12</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139010889375000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_13</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139013675876000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_14</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139255348612000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_15</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139259122251000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_16</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139329606859000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_17</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139331730057000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_18</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139402301395000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_19</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139406013727000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_20</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139877006433000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_21</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139935935781000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_22</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833139939652699000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_23</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140003230579000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_24</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140005410229000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_25</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140071898585000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_26</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140075609196000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_27</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140540063697000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_28</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140599736410000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_29</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140603544313000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_30</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140667143313000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_31</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140669351893000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_32</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140670994920000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_33</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140735068014000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_34</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833140739199388000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_35</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141202623899000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_36</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141266251970000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_37</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141270148745000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_38</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141340650163000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_39</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141342833652000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_40</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141344482775000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_41</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141413989685000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_42</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141417780623000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_43</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141888820160000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_44</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141948137904000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_45</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833141952263339000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_46</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142015287778000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_47</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142017735347000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_48</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142019407951000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_49</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142083496881000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_50</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>2</numParam>
+    <paramSet>1 2 "trecMode=AH" "tsysMode=ALPHA"</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142087671972000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_51</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142186751367000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_52</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142250301970000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_53</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142252724630000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+  <row>
+    <calReductionId>CalReduction_54</calReductionId>
+    <numApplied>0</numApplied>
+    <appliedCalibrations>1 0</appliedCalibrations>
+    <numParam>0</numParam>
+    <paramSet>1 0</paramSet>
+    <numInvalidConditions>1</numInvalidConditions>
+    <invalidConditions>1 1 ANTENNA_DISCONNECT</invalidConditions>
+    <timeReduced>4833142254385587000</timeReduced>
+    <messages>none</messages>
+    <software>TELCAL</software>
+    <softwareVersion>0.0</softwareVersion>
+  </row>
+</CalReductionTable>
+

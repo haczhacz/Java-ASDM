@@ -50,10 +50,10 @@ public class ObscoreRow {
     	ArrayList<String> arraylist = new ArrayList<String>();
         
         // -> Para pruebas.
-            this.s_fov = "s_fov";
-            this.t_resolution = "t_resolution";
-            this.em_res_power = "em_res_power";
-            this.pol_states = "pol_states";
+            this.s_fov = "0";
+            this.t_resolution = "0";
+            this.em_res_power = "0";
+            this.pol_states = "0";
         // <-
         
             
