@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 import alma.SubscanIntentMod.SubscanIntent;
 import alma.asdm.ASDM;
@@ -102,7 +103,16 @@ public class ASDMCsvConverter {
                 		
                 		String sourceName = scanRow.getSourceName();
                     	// target_name 													// es opcional  en scantable
-                    	obscoreRow.setTarget_name(sourceName);
+                    	String newSourceName = "";
+                		
+                		StringTokenizer stTexto = new StringTokenizer(sourceName, " ");
+
+                		while (stTexto.hasMoreElements())
+                			newSourceName = newSourceName + "_" + stTexto.nextElement();
+                		
+                		System.out.println(newSourceName);
+                		
+                		obscoreRow.setTarget_name(newSourceName);
 
                                         	
                         // s_ra
