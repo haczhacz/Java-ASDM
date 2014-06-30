@@ -20,7 +20,9 @@ public class ASDMCsvConverter {
 		
 		public static String NOMBRE_CARPETA_PROCESADOS = "Procesados";
 	
-			
+		
+		
+		
         public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
         	// validas para eclipse
@@ -40,6 +42,8 @@ public class ASDMCsvConverter {
         	String[] listaCarpetas =  FileHandler.listFolder(ASDM_INPUT_DATA_PATH);
         	File asdmDataFolder;
         
+        	
+        	
     		// verifica y crea carpeta CSV de output
     		File folder = new File(ASDM_OUTPUT_DATA_PATH);
     		if (!folder.exists()) {
@@ -87,7 +91,7 @@ public class ASDMCsvConverter {
                   
                 ObscoreRow obscoreRow = new ObscoreRow ();
 
-                        
+                String sourceName;   
                         
                 for (ScanRow scanRow: scanTable.get()) {
                 	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
@@ -101,7 +105,7 @@ public class ASDMCsvConverter {
                 	                	
                 	if ( scanRow.isSourceNameExists() ) {							// comprueba que sourceName exista (es opcional en scanTable)
                 		
-                		String sourceName = scanRow.getSourceName().replace(" ", "_");
+                		sourceName = scanRow.getSourceName().replace(" ", "_");
                     	// target_name 													// es opcional  en scantable
                     		
                 		obscoreRow.setTarget_name( sourceName );
@@ -122,6 +126,10 @@ public class ASDMCsvConverter {
                 	}
                 	else {
                 		// ver como rellenar campos si no existe
+                		obscoreRow.setTarget_name("-");
+                		obscoreRow.setS_ra("0");							
+            			obscoreRow.setS_dec("0");		
+                		
                 	}
                 	                	
                 	
@@ -180,6 +188,8 @@ public class ASDMCsvConverter {
                 
                 System.out.println("OK");
 
+                
+                
                 // se mueve a carpeta procesados
     			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), asdmDataFolder.getParent(), NOMBRE_CARPETA_PROCESADOS);
                                 
