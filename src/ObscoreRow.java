@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 
 
+/**
+ * Clase encargada de almacenar los datos Obscore obtenidos desde las Tablas ASDM
+ * @author aguila
+ *
+ */
+
 public class ObscoreRow {
 	
 	//Datos obscore
@@ -42,9 +48,12 @@ public class ObscoreRow {
     
     
     
-    
-    // retorna un array de String con los datos del obscore 
-    // ordenados segun formato a definir para el cvs
+    /**
+     * Obtiene un array de String con los datos Obscore obtenidos desde las tablas ASDM
+     * 
+     * @return Array de String con los datos Obscore
+     */
+
     public String[] getObscoreRow () {
     	
     	ArrayList<String> arraylist = new ArrayList<String>();

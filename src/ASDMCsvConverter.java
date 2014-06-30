@@ -16,13 +16,29 @@ import alma.asdm.SubscanTable;
 import alma.hla.runtime.asdm.ex.ConversionException;
 import au.com.bytecode.opencsv.CSVWriter;
 
+
+
+
+/**
+ * Clase encargada de hacer la conversion ASDM a CSV, obteniendo los datos desde las tablas ASDM
+ * 
+ * @author aguila
+ *
+ */
 public class ASDMCsvConverter {
 		
 		public static String NOMBRE_CARPETA_PROCESADOS = "Procesados";
 	
 		
 		
-		
+		/**
+		 * 
+		 * @param args Ruta de la carpeta que contiene los datos ASDM (arg[0]) y 
+		 * Ruta de la carpeta en la cual se desea almacenar los archivos CSV con los datos Obscore (args[1])
+		 * @throws ConversionException
+		 * @throws IOException
+		 * @throws IllegalAccessException
+		 */
         public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
         	// validas para eclipse
