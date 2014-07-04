@@ -32,6 +32,9 @@ public class ObscoreRow {
     private String facility_name;
     private String instrument_name;
     
+    // extra a obscore
+    private String fits_name;
+    
     
     
     
@@ -65,6 +68,9 @@ public class ObscoreRow {
     	this.pol_states = "-";
     	
     	
+    	
+    	 // extra a obscore
+    	this.setFits_name("-");
     	
     }
     
@@ -103,6 +109,9 @@ public class ObscoreRow {
         arraylist.add(this.pol_states);
         arraylist.add(this.facility_name);
         arraylist.add(this.instrument_name);
+        
+        // extra a obscore
+        arraylist.add(this.fits_name);
 
                 
         String [] obscoreRow = arraylist.toArray(new String[arraylist.size()]);
@@ -240,6 +249,20 @@ public class ObscoreRow {
 	}
 	public void setInstrument_name(String instrument_name) {
 		this.instrument_name = instrument_name;
+	}
+
+
+
+
+	public String getFits_name() {
+		return fits_name;
+	}
+
+
+
+
+	public void setFits_name(String fits_name) {
+		this.fits_name = fits_name;
 	}
     
     

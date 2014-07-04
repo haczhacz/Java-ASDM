@@ -174,6 +174,13 @@ public class ASDMCsvConverter {
 
                     // em_max
                     obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
+                    
+                    
+                    
+                    
+                    
+                    // fits_name ( campo extra )                    
+                    obscoreRow.setFits_name( asdmDataFolder.getName() + ".fits");
 
                 
                     // escritura de datos en archivo csv
