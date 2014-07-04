@@ -14,6 +14,7 @@ import alma.asdm.SourceTable;
 import alma.asdm.SubscanRow;
 import alma.asdm.SubscanTable;
 import alma.hla.runtime.asdm.ex.ConversionException;
+import alma.hla.runtime.asdm.types.Interval;
 import au.com.bytecode.opencsv.CSVWriter;
 
 
@@ -83,7 +84,7 @@ public class ASDMCsvConverter {
                 CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
                
 
-                Long sumExptime;
+                Double sumExptime;
                 Double vSpeedLight = 300000.0;
                 Double lambda;
      
@@ -153,16 +154,17 @@ public class ASDMCsvConverter {
                 	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
                     
-                	// t_ms_fovin
-                	obscoreRow.setT_min(execBlockRow.getStartTime().toString());
+                	// t_min                	
+                	obscoreRow.setT_min( Double.toString( execBlockRow.getStartTime().getAsDouble(Interval.SECOND) ) );
 
 
                     // t_max
-                	obscoreRow.setT_max(execBlockRow.getEndTime().toString() );
+                	obscoreRow.setT_max( Double.toString( execBlockRow.getEndTime().getAsDouble(Interval.SECOND) ) );
+
 
 
                     // t_exptime
-                	sumExptime = 0l;
+                	sumExptime = 0.0;
                 	
                     for (SubscanRow subScanRow: subScanTable.get()) {
                     	
@@ -170,14 +172,12 @@ public class ASDMCsvConverter {
                     	// si fila subcan pertenece a scan y al execblock
                     	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
                     		
-                    		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {
-                    			
-                    			sumExptime = sumExptime + (subScanRow.getEndTime().get() - subScanRow.getStartTime().get() );
-                    			
+                    		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {                    			
+                    			sumExptime = sumExptime + (subScanRow.getEndTime().getAsDouble(Interval.SECOND) - subScanRow.getStartTime().getAsDouble(Interval.SECOND) );                    		
                     		}
                     	}
                     }                    
-                    obscoreRow.setT_exptime(Long.toString(sumExptime) );
+                    obscoreRow.setT_exptime( Double.toString(sumExptime) );
 
 
                     // em_min
@@ -192,8 +192,6 @@ public class ASDMCsvConverter {
                     
                     
                     writer.writeNext(obscoreRow.getObscoreRow());
-                    
-                    
                     
                    
                     
