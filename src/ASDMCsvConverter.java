@@ -55,7 +55,6 @@ public class ASDMCsvConverter {
         	}
           	
         
-        	
         	String[] listaCarpetas =  FileHandler.listFolder(ASDM_INPUT_DATA_PATH);
         	File asdmDataFolder;
         
@@ -73,7 +72,8 @@ public class ASDMCsvConverter {
     		for (String Folder: listaCarpetas) {
     			asdmDataFolder = new File (Folder);
     			
-                String csv = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
+    			// Nombre del archivo csv de salida
+                String csv_file = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
                 
                 
                 
@@ -81,7 +81,7 @@ public class ASDMCsvConverter {
                 
                 
                 
-                CSVWriter writer = new CSVWriter(new FileWriter(csv), ' ', CSVWriter.NO_QUOTE_CHARACTER);
+                CSVWriter writer = new CSVWriter(new FileWriter(csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
                
 
                 Double sumExptime;
@@ -89,26 +89,22 @@ public class ASDMCsvConverter {
                 Double lambda;
      
                 
-                
-                       
-                ExecBlockRow execBlockRow;
-
-
                 // Obtencion de SourceTable
                 SourceTable sourceTable = asdm.getSource();
 
-
-
                 // Obtencion de ScanTable
-                 ScanTable scanTable = asdm.getScan();
-                 
+                 ScanTable scanTable = asdm.getScan();                 
 
                 // Obtencion de SubscanTable
                   SubscanTable subScanTable = asdm.getSubscan();
                   
+                  
                 ObscoreRow obscoreRow = new ObscoreRow ();
-
-                String sourceName;   
+                String sourceName;  
+                ExecBlockRow execBlockRow; 
+                
+                
+                
                         
                 for (ScanRow scanRow: scanTable.get()) {
                 	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
@@ -117,15 +113,15 @@ public class ASDMCsvConverter {
                 	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
                 	
                 	
-                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
                 	
                 	                	
-                	if ( scanRow.isSourceNameExists() ) {							// comprueba que sourceName exista (es opcional en scanTable)
+                	if ( scanRow.isSourceNameExists() ) {																// comprobacion sourceName exista (es opcional en scanTable)
                 		
+                		// cambio de espacios vacios
                 		sourceName = scanRow.getSourceName().replace(" ", "_");
+                		                		
                     	// target_name 													// es opcional  en scantable
-                    		
-                		obscoreRow.setTarget_name( sourceName );
+                    	obscoreRow.setTarget_name( sourceName );
                                         	
                         // s_ra
                     	// s_dec
@@ -135,22 +131,15 @@ public class ASDMCsvConverter {
                     			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
                     			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
                     			
-
-                    		    break;																					// basta solo encontrar uno
+                    		    break;																					// basta obtener solo uno
                     			
                     		}
                     	}                		
                 	}
-                	else {
-                		// ver como rellenar campos si no existe
-                		obscoreRow.setTarget_name("-");
-                		obscoreRow.setS_ra("0");							
-            			obscoreRow.setS_dec("0");		
-                		
-                	}
                 	                	
                 	
                     // s_resolution 
+                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
                 	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
                     
                     
@@ -162,12 +151,11 @@ public class ASDMCsvConverter {
                 	obscoreRow.setT_max( Double.toString( execBlockRow.getEndTime().getAsDouble(Interval.SECOND) ) );
 
 
-
                     // t_exptime
-                	sumExptime = 0.0;
+                	sumExptime = 0.0;                	
                 	
-                    for (SubscanRow subScanRow: subScanTable.get()) {
-                    	
+                		// busqueda de los subscan tal que SubscanIntent = ON_SOURCE
+                	for (SubscanRow subScanRow: subScanTable.get()) {                    	
                     	
                     	// si fila subcan pertenece a scan y al execblock
                     	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
@@ -188,44 +176,24 @@ public class ASDMCsvConverter {
                     obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
 
                 
-
-                    
-                    
+                    // escritura de datos en archivo csv
                     writer.writeNext(obscoreRow.getObscoreRow());
-                    
-                   
                     
                 }
                 
 
                 writer.close();
                 
-                System.out.println("OK");
+                
 
-                
-                
-                // se mueve a carpeta procesados
+                // mover a carpeta procesados
     			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), asdmDataFolder.getParent(), NOMBRE_CARPETA_PROCESADOS);
+    			
+    			
+    			System.out.println("OK");
                                 
     		}
-    		
-                
         }   
-
-        
-        
-        
-        
-        
-        
-        
-        
-       
-        
-        
-        
-      
-        
 }
 
 

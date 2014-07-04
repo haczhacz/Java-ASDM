@@ -36,6 +36,8 @@ public class ObscoreRow {
     
     
     public ObscoreRow ( ) {
+    	
+    	// fijos
     	this.dataproduct_type = "visibility";
     	this.calib_level = "1";
     	this.obs_collection = "ALMA";
@@ -43,6 +45,27 @@ public class ObscoreRow {
     	this.o_ucd = "em.mm";
     	this.facility_name = "ALMA";
     	this.instrument_name = "ALMA";   	
+    	
+    	
+    	// por defecto
+    	this.obs_id = "-";
+    	this.target_name = "-";
+    	this.s_ra = "0.0";
+    	this.s_dec = "0.0";
+    	this.s_fov = "0.0";
+
+    	this.s_resolution = "0.0";
+    	this.t_min = "0.0";
+    	this.t_max = "0.0";
+    	this.t_exptime = "0.0";
+    	this.t_resolution = "0.0";
+    	this.em_min = "0.0";
+    	this.em_max = "0.0";
+    	this.em_res_power = "0.0";
+    	this.pol_states = "-";
+    	
+    	
+    	
     }
     
     
@@ -57,18 +80,8 @@ public class ObscoreRow {
     public String[] getObscoreRow () {
     	
     	ArrayList<String> arraylist = new ArrayList<String>();
-        
-        // -> Para pruebas.
-            this.s_fov = "0";
-            this.t_resolution = "0";
-            this.em_res_power = "0";
-            this.pol_states = "0";
-        // <-
-        
-            
-            
-            
-// definir el orden segun el cvs
+          
+
         arraylist.add(this.dataproduct_type);
         arraylist.add(this.calib_level);
         arraylist.add(this.obs_collection);
@@ -91,14 +104,11 @@ public class ObscoreRow {
         arraylist.add(this.facility_name);
         arraylist.add(this.instrument_name);
 
-        
-
-        
+                
         String [] obscoreRow = arraylist.toArray(new String[arraylist.size()]);
     	
     	
-		return obscoreRow;
-    	
+		return obscoreRow;    	
     }
     
     
