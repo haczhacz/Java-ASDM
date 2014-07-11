@@ -176,8 +176,8 @@ public class ASDMCsvConverter {
                     obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
                     
                     
-                    
-                    
+                    // pol_states
+                    obscoreRow.setPol_states("null");
                     
                     // fits_name ( campo extra )                    
                     obscoreRow.setFits_name( asdmDataFolder.getName() + ".fits");
