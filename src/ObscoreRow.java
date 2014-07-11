@@ -64,8 +64,8 @@ public class ObscoreRow {
     	this.t_resolution = "0.0";
     	this.em_min = "0.0";
     	this.em_max = "0.0";
-    	this.em_res_power = "NULL";
-    	this.pol_states = "-";
+    	this.em_res_power = "0.0";
+    	this.pol_states = "NULL";
     	
     	
     	
