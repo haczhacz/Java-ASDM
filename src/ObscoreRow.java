@@ -47,7 +47,8 @@ public class ObscoreRow {
     	this.s_region = "circle";
     	this.o_ucd = "em.mm";
     	this.facility_name = "ALMA";
-    	this.instrument_name = "ALMA";   	
+    	this.instrument_name = "ALMA"; 
+    	this.pol_states = "NULL";
     	
     	
     	// por defecto
@@ -65,7 +66,7 @@ public class ObscoreRow {
     	this.em_min = "0.0";
     	this.em_max = "0.0";
     	this.em_res_power = "0.0";
-    	this.pol_states = "NULL";
+    	this.pol_states = "-";
     	
     	
     	
