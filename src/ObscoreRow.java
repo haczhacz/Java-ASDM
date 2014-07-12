@@ -48,7 +48,10 @@ public class ObscoreRow {
     	this.o_ucd = "em.mm";
     	this.facility_name = "ALMA";
     	this.instrument_name = "ALMA"; 
-    	this.pol_states = "NULL";
+    	
+    	
+    	this.pol_states = "NULL";			// mientras tanto
+    	this.s_fov = "NULL";				// mientras tanto
     	
     	
     	// por defecto
@@ -56,7 +59,6 @@ public class ObscoreRow {
     	this.target_name = "-";
     	this.s_ra = "0.0";
     	this.s_dec = "0.0";
-    	this.s_fov = "0.0";
 
     	this.s_resolution = "0.0";
     	this.t_min = "0.0";
@@ -66,7 +68,6 @@ public class ObscoreRow {
     	this.em_min = "0.0";
     	this.em_max = "0.0";
     	this.em_res_power = "0.0";
-    	this.pol_states = "-";
     	
     	
     	
