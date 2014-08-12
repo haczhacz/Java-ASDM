@@ -175,6 +175,12 @@ public class ASDMCsvConverter {
 	                    obscoreRow.setT_exptime( Double.toString(sumExptime) );
 	
 	
+	                    
+	                    // t_resolution
+	                    obscoreRow.setT_resolution(Double.toString(sumExptime));
+
+	                    
+	                    
 	                    // em_min
 	                    obscoreRow.setEm_min( execBlockRow.getBaseRangeMin().toString());
 	
