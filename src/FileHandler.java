@@ -24,10 +24,10 @@ public class FileHandler {
 	  * @throws IOException
 	  */
 	
-    public static void renameFolder (String folderDataPath, String newFolderPath, String newNameFolder) throws IOException {  
+    public static void renameFolder (String folderDataPath, String newFolderPath) throws IOException {  
     				
 		File asdmDataFolder = new File (folderDataPath);
-        File dirProcesados = new File (newFolderPath + "/" + newNameFolder  + "/" );
+        File dirProcesados = new File (newFolderPath );
         File dirNewName = new File( dirProcesados + "/" + asdmDataFolder.getName() );  
        
         
@@ -39,6 +39,8 @@ public class FileHandler {
         	asdmDataFolder.renameTo(dirNewName);  
         } 
          
+        
+        
             
     }
     
@@ -58,6 +60,8 @@ public class FileHandler {
      */        
     public static String [] listFolder (String Path) throws IOException{
         
+    	String [] Folders = null;
+
     	ArrayList<String> arrayListFolder = new ArrayList<String>();
        
     	File Dir = new File(Path);	
@@ -70,9 +74,13 @@ public class FileHandler {
                }
            }
            
-       String [] Folders = arrayListFolder.toArray(new String[arrayListFolder.size()]);
-           
-       return Folders;
+        if ( !arrayListFolder.isEmpty() ) {
+          	Folders = arrayListFolder.toArray(new String[arrayListFolder.size()]);
+        }
+           		
+    
+    	
+    	return Folders;
     }
     
     

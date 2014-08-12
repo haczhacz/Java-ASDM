@@ -26,9 +26,9 @@ import au.com.bytecode.opencsv.CSVWriter;
  * @author aguila
  *
  */
+
 public class ASDMCsvConverter {
 		
-		public static String NOMBRE_CARPETA_PROCESADOS = "Procesados";
 	
 		
 		
@@ -43,164 +43,184 @@ public class ASDMCsvConverter {
         public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
         	// validas para eclipse
-        	String ASDM_INPUT_DATA_PATH = "./ASDMData/";
+        	String ASDM_DATA_PATH = "./ASDMData/";
+        	String ASDM_DATA_POR_PROCESAR_PATH = "PorProcesar/";
+        	String ASDM_DATA_PROCESADOS_PATH = "Procesados/";
     	 	String ASDM_OUTPUT_DATA_PATH = "./CSV/";
           	
     	 	
     	 	
-        	// maneja el caso que se ejecute por bash
+        	// maneja el caso que se ejecute por terminal
         	if (args.length == 2) {
-        	 	ASDM_INPUT_DATA_PATH = args[0];
+        		ASDM_DATA_PATH = args[0];
         	 	ASDM_OUTPUT_DATA_PATH = args[1];
         	}
           	
+
+        	/*
+        	noise
+        	redshift
+        	*/
         
-        	String[] listaCarpetas =  FileHandler.listFolder(ASDM_INPUT_DATA_PATH);
-        	File asdmDataFolder;
-        
+        	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH);
         	
-        	
-    		// verifica y crea carpeta CSV de output
-    		File folder = new File(ASDM_OUTPUT_DATA_PATH);
-    		if (!folder.exists()) {
-    			folder.mkdirs();    			
-    		}
-    		
+        	// Caso que existan datos a procesar        	
+        	if (listaCarpetas != null ) 
+	        {
+	        	File asdmDataFolder;
+	        
+	        	
+	        	
+	    		// verifica y crea carpeta CSV de output
+	    		File folder = new File(ASDM_OUTPUT_DATA_PATH);
+	    		if (!folder.exists()) {
+	    			folder.mkdirs();    			
+	    		}
+	    		
+	
+				
+	    		
+	    		for (String Folder: listaCarpetas) {
+	    			asdmDataFolder = new File (Folder);
+	    			
+	    			// Nombre del archivo csv de salida
+	                String csv_file = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
+	                
+	                
+	                
+	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH + asdmDataFolder.getName());
+	                
+	                
+	                
+	                CSVWriter writer = new CSVWriter(new FileWriter(csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
+	               
+	
+	                Double sumExptime;
+	                Double vSpeedLight = 300000.0;
+	                Double lambda;
+	     
+	                
+	                // Obtencion de SourceTable
+	                SourceTable sourceTable = asdm.getSource();
+	
+	                // Obtencion de ScanTable
+	                 ScanTable scanTable = asdm.getScan();                 
+	
+	                // Obtencion de SubscanTable
+	                  SubscanTable subScanTable = asdm.getSubscan();
+	                  
+	                  
+	                ObscoreRow obscoreRow = new ObscoreRow ();
+	                String sourceName;  
+	                ExecBlockRow execBlockRow; 
+	                
+	                
+	                
+	                        
+	                for (ScanRow scanRow: scanTable.get()) {
+	                	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
+	
+	               	 	// obs_id 
+	                	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
+	                	
+	                	
+	                	
+	                	                	
+	                	if ( scanRow.isSourceNameExists() ) {																// comprobacion sourceName exista (es opcional en scanTable)
+	                		
+	                		// cambio de espacios vacios
+	                		sourceName = scanRow.getSourceName().replace(" ", "_");
+	                		                		
+	                    	// target_name 													// es opcional  en scantable
+	                    	obscoreRow.setTarget_name( sourceName );
+	                                        	
+	                        // s_ra
+	                    	// s_dec
+	                    	for (SourceRow sourceRow: sourceTable.get()) {													// busca en la tabla source 
+	                    		if (sourceRow.getSourceName().equals(sourceName)) {											// si alguno coincide con el sourceName
+	                    			
+	                    			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
+	                    			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
+	                    			
+	                    		    break;																					// basta obtener solo uno
+	                    			
+	                    		}
+	                    	}                		
+	                	}
+	                	                	
+	                	
+	                    // s_resolution 
+	                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
+	                	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
+	                    
+	                    
+	                	// t_min                	
+	                	obscoreRow.setT_min( Double.toString( execBlockRow.getStartTime().getAsDouble(Interval.SECOND) ) );
+	
+	
+	                    // t_max
+	                	obscoreRow.setT_max( Double.toString( execBlockRow.getEndTime().getAsDouble(Interval.SECOND) ) );
+	
+	
+	                    // t_exptime
+	                	sumExptime = 0.0;                	
+	                	
+	                		// busqueda de los subscan tal que SubscanIntent = ON_SOURCE
+	                	for (SubscanRow subScanRow: subScanTable.get()) {                    	
+	                    	
+	                    	// si fila subcan pertenece a scan y al execblock
+	                    	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
+	                    		
+	                    		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {                    			
+	                    			sumExptime = sumExptime + (subScanRow.getEndTime().getAsDouble(Interval.SECOND) - subScanRow.getStartTime().getAsDouble(Interval.SECOND) );                    		
+	                    		}
+	                    	}
+	                    }                    
+	                    obscoreRow.setT_exptime( Double.toString(sumExptime) );
+	
+	
+	                    // em_min
+	                    obscoreRow.setEm_min( execBlockRow.getBaseRangeMin().toString());
+	
+	
+	                    // em_max
+	                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
+	                    
+	                    
+	                    // pol_states
+	                    obscoreRow.setPol_states("null");
+	                    
+	                    // fits_name ( campo extra )                    
+	                    obscoreRow.setFits_name( asdmDataFolder.getName() + ".fits");
+	
+	                
+	                    // escritura de datos en archivo csv
+	                    writer.writeNext(obscoreRow.getObscoreRow());
+	                    
+	                }
+	                
+	
+	                writer.close();
+	                
+	                
+	
+	                // mover a carpeta procesados
+	    			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PATH + ASDM_DATA_PROCESADOS_PATH);
+	    			
+	    			
 
-			
-    		
-    		for (String Folder: listaCarpetas) {
-    			asdmDataFolder = new File (Folder);
-    			
-    			// Nombre del archivo csv de salida
-                String csv_file = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
-                
-                
-                
-                ASDM asdm = ASDM.getFromXML(ASDM_INPUT_DATA_PATH + asdmDataFolder.getName());
-                
-                
-                
-                CSVWriter writer = new CSVWriter(new FileWriter(csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
-               
-
-                Double sumExptime;
-                Double vSpeedLight = 300000.0;
-                Double lambda;
-     
-                
-                // Obtencion de SourceTable
-                SourceTable sourceTable = asdm.getSource();
-
-                // Obtencion de ScanTable
-                 ScanTable scanTable = asdm.getScan();                 
-
-                // Obtencion de SubscanTable
-                  SubscanTable subScanTable = asdm.getSubscan();
-                  
-                  
-                ObscoreRow obscoreRow = new ObscoreRow ();
-                String sourceName;  
-                ExecBlockRow execBlockRow; 
-                
-                
-                
-                        
-                for (ScanRow scanRow: scanTable.get()) {
-                	execBlockRow = scanRow.getExecBlockUsingExecBlockId();
-
-               	 	// obs_id 
-                	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
-                	
-                	
-                	
-                	                	
-                	if ( scanRow.isSourceNameExists() ) {																// comprobacion sourceName exista (es opcional en scanTable)
-                		
-                		// cambio de espacios vacios
-                		sourceName = scanRow.getSourceName().replace(" ", "_");
-                		                		
-                    	// target_name 													// es opcional  en scantable
-                    	obscoreRow.setTarget_name( sourceName );
-                                        	
-                        // s_ra
-                    	// s_dec
-                    	for (SourceRow sourceRow: sourceTable.get()) {													// busca en la tabla source 
-                    		if (sourceRow.getSourceName().equals(sourceName)) {											// si alguno coincide con el sourceName
-                    			
-                    			obscoreRow.setS_ra(sourceRow.getDirection()[0].toString());								// s_ra
-                    			obscoreRow.setS_dec(sourceRow.getDirection()[1].toString());							// s_dec
-                    			
-                    		    break;																					// basta obtener solo uno
-                    			
-                    		}
-                    	}                		
-                	}
-                	                	
-                	
-                    // s_resolution 
-                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
-                	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
-                    
-                    
-                	// t_min                	
-                	obscoreRow.setT_min( Double.toString( execBlockRow.getStartTime().getAsDouble(Interval.SECOND) ) );
-
-
-                    // t_max
-                	obscoreRow.setT_max( Double.toString( execBlockRow.getEndTime().getAsDouble(Interval.SECOND) ) );
-
-
-                    // t_exptime
-                	sumExptime = 0.0;                	
-                	
-                		// busqueda de los subscan tal que SubscanIntent = ON_SOURCE
-                	for (SubscanRow subScanRow: subScanTable.get()) {                    	
-                    	
-                    	// si fila subcan pertenece a scan y al execblock
-                    	if ( (subScanRow.getScanNumber() == scanRow.getScanNumber() )  &&  (subScanRow.getExecBlockId().getTagValue() == scanRow.getExecBlockId().getTagValue() )   ){
-                    		
-                    		if (subScanRow.getSubscanIntent() == SubscanIntent.ON_SOURCE  ) {                    			
-                    			sumExptime = sumExptime + (subScanRow.getEndTime().getAsDouble(Interval.SECOND) - subScanRow.getStartTime().getAsDouble(Interval.SECOND) );                    		
-                    		}
-                    	}
-                    }                    
-                    obscoreRow.setT_exptime( Double.toString(sumExptime) );
-
-
-                    // em_min
-                    obscoreRow.setEm_min( execBlockRow.getBaseRangeMin().toString());
-
-
-                    // em_max
-                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
-                    
-                    
-                    // pol_states
-                    obscoreRow.setPol_states("null");
-                    
-                    // fits_name ( campo extra )                    
-                    obscoreRow.setFits_name( asdmDataFolder.getName() + ".fits");
-
-                
-                    // escritura de datos en archivo csv
-                    writer.writeNext(obscoreRow.getObscoreRow());
-                    
-                }
-                
-
-                writer.close();
-                
-                
-
-                // mover a carpeta procesados
-    			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), asdmDataFolder.getParent(), NOMBRE_CARPETA_PROCESADOS);
-    			
-    			
-    			System.out.println("OK");
-                                
-    		}
-        }   
+	    			
+	    			
+	    			
+	    			System.out.println("OK");
+	                                
+	    		}
+	        }  
+        	else {
+    			System.out.println("No existen datos a procesar");
+        	}
+	        
+        }
 }
 
 

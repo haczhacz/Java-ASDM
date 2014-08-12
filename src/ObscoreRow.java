@@ -89,7 +89,8 @@ public class ObscoreRow {
     	
     	ArrayList<String> arraylist = new ArrayList<String>();
           
-
+    	
+    	
         arraylist.add(this.dataproduct_type);
         arraylist.add(this.calib_level);
         arraylist.add(this.obs_collection);
