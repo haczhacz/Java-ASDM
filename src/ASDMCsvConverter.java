@@ -114,8 +114,6 @@ public class ASDMCsvConverter {
 	               	 	// obs_id 
 	                	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
 	                	
-	                	
-	                	
 	                	                	
 	                	if ( scanRow.isSourceNameExists() ) {																// comprobacion sourceName exista (es opcional en scanTable)
 	                		
@@ -176,7 +174,7 @@ public class ASDMCsvConverter {
 	
 	
 	                    
-	                    // t_resolution
+// Por mientras	        // t_resolution														// por mientras igual a t_exptime
 	                    obscoreRow.setT_resolution(Double.toString(sumExptime));
 
 	                    
@@ -187,6 +185,11 @@ public class ASDMCsvConverter {
 	
 	                    // em_max
 	                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
+	                    
+	                    
+	                    // em_res_power
+	                    obscoreRow.setEm_res_power("0.0");
+	                    
 	                    
 	                    
 // Por mientras         // pol_states
@@ -223,7 +226,8 @@ public class ASDMCsvConverter {
 	    			System.out.println("OK");
 	                                
 	    		}
-	        }  
+	        } 
+        	
         	else {
     			System.out.println("No existen datos a procesar");
         	}
