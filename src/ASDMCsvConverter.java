@@ -1,8 +1,6 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.StringTokenizer;
 
 import alma.SubscanIntentMod.SubscanIntent;
 import alma.asdm.ASDM;
@@ -27,10 +25,7 @@ import au.com.bytecode.opencsv.CSVWriter;
  *
  */
 
-public class ASDMCsvConverter {
-		
-	
-		
+public class ASDMCsvConverter {		
 		
 		/**
 		 * 
@@ -57,11 +52,7 @@ public class ASDMCsvConverter {
         	}
           	
 
-        	/*
-        	noise
-        	redshift
-        	*/
-        
+        	
         	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH);
         	
         	// Caso que existan datos a procesar        	
@@ -131,7 +122,7 @@ public class ASDMCsvConverter {
 	                		// cambio de espacios vacios
 	                		sourceName = scanRow.getSourceName().replace(" ", "_");
 	                		                		
-	                    	// target_name 													// es opcional  en scantable
+	                    	// target_name 																					// es opcional  en scantable
 	                    	obscoreRow.setTarget_name( sourceName );
 	                                        	
 	                        // s_ra
@@ -153,8 +144,7 @@ public class ASDMCsvConverter {
 // Por mientras         // s_fov
 	                	obscoreRow.setS_fov("NULL");
 	                	
-	                	
-	                	
+	                		                	
 	                    // s_resolution 
 	                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
 	                	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
@@ -194,7 +184,7 @@ public class ASDMCsvConverter {
 	                    
 	                    
 // Por mientras         // pol_states
-	                    obscoreRow.setPol_states("null");
+	                    obscoreRow.setPol_states("NULL");
 
 	                	
 // Por mientras         // noise
@@ -221,9 +211,6 @@ public class ASDMCsvConverter {
 	
 	                // mover a carpeta procesados
 	    			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PATH + ASDM_DATA_PROCESADOS_PATH);
-	    			
-	    			
-
 	    			
 	    			
 	    			
