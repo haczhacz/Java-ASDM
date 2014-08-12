@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:field="http://Alma/XASDM/FieldTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db9c/X1" entityIdEncrypted="na" entityTypeName="FieldTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <fieldId>Field_0</fieldId>
+    <fieldName>J0522-364</fieldName>
+    <numPoly>1</numPoly>
+    <delayDir>2 1 2 1.4092068106266762 -0.6363220816583083</delayDir>
+    <phaseDir>2 1 2 1.4092068106266762 -0.6363220816583083</phaseDir>
+    <referenceDir>2 1 2 1.4092068106266762 -0.6363220816583083</referenceDir>
+    <time>4833137989008000000</time>
+    <code>none</code>
+    <directionCode>J2000</directionCode>
+    <sourceId>0</sourceId>
+  </row>
+  <row>
+    <fieldId>Field_1</fieldId>
+    <fieldName>J0238+166</fieldName>
+    <numPoly>1</numPoly>
+    <delayDir>2 1 2 0.6922361321734691 0.29001202778305807</delayDir>
+    <phaseDir>2 1 2 0.6922361321734691 0.29001202778305807</phaseDir>
+    <referenceDir>2 1 2 0.6922361321734691 0.29001202778305807</referenceDir>
+    <time>4833138626064000000</time>
+    <code>none</code>
+    <directionCode>J2000</directionCode>
+    <sourceId>1</sourceId>
+  </row>
+  <row>
+    <fieldId>Field_2</fieldId>
+    <fieldName>Callisto</fieldName>
+    <numPoly>1</numPoly>
+    <delayDir>2 1 2 0.0 0.0</delayDir>
+    <phaseDir>2 1 2 0.0 0.0</phaseDir>
+    <referenceDir>2 1 2 0.0 0.0</referenceDir>
+    <time>4833138788976000000</time>
+    <code>none</code>
+    <directionCode>J2000</directionCode>
+    <sourceId>2</sourceId>
+  </row>
+  <row>
+    <fieldId>Field_3</fieldId>
+    <fieldName>J0403-360</fieldName>
+    <numPoly>1</numPoly>
+    <delayDir>2 1 2 1.0641963233274074 -0.6297822476044852</delayDir>
+    <phaseDir>2 1 2 1.0641963233274074 -0.6297822476044852</phaseDir>
+    <referenceDir>2 1 2 1.0641963233274074 -0.6297822476044852</referenceDir>
+    <time>4833139054464000000</time>
+    <code>none</code>
+    <directionCode>J2000</directionCode>
+    <sourceId>3</sourceId>
+  </row>
+  <row>
+    <fieldId>Field_4</fieldId>
+    <fieldName>LESS J0332-2756</fieldName>
+    <numPoly>1</numPoly>
+    <delayDir>2 1 2 0.9271545324649494 -0.48762220676420354</delayDir>
+    <phaseDir>2 1 2 0.9271545324649494 -0.48762220676420354</phaseDir>
+    <referenceDir>2 1 2 0.9271545324649494 -0.48762220676420354</referenceDir>
+    <time>4833139365216000000</time>
+    <code>none</code>
+    <directionCode>J2000</directionCode>
+    <sourceId>4</sourceId>
+  </row>
+</FieldTable>
+

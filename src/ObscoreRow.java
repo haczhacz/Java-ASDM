@@ -32,6 +32,11 @@ public class ObscoreRow {
     private String facility_name;
     private String instrument_name;
     
+    
+    // extras a ASDM
+    private String noise;
+    private String redshift;
+    
     // extra a obscore
     private String fits_name;
     
@@ -70,9 +75,12 @@ public class ObscoreRow {
     	this.em_res_power = "0.0";
     	
     	
+        // extras a ASDM
+    	this.noise = "0.0";					// mientras tanto		
+        this.redshift = "0.0";				// mientras tanto
     	
     	 // extra a obscore
-    	this.setFits_name("-");
+    	this.fits_name = "-";
     	
     }
     
@@ -112,6 +120,13 @@ public class ObscoreRow {
         arraylist.add(this.pol_states);
         arraylist.add(this.facility_name);
         arraylist.add(this.instrument_name);
+        
+        
+
+        // extras a ASDM
+        arraylist.add(this.noise);
+        arraylist.add(this.redshift);
+        
         
         // extra a obscore
         arraylist.add(this.fits_name);
@@ -266,6 +281,34 @@ public class ObscoreRow {
 
 	public void setFits_name(String fits_name) {
 		this.fits_name = fits_name;
+	}
+
+
+
+
+	public String getNoise() {
+		return noise;
+	}
+
+
+
+
+	public void setNoise(String noise) {
+		this.noise = noise;
+	}
+
+
+
+
+	public String getRedshift() {
+		return redshift;
+	}
+
+
+
+
+	public void setRedshift(String redshift) {
+		this.redshift = redshift;
 	}
     
     

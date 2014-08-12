@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PointingTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pntng="http://Alma/XASDM/PointingTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36ab39/X1" entityIdEncrypted="na" entityTypeName="PointingTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36a70f/X318" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <BulkStoreRef file_id="A002/X36ab39/X1" byteOrder="Big_Endian" />
+  <Attributes>
+    <antennaId />
+    <timeInterval />
+    <numSample />
+    <encoder />
+    <pointingTracking />
+    <usePolynomials />
+    <timeOrigin />
+    <numTerm />
+    <pointingDirection />
+    <target />
+    <offset />
+    <pointingModelId />
+    <overTheTop />
+    <sourceOffset />
+    <sourceOffsetReferenceCode />
+    <sourceOffsetEquinox />
+    <sampledTimeInterval />
+  </Attributes>
+</PointingTable>
+

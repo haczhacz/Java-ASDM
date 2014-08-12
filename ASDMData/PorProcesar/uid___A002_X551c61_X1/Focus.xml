@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FocusTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:focus="http://Alma/XASDM/FocusTable" schemaVersion="3" schemaRevision="1.60.8.2">
+  <Entity entityId="uid://A002/X551ca4/X1" entityIdEncrypted="na" entityTypeName="FocusTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X551c61/X1" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <timeInterval>4859885950562000000 18184000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002358 -2.44E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885950568000000 18182000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -4.83E-4 -0.002581</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885950569500000 18183000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.00432 0.001457</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885950572500000 18185000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885950572500000 18181000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.00605 -0.002325</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885963830000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002362 -2.47E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885963837000000 8356000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -4.8699999999999997E-4 -0.002583</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885963836000000 8350000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.0043219999999999995 0.001455</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885963838500000 8351000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006052 -0.002326</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885963839000000 8348000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885972182500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002362 -2.47E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885972187500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.0043219999999999995 0.001455</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885972189500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885972190500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006052 -0.002326</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859885972190000000 8350000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -4.8699999999999997E-4 -0.002583</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886009439500000 66161000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002362 -2.47E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886009439000000 66150000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.0043219999999999995 0.001455</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886009442000000 66154000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -4.8699999999999997E-4 -0.002583</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886009443500000 66155000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886009444500000 66155000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006052 -0.002326</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886139324000000 193620000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004337 0.001449</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886139328500000 193619000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.03E-4 -0.00259</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886139330000000 193620000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002378 -2.5499999999999996E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886139331000000 193620000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886139330500000 193617000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.00607 -0.002333</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886244680000000 17092000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004371 0.001431</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886244683000000 17090000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.39E-4 -0.002604</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886244684000000 17090000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.0061059999999999994 -0.002349</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886244681000000 17082000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.0024129999999999998 -2.74E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886244684000000 17086000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886257399000000 8354000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.0024129999999999998 -2.74E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886257404500000 8357000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004372 0.001431</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886257404500000 8355000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886257404500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.44E-4 -0.002606</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886257407000000 8356000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.00611 -0.002351</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886265754000000 8356000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.0024129999999999998 -2.74E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886265757000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.44E-4 -0.002606</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886265758500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886265755500000 8345000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004372 0.001431</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886265759500000 8349000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.00611 -0.002351</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886285071500000 30287000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004372 0.001431</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886285075500000 30287000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.0024129999999999998 -2.74E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886285077500000 30289000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.44E-4 -0.002606</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886285077500000 30287000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.00611 -0.002351</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886285077500000 30285000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886365303000000 130176000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.00438 0.001426</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886365308000000 130178000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002424 -2.8E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886365309000000 130178000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886365310000000 130178000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006117999999999999 -0.002355</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886365311000000 130178000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.53E-4 -0.00261</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886439081000000 17380000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004404 0.001415</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886439082000000 17370000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002447 -2.9299999999999997E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886439086500000 17377000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886439086000000 17374000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006143 -0.002365</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886439087000000 17374000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.76E-4 -0.00262</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886451943000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.00245 -2.96E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886451947500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004405 0.001413</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886451949000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006147 -0.002366</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886451948500000 8349000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.8E-4 -0.00262</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886451948500000 8347000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886460294500000 8351000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.00245 -2.96E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886460299500000 8355000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886460299500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.8E-4 -0.00262</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886460299000000 8350000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004405 0.001413</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886460300000000 8350000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006147 -0.002366</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886479783000000 30626000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.00245 -2.96E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886479789000000 30630000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004405 0.001413</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886479789000000 30628000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006147 -0.002366</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886479788000000 30624000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.8E-4 -0.00262</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886479789000000 30624000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886561072000000 131952000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.00246 -3.0E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886561075500000 131951000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -5.88E-4 -0.002624</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886561079000000 131956000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886561077500000 131949000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006156 -0.002371</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886561081000000 131954000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.0044139999999999995 0.00141</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886635471500000 16847000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002483 -3.14E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886635474500000 16847000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -6.14E-4 -0.002636</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886635475500000 16847000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006181 -0.002381</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886635479000000 16844000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886635479000000 16842000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004437 0.001398</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886648071500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002486 -3.16E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886648076500000 8357000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -6.16E-4 -0.002636</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886648077500000 8357000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006183 -0.002384</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886648076000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004438999999999999 0.001395</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886648077500000 8353000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886656427500000 8359000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002486 -3.16E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886656427000000 8350000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004438999999999999 0.001395</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886656430000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886656429000000 8348000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -6.16E-4 -0.002636</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886656432000000 8352000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006183 -0.002384</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886675892500000 30581000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004438999999999999 0.001395</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886675892500000 30579000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -6.16E-4 -0.002636</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886675895000000 30578000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886675892000000 30570000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002486 -3.16E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>4859886675894500000 30573000000</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006183 -0.002384</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>7041629364015887903 4363485345677775807</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -9.79E-4 -0.002495 -3.1999999999999997E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_1</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>7041629364017887903 4363485345673775807</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -1.43E-4 -0.006193 -0.002388</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_0</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>7041629364018387903 4363485345672775807</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.0016669999999999999 -6.25E-4 -0.00264</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_3</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>7041629364018887903 4363485345671775807</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002244 -0.004448 0.001392</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_4</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+  <row>
+    <timeInterval>7041629364019387903 4363485345670775807</timeInterval>
+    <focusTracking>true</focusTracking>
+    <focusOffset>1 3 0.0 0.0 0.0</focusOffset>
+    <focusRotationOffset>1 2 0.0 0.0</focusRotationOffset>
+    <measuredFocusPosition>1 3 -0.002097 -8.56E-4 -2.25E-4</measuredFocusPosition>
+    <measuredFocusRotation>1 2 0.0 0.0</measuredFocusRotation>
+    <antennaId>Antenna_2</antennaId>
+    <focusModelId>0</focusModelId>
+  </row>
+</FocusTable>
+

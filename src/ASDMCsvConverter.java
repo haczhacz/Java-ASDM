@@ -149,6 +149,12 @@ public class ASDMCsvConverter {
 	                	}
 	                	                	
 	                	
+	                	
+// Por mientras         // s_fov
+	                	obscoreRow.setS_fov("NULL");
+	                	
+	                	
+	                	
 	                    // s_resolution 
 	                	lambda = vSpeedLight / execBlockRow.getSBSummaryUsingSBSummaryId().getFrequency();
 	                	obscoreRow.setS_resolution( Double.toString(  (1.2 * lambda) /execBlockRow.getBaseRangeMax().get() ));
@@ -187,8 +193,17 @@ public class ASDMCsvConverter {
 	                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
 	                    
 	                    
-	                    // pol_states
+// Por mientras         // pol_states
 	                    obscoreRow.setPol_states("null");
+
+	                	
+// Por mientras         // noise
+	                    obscoreRow.setNoise("0.0");
+
+	                	
+// Por mientras         // red_shift
+	                    obscoreRow.setRedshift("0.0");
+	                    
 	                    
 	                    // fits_name ( campo extra )                    
 	                    obscoreRow.setFits_name( asdmDataFolder.getName() + ".fits");

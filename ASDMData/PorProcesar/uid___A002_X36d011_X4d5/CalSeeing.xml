@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalSeeingTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:clsng="http://Alma/XASDM/CalSeeingTable" schemaVersion="3" schemaRevision="1.55.6.5">
+  <Entity entityId="uid://A002/X36db95/X1" entityIdEncrypted="na" entityTypeName="CalSeeingTable" schemaVersion="1" documentVersion="1" />
+  <ContainerEntity entityId="uid://A002/X36d011/X4d5" entityIdEncrypted="na" entityTypeName="ASDM" schemaVersion="1" documentVersion="1" />
+  <row>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <startValidTime>4833139311648000000</startValidTime>
+    <endValidTime>4833140648880000000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.54696895859475E11</frequencyRange>
+    <integrationTime>30240000000</integrationTime>
+    <numBaseLengths>3</numBaseLengths>
+    <baselineLengths>1 3 60.31896209716797 143.79037475585938 227.2617645263672</baselineLengths>
+    <phaseRMS>1 3 0.4088900089263916 0.64265376329422 0.8133536577224731</phaseRMS>
+    <seeing>3.322935754113132E-6</seeing>
+    <seeingError>0.0</seeingError>
+    <calDataId>CalData_33</calDataId>
+    <calReductionId>CalReduction_32</calReductionId>
+  </row>
+  <row>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <startValidTime>4833139311648000000</startValidTime>
+    <endValidTime>4833141322320000000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.54696895859475E11</frequencyRange>
+    <integrationTime>30240000000</integrationTime>
+    <numBaseLengths>3</numBaseLengths>
+    <baselineLengths>1 3 60.31896209716797 143.79037475585938 227.2617645263672</baselineLengths>
+    <phaseRMS>1 3 0.3856472074985504 0.6076777577400208 0.7466531991958618</phaseRMS>
+    <seeing>2.9826358058926417E-6</seeing>
+    <seeingError>0.0</seeingError>
+    <calDataId>CalData_42</calDataId>
+    <calReductionId>CalReduction_40</calReductionId>
+  </row>
+  <row>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <startValidTime>4833139311648000000</startValidTime>
+    <endValidTime>4833141996912000000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.54696895859475E11</frequencyRange>
+    <integrationTime>30240000000</integrationTime>
+    <numBaseLengths>3</numBaseLengths>
+    <baselineLengths>1 3 60.31896209716797 143.79037475585938 227.2617645263672</baselineLengths>
+    <phaseRMS>1 3 0.4650267958641052 0.9165223836898804 1.1342976093292236</phaseRMS>
+    <seeing>4.50105744675966E-6</seeing>
+    <seeingError>0.0</seeingError>
+    <calDataId>CalData_51</calDataId>
+    <calReductionId>CalReduction_48</calReductionId>
+  </row>
+  <row>
+    <atmPhaseCorrection>AP_UNCORRECTED</atmPhaseCorrection>
+    <startValidTime>4833139311648000000</startValidTime>
+    <endValidTime>4833142231872000000</endValidTime>
+    <frequencyRange>1 2 2.39467195859275E11 2.54696895859475E11</frequencyRange>
+    <integrationTime>30240000000</integrationTime>
+    <numBaseLengths>3</numBaseLengths>
+    <baselineLengths>1 3 60.31896209716797 143.79037475585938 227.2617645263672</baselineLengths>
+    <phaseRMS>1 3 0.44916439056396484 0.8399685621261597 1.0134433507919312</phaseRMS>
+    <seeing>4.092518793186173E-6</seeing>
+    <seeingError>0.0</seeingError>
+    <calDataId>CalData_58</calDataId>
+    <calReductionId>CalReduction_54</calReductionId>
+  </row>
+</CalSeeingTable>
+
