@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 import alma.SubscanIntentMod.SubscanIntent;
 import alma.asdm.ASDM;
@@ -87,7 +88,9 @@ public class ASDMCsvConverter {
 	                CSVReader reader = new CSVReader(new FileReader("./CSV/input.csv"), ' ');
 	                CSVWriter writer = new CSVWriter(new FileWriter(csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
 	               
-	    			System.out.println(reader.readNext()[0]);
+	    			
+	                // lee los datos del archivo input.csv (contiene la seleccion de los datos fov desde los archivos generados por Harvester)
+                	List<String[]> Input = reader.readAll();
 	                
 	
 	                Double sumExptime;
@@ -118,6 +121,10 @@ public class ASDMCsvConverter {
 	               	 	// obs_id 
 	                	obscoreRow.setObs_id(execBlockRow.getExecBlockUID().getEntityId().toString());
 	                	
+	                	
+	                	
+	                	
+	                	
 	                	                	
 	                	if ( scanRow.isSourceNameExists() ) {																// comprobacion sourceName exista (es opcional en scanTable)
 	                		
@@ -145,6 +152,27 @@ public class ASDMCsvConverter {
 	                	
 // Por mientras         // s_fov
 	                	obscoreRow.setS_fov("NULL");
+	                	
+	                	int num_linea = 1;				// primera fila de input.csv tiene los nombres de las columnas
+	                	for (String[] linea: Input) {
+		                	
+	                		if (linea[0].equals(obscoreRow.getObs_id())) {
+	    	                	
+
+	    	                	obscoreRow.setS_fov(linea[1]);
+	    	                	break;
+	                		}
+
+    	                	num_linea++;
+	                	}
+	                	
+	                	
+                		
+
+                		
+	                	
+	                	
+	                	
 	                	
 	                		                	
 	                    // s_resolution 
