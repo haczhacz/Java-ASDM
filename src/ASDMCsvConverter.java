@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -13,6 +14,7 @@ import alma.asdm.SubscanRow;
 import alma.asdm.SubscanTable;
 import alma.hla.runtime.asdm.ex.ConversionException;
 import alma.hla.runtime.asdm.types.Interval;
+import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.CSVWriter;
 
 
@@ -82,9 +84,11 @@ public class ASDMCsvConverter {
 	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH + asdmDataFolder.getName());
 	                
 	                
-	                
+	                CSVReader reader = new CSVReader(new FileReader("./CSV/input.csv"), ' ');
 	                CSVWriter writer = new CSVWriter(new FileWriter(csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
 	               
+	    			System.out.println(reader.readNext()[0]);
+	                
 	
 	                Double sumExptime;
 	                Double vSpeedLight = 300000.0;
