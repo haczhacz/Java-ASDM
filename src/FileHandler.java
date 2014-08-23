@@ -38,9 +38,6 @@ public class FileHandler {
         if ( asdmDataFolder.isDirectory()) {  
         	asdmDataFolder.renameTo(dirNewName);  
         } 
-         
-        
-        
             
     }
     

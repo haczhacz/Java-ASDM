@@ -90,7 +90,7 @@ public class ASDMCsvConverter {
 	               
 	    			
 	                // lee los datos del archivo input.csv (contiene la seleccion de los datos fov desde los archivos generados por Harvester)
-                	List<String[]> Input = reader.readAll();
+                	List<String[]> csv_input = reader.readAll();
 	                
 	
 	                Double sumExptime;
@@ -150,22 +150,26 @@ public class ASDMCsvConverter {
 	                	                	
 	                	
 	                	
-// Por mientras         // s_fov
-	                	obscoreRow.setS_fov("NULL");
+	                	// s_fov
+	                    // em_res_power
+	                	
+	                	obscoreRow.setS_fov("NULL");				// por defecto
+	                    obscoreRow.setEm_res_power("0.0");
 	                	
 	                	int num_linea = 1;				// primera fila de input.csv tiene los nombres de las columnas
-	                	for (String[] linea: Input) {
+	                	for (String[] linea_csv: csv_input) {
 		                	
-	                		if (linea[0].equals(obscoreRow.getObs_id())) {
+	                		if (linea_csv[0].equals(obscoreRow.getObs_id())) {
 	    	                	
-
-	    	                	obscoreRow.setS_fov(linea[1]);
+	                			
+	    	                	obscoreRow.setS_fov(linea_csv[1]);
+	    	                    obscoreRow.setEm_res_power(linea_csv[2]);
 	    	                	break;
 	                		}
 
     	                	num_linea++;
 	                	}
-	                	
+
 	                	
                 		
 
@@ -219,8 +223,6 @@ public class ASDMCsvConverter {
 	                    obscoreRow.setEm_max(execBlockRow.getBaseRangeMax().toString()); 
 	                    
 	                    
-	                    // em_res_power
-	                    obscoreRow.setEm_res_power("0.0");
 	                    
 	                    
 	                    
