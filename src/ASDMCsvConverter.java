@@ -41,22 +41,13 @@ public class ASDMCsvConverter {
         public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
         	
         	// validas para eclipse
-        	String ASDM_DATA_PATH = "./ASDMData/";
-        	String ASDM_DATA_POR_PROCESAR_PATH = "PorProcesar/";
-        	String ASDM_DATA_PROCESADOS_PATH = "Procesados/";
-    	 	String ASDM_OUTPUT_DATA_PATH = "./CSV/";
+        	String ASDM_DATA_PATH = args[0];
+        	String ASDM_DATA_POR_PROCESAR_PATH = ASDM_DATA_PATH + "PorProcesar/";
+        	String ASDM_DATA_PROCESADOS_PATH = ASDM_DATA_PATH + "Procesados/";
+    	 	String ASDM_OUTPUT_DATA_PATH = args[1];
           	
-    	 	
-    	 	
-        	// maneja el caso que se ejecute por terminal
-        	if (args.length == 2) {
-        		ASDM_DATA_PATH = args[0];
-        	 	ASDM_OUTPUT_DATA_PATH = args[1];
-        	}
-          	
-
-        	
-        	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH);
+    	 	        	
+        	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_POR_PROCESAR_PATH);
         	
         	// Caso que existan datos a procesar        	
         	if (listaCarpetas != null ) 
@@ -78,15 +69,15 @@ public class ASDMCsvConverter {
 	    			asdmDataFolder = new File (Folder);
 	    			
 	    			// Nombre del archivo csv de salida
-	                String csv_file = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
+	                String output_csv_file = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
 	                
 	                
 	                
 	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH + asdmDataFolder.getName());
 	                
 	                
-	                CSVReader reader = new CSVReader(new FileReader("./CSV/input.csv"), ' ');
-	                CSVWriter writer = new CSVWriter(new FileWriter(csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
+	                CSVReader reader = new CSVReader(new FileReader(ASDM_DATA_POR_PROCESAR_PATH + "input.csv"), ' ');
+	                CSVWriter writer = new CSVWriter(new FileWriter(output_csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
 	               
 	    			
 	                // lee los datos del archivo input.csv (contiene la seleccion de los datos fov desde los archivos generados por Harvester)
@@ -253,7 +244,7 @@ public class ASDMCsvConverter {
 	                
 	
 	                // mover a carpeta procesados
-	    			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PATH + ASDM_DATA_PROCESADOS_PATH);
+	    			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PROCESADOS_PATH);
 	    			
 	    			
 	    			

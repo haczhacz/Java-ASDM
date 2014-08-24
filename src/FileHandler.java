@@ -62,6 +62,8 @@ public class FileHandler {
     	ArrayList<String> arrayListFolder = new ArrayList<String>();
        
     	File Dir = new File(Path);	
+
+    	
     	File [] listaArchivos = Dir.listFiles();
            
           	for (int i = 0; i < listaArchivos.length; i++) {
