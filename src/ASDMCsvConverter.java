@@ -24,27 +24,26 @@ import au.com.bytecode.opencsv.CSVWriter;
 /**
  * Clase encargada de hacer la conversion ASDM a CSV, obteniendo los datos desde las tablas ASDM
  * 
- * @author aguila
+ * @author hcalquin
  *
  */
 
 public class ASDMCsvConverter {		
-		
+
 		/**
 		 * 
-		 * @param args Ruta de la carpeta que contiene los datos ASDM (arg[0]) y 
-		 * Ruta de la carpeta en la cual se desea almacenar los archivos CSV con los datos Obscore (args[1])
+		 * @param ASDM_DATA_PATH Ruta de la carpeta que contiene los datos ASDM
+		 * @param ASDM_OUTPUT_DATA_PATH Ruta de la carpeta en la que se espera almacenar los archivos .csv que contienen los datos Obscore
 		 * @throws ConversionException
 		 * @throws IOException
 		 * @throws IllegalAccessException
 		 */
-        public static void main (String[] args) throws ConversionException, IOException, IllegalAccessException {
+	
+        public void start(String ASDM_DATA_PATH, String ASDM_OUTPUT_DATA_PATH) throws IOException, ConversionException, IllegalAccessException {
         	
         	// validas para eclipse
-        	String ASDM_DATA_PATH = args[0];
         	String ASDM_DATA_POR_PROCESAR_PATH = ASDM_DATA_PATH + "PorProcesar/";
         	String ASDM_DATA_PROCESADOS_PATH = ASDM_DATA_PATH + "Procesados/";
-    	 	String ASDM_OUTPUT_DATA_PATH = args[1];
           	
     	 	        	
         	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_POR_PROCESAR_PATH);
