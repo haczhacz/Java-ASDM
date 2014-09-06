@@ -1,11 +1,16 @@
 #!/bin/bash
 
-# agregar que extraiga los datos desde los xls
-
+#ssconvert XLS_FILE OUTPUT_FILE
+ssconvert ../ASDMData/Harvester-ASDM/asdms.xls ../ASDMData/Harvester-ASDM/asdms.csv
+awk -f harvester_asdm.awk ../ASDMData/Harvester-ASDM/asdms.csv > ../ASDMData/Harvester-ASDM/harvester_asdm_bruto.csv
 
 # extrae elementos repetidos
 #awk -f ARCHIVO_CODIGO_AWK RUTA_DATOS_ENTRADA > RUTA_DATOS_SALIDA
-awk '!temp_array[$1]++' ../ASDMData/PorProcesar/input_bruto.csv > ../ASDMData/PorProcesar/input.csv
+awk '!temp_array[$1]++' ../ASDMData/Harvester-ASDM/harvester_asdm_bruto.csv > ../ASDMData/Harvester-ASDM/harvester_asdm.csv
+
+echo "conversion harvester ok"
+
+
 
 
 #javac -cp RUTA_LIBRERIAS/*  ruta_programa/Programa.java
@@ -17,3 +22,8 @@ echo "compilado"
 #javac -cp RUTA_LIBRERIAS/*  RUTA_PROGRAMA/Programa RUTA_DATOS_ASDM_GENERAL RUTA_SALIDA_CSV
 # ../lib* asume que librerias estan en la carpeta padre
 java -cp .:../lib/* Launcher ../ASDMData/ ../CSV/
+
+
+
+
+#sudo apt-get install gnumeric

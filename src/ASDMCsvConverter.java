@@ -41,9 +41,10 @@ public class ASDMCsvConverter {
 	
         public void start(String ASDM_DATA_PATH, String ASDM_OUTPUT_DATA_PATH) throws IOException, ConversionException, IllegalAccessException {
         	
-        	// validas para eclipse
+   
         	String ASDM_DATA_POR_PROCESAR_PATH = ASDM_DATA_PATH + "PorProcesar/";
         	String ASDM_DATA_PROCESADOS_PATH = ASDM_DATA_PATH + "Procesados/";
+        	String ASDM_DATA_HARVESTER_PATH = ASDM_DATA_PATH + "Harvester-ASDM/";
           	
     	 	        	
         	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_POR_PROCESAR_PATH);
@@ -61,7 +62,10 @@ public class ASDMCsvConverter {
 	    			folder.mkdirs();    			
 	    		}
 	    		
-	
+                // lee los datos del archivo harvester_asdm.csv (contiene la seleccion de los datos fov desde los archivos generados por Harvester)
+	    		 CSVReader reader = new CSVReader(new FileReader(ASDM_DATA_HARVESTER_PATH + "harvester_asdm.csv"), ',');
+             	List<String[]> csv_harvester = reader.readAll();
+	                
 				
 	    		
 	    		for (String Folder: listaCarpetas) {
@@ -75,13 +79,9 @@ public class ASDMCsvConverter {
 	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH + asdmDataFolder.getName());
 	                
 	                
-	                CSVReader reader = new CSVReader(new FileReader(ASDM_DATA_POR_PROCESAR_PATH + "input.csv"), ' ');
 	                CSVWriter writer = new CSVWriter(new FileWriter(output_csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
 	               
 	    			
-	                // lee los datos del archivo input.csv (contiene la seleccion de los datos fov desde los archivos generados por Harvester)
-                	List<String[]> csv_input = reader.readAll();
-	                
 	
 	                Double sumExptime;
 	                Double vSpeedLight = 300000.0;
@@ -141,32 +141,22 @@ public class ASDMCsvConverter {
 	                	
 	                	
 	                	// s_fov
-	                    // em_res_power
-	                	
-	                	obscoreRow.setS_fov("NULL");				// por defecto
-	                    obscoreRow.setEm_res_power("0.0");
-	                	
-	                	int num_linea = 1;				// primera fila de input.csv tiene los nombres de las columnas
-	                	for (String[] linea_csv: csv_input) {
+	                    // em_res_power	                	            	
+	                	for (String[] linea_csv: csv_harvester) {
+	        
 		                	
-	                		if (linea_csv[0].equals(obscoreRow.getObs_id())) {
+	                		if (obscoreRow.getObs_id().equals(linea_csv[0])) {
 	    	                	
-	                			
+
 	    	                	obscoreRow.setS_fov(linea_csv[1]);
 	    	                    obscoreRow.setEm_res_power(linea_csv[2]);
 	    	                	break;
 	                		}
 
-    	                	num_linea++;
 	                	}
 
 	                	
-                		
-
-                		
-	                	
-	                	
-	                	
+                			                	
 	                	
 	                		                	
 	                    // s_resolution 
@@ -214,8 +204,6 @@ public class ASDMCsvConverter {
 	                    
 	                    
 	                    
-	                    
-	                    
 // Por mientras         // pol_states
 	                    obscoreRow.setPol_states("NULL");
 
@@ -241,9 +229,10 @@ public class ASDMCsvConverter {
 	                writer.close();
 	                
 	                
-	
-	                // mover a carpeta procesados
-	    			FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PROCESADOS_PATH);
+// ACTIVAR AL FINAL	
+	                // mover a carpeta procesados 
+	                
+	    			//FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PROCESADOS_PATH);
 	    			
 	    			
 	    			
