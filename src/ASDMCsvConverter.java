@@ -33,18 +33,18 @@ public class ASDMCsvConverter {
 		/**
 		 * 
 		 * @param ASDM_DATA_PATH Ruta de la carpeta que contiene los datos ASDM
-		 * @param ASDM_OUTPUT_DATA_PATH Ruta de la carpeta en la que se espera almacenar los archivos .csv que contienen los datos Obscore
 		 * @throws ConversionException
 		 * @throws IOException
 		 * @throws IllegalAccessException
 		 */
 	
-        public void start(String ASDM_DATA_PATH, String ASDM_OUTPUT_DATA_PATH) throws IOException, ConversionException, IllegalAccessException {
+        public void start(String ASDM_DATA_PATH) throws IOException, ConversionException, IllegalAccessException {
         	
    
-        	String ASDM_DATA_POR_PROCESAR_PATH = ASDM_DATA_PATH + "PorProcesar/";
-        	String ASDM_DATA_PROCESADOS_PATH = ASDM_DATA_PATH + "Procesados/";
-        	String ASDM_DATA_HARVESTER_PATH = ASDM_DATA_PATH + "Harvester-ASDM/";
+        	String ASDM_DATA_POR_PROCESAR_PATH = ASDM_DATA_PATH + "/PorProcesar";
+        	String ASDM_DATA_PROCESADOS_PATH = ASDM_DATA_PATH + "/Procesados";
+        	String ASDM_DATA_HARVESTER_PATH = ASDM_DATA_PATH + "/Harvester-ASDM";
+        	String ASDM_OUTPUT_DATA_PATH = ASDM_DATA_PATH + "/CSV";
           	
     	 	        	
         	String[] listaCarpetas =  FileHandler.listFolder(ASDM_DATA_POR_PROCESAR_PATH);
@@ -63,7 +63,7 @@ public class ASDMCsvConverter {
 	    		}
 	    		
                 // lee los datos del archivo harvester_asdm.csv (contiene la seleccion de los datos fov desde los archivos generados por Harvester)
-	    		 CSVReader reader = new CSVReader(new FileReader(ASDM_DATA_HARVESTER_PATH + "harvester_asdm.csv"), ',');
+	    		 CSVReader reader = new CSVReader(new FileReader(ASDM_DATA_HARVESTER_PATH + "/harvester_asdm.csv"), ',');
              	List<String[]> csv_harvester = reader.readAll();
 	                
 				
@@ -72,11 +72,11 @@ public class ASDMCsvConverter {
 	    			asdmDataFolder = new File (Folder);
 	    			
 	    			// Nombre del archivo csv de salida
-	                String output_csv_file = ASDM_OUTPUT_DATA_PATH + asdmDataFolder.getName() + ".csv";
+	                String output_csv_file = ASDM_OUTPUT_DATA_PATH + "/" + asdmDataFolder.getName() + ".csv";
 	                
 	                
 	                
-	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + ASDM_DATA_POR_PROCESAR_PATH + asdmDataFolder.getName());
+	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + "/" +  ASDM_DATA_POR_PROCESAR_PATH + "/" + asdmDataFolder.getName());
 	                
 	                
 	                CSVWriter writer = new CSVWriter(new FileWriter(output_csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
@@ -145,8 +145,7 @@ public class ASDMCsvConverter {
 	                	for (String[] linea_csv: csv_harvester) {
 	        
 		                	
-	                		if (obscoreRow.getObs_id().equals(linea_csv[0])) {
-	    	                	
+	                		if (obscoreRow.getObs_id().equals(linea_csv[0])) {	    	                	
 
 	    	                	obscoreRow.setS_fov(linea_csv[1]);
 	    	                    obscoreRow.setEm_res_power(linea_csv[2]);
