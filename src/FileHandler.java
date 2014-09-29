@@ -1,6 +1,10 @@
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 
 
@@ -50,11 +54,7 @@ public class FileHandler {
      * @return String[] los nombres de las carpetas
      * @throws IOException
      */
-    
-    /*
-     * Lee el directorio, seleccionando solo las carpetas
-     * Carpeta debe contener los datos ASDM
-     */        
+       
     public static String [] listFolder (String Path) throws IOException{
         
     	String [] Folders = null;
@@ -81,6 +81,46 @@ public class FileHandler {
     	
     	return Folders;
     }
+    
+    
+    
+    /**
+     * Metodo que obtiene la hora y fecha actual con el formato HH:mm:ss dd/MM/yyyy
+     * 
+     * @return String[] hora y fecha actual
+     */
+    
+    public static String getHourDate () {
+    	Date date = new Date();    	
+   
+    	DateFormat hourdateFormat = new SimpleDateFormat("HH:mm:ss dd/MM/yyyy");
+    	
+    	return hourdateFormat.format(date);
+    }
+    
+   
+    
+    /**
+     * Metodo que entrega la lista de carpetas al interior de un directorio
+     * 
+     * @param ASDMname string que contiene el nombre del archivo asdm que se trabajo
+     * @param FileLogName string que contiene el nombre del archivo log
+     * @throws IOException
+     */
+    
+    public static void make_log(String ASDMname, String FileLogName) throws IOException {
+    	File file = new File(FileLogName);
+
+    	FileWriter writer = new FileWriter(file,true);
+
+    	writer.append(getHourDate () + "\t" + ASDMname + "\n");
+
+
+    	writer.close();
+    	
+    }
+    
+    
     
     
     

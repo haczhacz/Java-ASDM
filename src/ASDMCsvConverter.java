@@ -234,9 +234,11 @@ public class ASDMCsvConverter {
 	    			//FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PROCESADOS_PATH);
 	    			
 	    			
+	                FileHandler.make_log(asdmDataFolder.getName(), ASDM_DATA_PATH + "/log.txt");
+	    			System.out.println(asdmDataFolder.getName() + ":   OK");
+	                
 	    			
-	    			System.out.println("OK");
-	                                
+	    			
 	    		}
 	        } 
         	
@@ -245,6 +247,11 @@ public class ASDMCsvConverter {
         	}
 	        
         }
+
+
+
+
+
 }
 
 
