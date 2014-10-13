@@ -18,7 +18,6 @@ public class Launcher {
 	 public static void main (String[] args) throws IllegalAccessException, IOException, ConversionException {
 		 
 		ASDMCsvConverter aplicacion = new ASDMCsvConverter();
-		System.out.println("------ " + args[0]);
 		aplicacion.start(args[0]);
 		 
 		 
