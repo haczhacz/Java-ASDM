@@ -76,7 +76,7 @@ public class ASDMCsvConverter {
 	                
 	                
 	                
-	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_PATH + "/" +  ASDM_DATA_POR_PROCESAR_PATH + "/" + asdmDataFolder.getName());
+	                ASDM asdm = ASDM.getFromXML(ASDM_DATA_POR_PROCESAR_PATH + "/" + asdmDataFolder.getName());
 	                
 	                
 	                CSVWriter writer = new CSVWriter(new FileWriter(output_csv_file), ' ', CSVWriter.NO_QUOTE_CHARACTER);
@@ -141,14 +141,17 @@ public class ASDMCsvConverter {
 	                	
 	                	
 	                	// s_fov
-	                    // em_res_power	                	            	
-	                	for (String[] linea_csv: csv_harvester) {
-	        
+	                    // em_res_power	   
+	                	// red_shift
+	                	for (String[] linea_csv: csv_harvester) {        
 		                	
-	                		if (obscoreRow.getObs_id().equals(linea_csv[0])) {	    	                	
+	                		if (obscoreRow.getObs_id().equals(linea_csv[0])) {    	                	
 
 	    	                	obscoreRow.setS_fov(linea_csv[1]);
-	    	                    obscoreRow.setEm_res_power(linea_csv[2]);
+         	                    obscoreRow.setRedshift(linea_csv[2]);
+	    	                    obscoreRow.setEm_res_power(linea_csv[3]);
+	    	                	
+	    	                 	                    
 	    	                	break;
 	                		}
 
@@ -210,10 +213,7 @@ public class ASDMCsvConverter {
 // Por mientras         // noise
 	                    obscoreRow.setNoise("0.0");
 
-	                	
-// Por mientras         // red_shift
-	                    obscoreRow.setRedshift("0.0");
-	                    
+
 	                    
 	                    // fits_name ( campo extra )                    
 	                    obscoreRow.setFits_name( asdmDataFolder.getName() + ".fits");
