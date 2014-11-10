@@ -69,7 +69,14 @@ public class ASDMCsvConverter {
 				
 	    		
 	    		for (String Folder: listaCarpetas) {
+	    			
+	    			String inicioProceso = FileHandler.getDateHour();
+	    			
 	    			asdmDataFolder = new File (Folder);
+	    			
+	    			
+	    			System.out.println(asdmDataFolder.getName() + ":   Procesando");
+
 	    			
 	    			// Nombre del archivo csv de salida
 	                String output_csv_file = ASDM_OUTPUT_DATA_PATH + "/" + asdmDataFolder.getName() + ".csv";
@@ -227,14 +234,9 @@ public class ASDMCsvConverter {
 	
 	                writer.close();
 	                
-	                
-// ACTIVAR AL FINAL	
-	                // mover a carpeta procesados 
-	                
-	    			//FileHandler.renameFolder(asdmDataFolder.getCanonicalPath(), ASDM_DATA_PROCESADOS_PATH);
+
 	    			
-	    			
-	                FileHandler.make_log(asdmDataFolder.getName(), ASDM_DATA_PATH + "/log.txt");
+	                FileHandler.make_log(asdmDataFolder.getName(), ASDM_DATA_PROCESADOS_PATH + "/log.txt", inicioProceso);
 	    			System.out.println(asdmDataFolder.getName() + ":   OK");
 	                
 	    			
